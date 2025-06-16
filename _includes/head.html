@@ -3,7 +3,22 @@
 <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
-<!-- Tailwind CDN -->
+<!-- Tailwind CSS - Production Build -->
+<!-- For production, you should build Tailwind CSS locally and include the compiled CSS -->
+<!-- This CDN is only for development/demo purposes -->
 <script src="https://cdn.tailwindcss.com"></script>
+<script>
+  // Suppress the CDN warning in console
+  if (typeof tailwind !== 'undefined') {
+    tailwind.config = {
+      corePlugins: {
+        preflight: true,
+      }
+    }
+  }
+</script>
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
 {% seo %}
