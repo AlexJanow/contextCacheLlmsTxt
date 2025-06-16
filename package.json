@@ -24,10 +24,17 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "glob": "^10.4.5",
     "js-yaml": "^4.1.0",
-    "glob": "^10.3.10",
-    "node-fetch": "^3.3.2",
-    "cheerio": "^1.0.0-rc.12"
+    "node-fetch": "^3.3.2"
   },
-  "devDependencies": {}
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "bugs": {
+    "url": "https://github.com/[your-username]/llms-txt-library/issues"
+  },
+  "homepage": "https://github.com/[your-username]/llms-txt-library#readme"
 }
