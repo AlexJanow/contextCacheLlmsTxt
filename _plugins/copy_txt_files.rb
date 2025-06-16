@@ -1,24 +1,29 @@
+# Plugin to copy txt files without Liquid processing
 Jekyll::Hooks.register :site, :post_write do |site|
-  puts "Copying txt files to _site..."
+  puts "Copying llms.txt files..."
   
-  # Copy txt files from _txts to _site/txts
-  Dir.glob('_txts/*/').each do |dir|
-    dirname = File.basename(dir)
-    dest_dir = File.join(site.dest, 'txts', dirname)
+  # Find all txt files in _txts
+  Dir.glob(File.join(site.source, "_txts", "**", "*.txt")).each do |source_file|
+    # Get the relative path from _txts
+    relative_path = Pathname.new(source_file).relative_path_from(Pathname.new(File.join(site.source, "_txts")))
+    
+    # Construct destination path
+    dest_dir = File.join(site.dest, "txts", File.dirname(relative_path))
+    dest_file = File.join(dest_dir, File.basename(source_file))
+    
+    # Create directory if it doesn't exist
     FileUtils.mkdir_p(dest_dir)
     
-    # Copy llms.txt
-    src_llms = File.join(dir, 'llms.txt')
-    if File.exist?(src_llms)
-      FileUtils.cp(src_llms, File.join(dest_dir, 'llms.txt'))
-    end
-    
-    # Copy llms-full.txt
-    src_full = File.join(dir, 'llms-full.txt')
-    if File.exist?(src_full)
-      FileUtils.cp(src_full, File.join(dest_dir, 'llms-full.txt'))
-    end
+    # Copy the file
+    FileUtils.cp(source_file, dest_file)
   end
   
-  puts "Finished copying txt files"
+  puts "Finished copying llms.txt files."
+end
+
+# Plugin to prevent Liquid processing of txt files in collections
+Jekyll::Hooks.register :documents, :pre_render do |doc|
+  if doc.extname == ".txt"
+    doc.content = doc.content.gsub(/\{\{/, '&#123;&#123;').gsub(/\}\}/, '&#125;&#125;')
+  end
 end

@@ -40,6 +40,8 @@ exclude:
   - package-lock.json
   - "_txts/**/*.txt"
   - "_txts/**/*.full-txt"
+  - "_txts/**/llms.txt"
+  - "_txts/**/llms-full.txt"
 
 # Include specific directories
 include:

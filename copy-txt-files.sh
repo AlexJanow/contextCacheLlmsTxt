@@ -16,8 +16,10 @@ find _txts -name "*.txt" | while read txtfile; do
     filename=$(basename "$txtfile")
     
     # Copy to the Jekyll-generated directory structure
-    if [ -d "_site/txts/$dir/index" ]; then
+    if [ -d "_site/txts/$dir" ]; then
         cp "$txtfile" "_site/txts/$dir/"
+    elif [ -d "_site/$dir" ]; then
+        cp "$txtfile" "_site/$dir/"
     fi
 done
 

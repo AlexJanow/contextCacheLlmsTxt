@@ -68,7 +68,7 @@ const main = async () => {
     console.log('Starting token count update...');
     
     // Find all txt directories (both flat and nested structure)
-    const txtDirs = await glob('txts/**/index.md', { absolute: true });
+    const txtDirs = await glob('_txts/**/index.md', { absolute: true });
     const uniqueDirs = [...new Set(txtDirs.map(file => path.dirname(file)))];
     
     for (const dir of uniqueDirs) {

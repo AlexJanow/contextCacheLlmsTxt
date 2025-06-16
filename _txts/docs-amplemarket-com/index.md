@@ -3,7 +3,7 @@ title: Docs Amplemarket Com
 category: external
 tokens: 518
 description: Imported from docs.amplemarket.com
-has_full: true
+has_full: false
 source_url: https://docs.amplemarket.com
 ---
 

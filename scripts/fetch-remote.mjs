@@ -107,7 +107,7 @@ const processUrl = async (url) => {
     const description = extractDescription(content);
     const category = detectCategory(content, url);
     
-    const projectDir = path.join(__dirname, '..', 'txts', slug);
+    const projectDir = path.join(__dirname, '..', '_txts', slug);
     
     try {
         // Create directory
