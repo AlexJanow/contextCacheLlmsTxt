@@ -157,7 +157,7 @@
             const baseUrl = `${window.location.origin}${window.location.pathname}${cleanPath}`;
             const llmsUrl = `${window.location.origin}${window.location.pathname}txts/${folderName}/llms.txt`;
             const fullUrl = `${window.location.origin}${window.location.pathname}txts/${folderName}/llms-full.txt`;
-            const viewUrl = `${baseUrl}/`;
+            const viewUrl = `${window.location.origin}/txts/${folderName}/`;
             
             return `
                 <tr class="hover:bg-gray-50">

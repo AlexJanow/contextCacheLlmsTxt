@@ -16,10 +16,10 @@ layout: default
                 <h2 class="text-lg font-medium text-gray-900 mb-3">Available Files:</h2>
                 <div class="space-y-3">
                     <div class="flex items-center space-x-3">
-                        <a href="{{ site.baseurl }}{{ page.id | replace: '_txts', 'txts' | replace: '/index', '' }}/llms.txt" target="_blank" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+                        <a href="{{ site.url }}/txts/{{ page.id | replace: '_txts/', '' | replace: '/index', '' }}/llms.txt" target="_blank" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
                             📄 llms.txt
                         </a>
-                        <button onclick="copyToClipboard(window.location.origin + '{{ site.baseurl }}{{ page.id | replace: '_txts', 'txts' | replace: '/index', '' }}/llms.txt', this)" 
+                        <button onclick="copyToClipboard('{{ site.url }}/txts/{{ page.id | replace: '_txts/', '' | replace: '/index', '' }}/llms.txt', this)" 
                                 class="inline-flex items-center px-3 py-1 border border-gray-300 text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                                 title="Copy llms.txt URL">
                             📋 Copy URL
@@ -27,10 +27,10 @@ layout: default
                     </div>
                     {% if page.has_full %}
                     <div class="flex items-center space-x-3">
-                        <a href="{{ site.baseurl }}{{ page.id | replace: '_txts', 'txts' | replace: '/index', '' }}/llms-full.txt" target="_blank" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+                        <a href="{{ site.url }}/txts/{{ page.id | replace: '_txts/', '' | replace: '/index', '' }}/llms-full.txt" target="_blank" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
                             📄 llms-full.txt
                         </a>
-                        <button onclick="copyToClipboard(window.location.origin + '{{ site.baseurl }}{{ page.id | replace: '_txts', 'txts' | replace: '/index', '' }}/llms-full.txt', this)" 
+                        <button onclick="copyToClipboard('{{ site.url }}/txts/{{ page.id | replace: '_txts/', '' | replace: '/index', '' }}/llms-full.txt', this)" 
                                 class="inline-flex items-center px-3 py-1 border border-gray-300 text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                                 title="Copy llms-full.txt URL">
                             📋 Copy URL
@@ -41,7 +41,7 @@ layout: default
             </div>
             
             <div class="pt-4 border-t border-gray-200">
-                <a href="{{ site.baseurl }}/" class="inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                <a href="{{ site.url }}/" class="inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
                     ← Back to directory
                 </a>
             </div>

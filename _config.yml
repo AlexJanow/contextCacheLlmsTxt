@@ -39,6 +39,11 @@ exclude:
   - package.json
   - package-lock.json
   - "_txts/**/*.txt"
+  - "_txts/**/*.full-txt"
+
+# Include specific directories
+include:
+  - "txts"
 
 # Markdown settings
 markdown: kramdown
