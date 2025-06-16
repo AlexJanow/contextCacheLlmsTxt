@@ -93,7 +93,7 @@ layout: default
         "tokens": {{ txt.tokens }},
         "description": "{{ txt.description | escape }}",
         "path": "{{ txt.id }}",
-        "url": "{{ site.baseurl }}{{ txt.id | split: '/' | slice: 0, 2 | join: '/' }}/",
+        "url": "{{ site.baseurl }}{{ txt.id | remove: '/index' }}/",
         "hasFullText": {% if txt.has_full %}true{% else %}false{% endif %}
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}

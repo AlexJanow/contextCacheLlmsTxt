@@ -4,7 +4,7 @@ description: A public directory of llms.txt files for LLM context sharing and AI
 baseurl: "" # Leave empty for custom domain
 url: "https://llms.jaxai.agency" # Your custom domain
 
-# GitHub Pages settings
+# GitHub Pages settings  
 theme: minima
 plugins:
   - jekyll-seo-tag
@@ -38,10 +38,7 @@ exclude:
   - .taskmaster/
   - package.json
   - package-lock.json
-
-# Keep files
-keep_files:
-  - "txts"
+  - "_txts/**/*.txt"
 
 # Markdown settings
 markdown: kramdown
