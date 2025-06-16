@@ -1,13 +1,9 @@
 source "https://rubygems.org"
 
-# GitHub Pages
-gem "github-pages", group: :jekyll_plugins
-
-# Additional plugins
-group :jekyll_plugins do
-  gem "jekyll-seo-tag"
-  gem "jekyll-sitemap"
-end
+gem "jekyll", "~> 3.9.5"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+gem "minima", "~> 2.5"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
@@ -18,6 +14,10 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
+
+# kramdown v2 ships without the gfm parser by default. If you're using
+# kramdown v1, comment out this line.
+gem "kramdown-parser-gfm"
 
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.

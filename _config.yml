@@ -2,7 +2,7 @@
 title: Context Cache - llms.txt Library
 description: A public directory of llms.txt files for LLM context sharing and AI assistant integration
 baseurl: "/contextCacheLlmsTxt" # GitHub Pages repository name
-url: "https://AlexJanow.github.io" # GitHub Pages URL
+url: "https://alexjanow.github.io" # GitHub Pages URL
 
 # GitHub Pages settings
 theme: minima
@@ -38,16 +38,10 @@ exclude:
   - .taskmaster/
   - package.json
   - package-lock.json
-  - "_txts/**/*.txt"
-  - "txts/"
 
-# Static files to copy without processing
+# Keep files
 keep_files:
   - "txts"
-
-# Don't process txt files as Liquid templates
-liquid:
-  error_mode: warn
 
 # Markdown settings
 markdown: kramdown
