@@ -1,8 +1,8 @@
 # Jekyll configuration for Context Cache - llms.txt library
 title: Context Cache - llms.txt Library
 description: A public directory of llms.txt files for LLM context sharing and AI assistant integration
-baseurl: "/contextCacheLlmsTxt" # GitHub Pages repository name
-url: "https://alexjanow.github.io" # GitHub Pages URL
+baseurl: "" # Leave empty for custom domain
+url: "https://llms.alexjanow.com" # Your custom domain
 
 # GitHub Pages settings
 theme: minima
