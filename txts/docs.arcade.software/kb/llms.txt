@@ -1,0 +1,46 @@
+# Arcade Knowledge Base
+
+## Arcade Knowledge Base
+
+- [Welcome! 👋](https://docs.arcade.software/kb/readme)
+- [Quick Start](https://docs.arcade.software/kb/readme/quick-start): Getting set up on Arcade.
+- [Your Feedback](https://docs.arcade.software/kb/readme/your-feedback)
+- [Record](https://docs.arcade.software/kb/build/record): Recording is the first step in creating an Arcade. You can record using the Chrome extension, the desktop app, uploaded media, or the Figma plugin.
+- [Edit](https://docs.arcade.software/kb/build/edit): Once you've recorded your Arcade, you can start editing: add and remove steps, add context, trim video, highlight features, and more.
+- [Design](https://docs.arcade.software/kb/build/edit/design): The Design panel gives you full control over how your Arcade appears and behaves. From backgrounds to autoplay settings, this is where you make your Arcade truly your own.
+- [Branding & Theme](https://docs.arcade.software/kb/build/edit/branding-and-theme): Themes and branding help you control the look and feel of your Arcades across your workspace, teams, folders, and individual Arcades.
+- [Hotspots & Callouts](https://docs.arcade.software/kb/build/edit/hotspots-and-callouts)
+- [Chapter, Form, & Embed](https://docs.arcade.software/kb/build/edit/chapter-form-and-embed)
+- [Audio](https://docs.arcade.software/kb/build/edit/audio): Add background music, voiceovers, and captions to create immersive, accessible Arcades.
+- [Video](https://docs.arcade.software/kb/build/edit/video): Trim, split, narrate, and polish your videos with Arcade’s powerful editing tools.
+- [Pan and Zoom](https://docs.arcade.software/kb/build/edit/pan-and-zoom)
+- [Branching](https://docs.arcade.software/kb/build/edit/branching)
+- [Variables](https://docs.arcade.software/kb/build/edit/variables): Personalize your Arcades with dynamic text using variables and custom links.
+- [Cover & Fit](https://docs.arcade.software/kb/build/edit/cover-and-fit): Control how each step’s image or video fills the frame, from full-bleed to perfectly scaled.
+- [Translations](https://docs.arcade.software/kb/build/edit/translations): Translate your Arcades to let your viewers experience them in their preferred language
+- [HTML Editing](https://docs.arcade.software/kb/build/edit/html-editing): Edit page content before or after recording to personalize demos, clean up visuals, and fix details — all without re-recording.
+- [AI & Avery](https://docs.arcade.software/kb/build/edit/ai-and-avery): Arcade uses AI to help you generate copy, split videos, translate Arcades, and personalize the viewer experience — always with customer privacy as a top priority.
+- [Misc.](https://docs.arcade.software/kb/build/edit/misc.)
+- [Share](https://docs.arcade.software/kb/build/share): Different methods for sharing your Arcades with viewers.
+- [Embeds](https://docs.arcade.software/kb/build/share/how-to-embed-your-arcades): Arcades can be embedded inside anything that supports iframes. Here, we cover embedding basics and sample instructions for specific sites.
+- [Collections](https://docs.arcade.software/kb/build/share/collections)
+- [Exports](https://docs.arcade.software/kb/build/share/exports)
+- [Share Page](https://docs.arcade.software/kb/build/share/share-page): Arcade offers multiple ways to share your demos — whether through a dedicated share page, embedded on your site, exported as a video or guide, or enhanced with additional context in a Room.
+- [Mobile](https://docs.arcade.software/kb/build/share/mobile): Arcade automatically adapts to smaller screens to ensure your demos remain usable and visually clean on mobile devices. This behavior can be customized depending on your layout needs.
+- [Use Cases](https://docs.arcade.software/kb/learn/use-cases)
+- [Features](https://docs.arcade.software/kb/learn/how-to-embed-your-arcades)
+- [Insights](https://docs.arcade.software/kb/learn/how-to-embed-your-arcades/insights): Insights allow you to understand how viewers and players interact with your Arcade.
+- [Leads](https://docs.arcade.software/kb/learn/how-to-embed-your-arcades/leads): The Leads page helps you track engagement and identify high-interest prospects based on form submissions and anonymous traffic insights.
+- [Audience Reveal](https://docs.arcade.software/kb/learn/how-to-embed-your-arcades/audience-reveal)
+- [Integrations](https://docs.arcade.software/kb/learn/how-to-embed-your-arcades/integrations): Arcade integrates with some of your favorite tools.
+- [Advanced Features](https://docs.arcade.software/kb/learn/advanced-features)
+- [Event Propagation](https://docs.arcade.software/kb/learn/advanced-features/in-arcade-event-propagation)
+- [Remote Control](https://docs.arcade.software/kb/learn/advanced-features/arcade-remote-control)
+- [REST API](https://docs.arcade.software/kb/learn/advanced-features/rest-api): Arcade’s REST API allows you to programmatically create Arcades from videos and interaction data.
+- [Webhooks](https://docs.arcade.software/kb/learn/advanced-features/webhooks): Webhooks allow you to receive real-time updates when viewers interact with your Arcades. Webhooks are ideal for connecting Arcade to your internal systems, CRMs, or automation workflows.
+- [Team Management](https://docs.arcade.software/kb/admin/team-management): Arcade Workspaces are the foundational layer for organizing, collaborating, and managing Arcades across your company or personal use.
+- [General Security](https://docs.arcade.software/kb/admin/general-security)
+- [Single Sign-On (SSO) with SAML](https://docs.arcade.software/kb/admin/general-security/single-sign-on-sso-with-saml): Single Sign-On (SSO) allows your team members to log in to Arcade using your organization’s identity provider.
+- [GDPR Requirements](https://docs.arcade.software/kb/admin/general-security/gdpr-requirements): Arcade provides several options for controlling tracking behavior, including honoring cookie consent prompts on your own website.
+- [Billing and Subscription](https://docs.arcade.software/kb/admin/billing-and-subscription)
+- [Plans](https://docs.arcade.software/kb/admin/plans)

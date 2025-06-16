@@ -1,0 +1,37 @@
+# My Framework
+
+A modern web framework for building scalable applications.
+
+## Quick Start
+
+```javascript
+import { App } from 'my-framework';
+
+const app = new App();
+
+app.route('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+app.listen(3000);
+```
+
+## Core Concepts
+
+- **Routes**: Define URL endpoints
+- **Middleware**: Process requests
+- **Controllers**: Handle business logic
+- **Models**: Data structures
+- **Views**: Templates and UI
+
+## Features
+
+- Fast performance
+- Built-in TypeScript support
+- Middleware system
+- Database ORM
+- WebSocket support
+
+## Documentation
+
+Full docs at: https://my-framework.dev/docs

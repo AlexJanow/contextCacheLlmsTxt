@@ -1,0 +1,99 @@
+# Dub Documentation
+
+## Docs
+
+- [Bulk create links](https://dub.co/docs/api-reference/endpoint/bulk-create-links.md): Bulk create up to 100 links for the authenticated workspace.
+- [Bulk delete links](https://dub.co/docs/api-reference/endpoint/bulk-delete-links.md): Bulk delete up to 100 links for the authenticated workspace.
+- [Bulk update links](https://dub.co/docs/api-reference/endpoint/bulk-update-links.md): Bulk update up to 100 links with the same data for the authenticated workspace.
+- [Check the availability of one or more domains](https://dub.co/docs/api-reference/endpoint/check-a-domain-availability.md): Check if a domain name is available for purchase. You can check multiple domains at once.
+- [Create a domain](https://dub.co/docs/api-reference/endpoint/create-a-domain.md): Create a domain for the authenticated workspace.
+- [Create a folder](https://dub.co/docs/api-reference/endpoint/create-a-folder.md): Create a folder for the authenticated workspace.
+- [Create a link](https://dub.co/docs/api-reference/endpoint/create-a-link.md): Create a link for the authenticated workspace.
+- [Create a partner](https://dub.co/docs/api-reference/endpoint/create-a-partner.md): Create a partner for a program. If partner exists, automatically enrolls them.
+- [Create a link for a partner](https://dub.co/docs/api-reference/endpoint/create-a-partner-link.md): Create a link for a partner that is enrolled in your program.
+- [Create a tag](https://dub.co/docs/api-reference/endpoint/create-a-tag.md): Create a tag for the authenticated workspace.
+- [Delete a customer](https://dub.co/docs/api-reference/endpoint/delete-a-customer.md): Delete a customer from a workspace.
+- [Delete a domain](https://dub.co/docs/api-reference/endpoint/delete-a-domain.md): Delete a domain from a workspace. It cannot be undone. This will also delete all the links associated with the domain.
+- [Delete a folder](https://dub.co/docs/api-reference/endpoint/delete-a-folder.md): Delete a folder from the workspace. All existing links will still work, but they will no longer be associated with this folder.
+- [Delete a link](https://dub.co/docs/api-reference/endpoint/delete-a-link.md): Delete a link for the authenticated workspace.
+- [Register a domain](https://dub.co/docs/api-reference/endpoint/register-a-domain.md): Register a domain for the authenticated workspace. Only available for Enterprise Plans.
+- [Retrieve a customer](https://dub.co/docs/api-reference/endpoint/retrieve-a-customer.md): Retrieve a customer by ID for the authenticated workspace.
+- [Retrieve a link](https://dub.co/docs/api-reference/endpoint/retrieve-a-link.md): Retrieve the info for a link.
+- [List all commissions](https://dub.co/docs/api-reference/endpoint/retrieve-a-list-of-commissions.md): Retrieve a list of commissions for a program.
+- [List all customers](https://dub.co/docs/api-reference/endpoint/retrieve-a-list-of-customers.md): Retrieve a list of customers for the authenticated workspace.
+- [Retrieve a list of events](https://dub.co/docs/api-reference/endpoint/retrieve-a-list-of-events.md): Retrieve a paginated list of events for the authenticated workspace.
+- [Retrieve a list of folders](https://dub.co/docs/api-reference/endpoint/retrieve-a-list-of-folders.md): Retrieve a list of folders for the authenticated workspace.
+- [Retrieve a list of links](https://dub.co/docs/api-reference/endpoint/retrieve-a-list-of-links.md): Retrieve a paginated list of links for the authenticated workspace.
+- [Retrieve a list of tags](https://dub.co/docs/api-reference/endpoint/retrieve-a-list-of-tags.md): Retrieve a list of tags for the authenticated workspace.
+- [Retrieve a partner's links.](https://dub.co/docs/api-reference/endpoint/retrieve-a-partners-links.md): Retrieve a partner's links by their partner ID or tenant ID.
+- [Retrieve analytics](https://dub.co/docs/api-reference/endpoint/retrieve-analytics.md): Retrieve analytics for a link, a domain, or the authenticated workspace. The response type depends on the `event` and `type` query parameters.
+- [Retrieve links count](https://dub.co/docs/api-reference/endpoint/retrieve-number-of-links.md): Retrieve the number of links for the authenticated workspace. The provided query parameters allow filtering the returned links.
+- [Retrieve analytics for a partner](https://dub.co/docs/api-reference/endpoint/retrieve-partner-analytics.md): Retrieve analytics for a partner within a program. The response type vary based on the `groupBy` query parameter.
+- [Track a lead](https://dub.co/docs/api-reference/endpoint/track-lead.md): Track a lead for a short link.
+- [Track a sale](https://dub.co/docs/api-reference/endpoint/track-sale.md): Track a sale for a short link.
+- [Update a commission.](https://dub.co/docs/api-reference/endpoint/update-a-commission.md): Update an existing commission amount. This is useful for handling refunds (partial or full) or fraudulent sales.
+- [Update a customer](https://dub.co/docs/api-reference/endpoint/update-a-customer.md): Update a customer for the authenticated workspace.
+- [Update a domain](https://dub.co/docs/api-reference/endpoint/update-a-domain.md): Update a domain for the authenticated workspace.
+- [Update a folder](https://dub.co/docs/api-reference/endpoint/update-a-folder.md): Update a folder in the workspace.
+- [Update a link](https://dub.co/docs/api-reference/endpoint/update-a-link.md): Update a link for the authenticated workspace. If there's no change, returns it as it is.
+- [Update a tag](https://dub.co/docs/api-reference/endpoint/update-a-tag.md): Update a tag in the workspace.
+- [Upsert a link](https://dub.co/docs/api-reference/endpoint/upsert-a-link.md): Upsert a link for the authenticated workspace by its URL. If a link with the same URL already exists, return it (or update it if there are any changes). Otherwise, a new link will be created.
+- [Upsert a link for a partner](https://dub.co/docs/api-reference/endpoint/upsert-a-partner-link.md): Upsert a link for a partner that is enrolled in your program. If a link with the same URL already exists, return it (or update it if there are any changes). Otherwise, a new link will be created.
+- [Introduction](https://dub.co/docs/api-reference/introduction.md): Fundamental concepts of Dub's API.
+- [Rate limits](https://dub.co/docs/api-reference/rate-limits.md): Learn about Dub's API rate limits.
+- [API keys](https://dub.co/docs/api-reference/tokens.md): Learn how API keys work on Dub.
+- [Device data](https://dub.co/docs/concepts/analytics/device.md)
+- [Introduction](https://dub.co/docs/concepts/analytics/introduction.md): Learn how to use Dub's Analytics API to build real-time analytics dashboards for your links.
+- [Location data](https://dub.co/docs/concepts/analytics/location.md)
+- [Referrers data](https://dub.co/docs/concepts/analytics/referrers.md)
+- [Tags data](https://dub.co/docs/concepts/analytics/tags.md): Learn how to retrieve analytics data on Dub by tags
+- [UTM data](https://dub.co/docs/concepts/analytics/utm.md)
+- [Bulk operations](https://dub.co/docs/concepts/links/bulk-operations.md): Learn how to perform bulk operations on links.
+- [Introduction](https://dub.co/docs/concepts/links/introduction.md): Learn how to use Dub to programmatically create, update, and delete links at scale.
+- [Organizing links](https://dub.co/docs/concepts/links/organization.md): Learn how to associate links with users, campaigns, teams, and other entities within your system.
+- [Event types](https://dub.co/docs/concepts/webhooks/event-types.md): List of available webhook events you can listen to along with their payload examples
+- [Introduction](https://dub.co/docs/concepts/webhooks/introduction.md): Use webhooks to get real-time notifications on events happening across your Dub workspace.
+- [Verify webhook requests](https://dub.co/docs/concepts/webhooks/verify-webhook-requests.md): Learn how to verify webhook requests to ensure they're coming from Dub.
+- [Appwrite](https://dub.co/docs/conversions/leads/appwrite.md): Learn how to track lead conversion events with Appwrite and Dub
+- [Auth0](https://dub.co/docs/conversions/leads/auth0.md): Learn how to track lead conversion events with Auth0 and Dub
+- [Better Auth](https://dub.co/docs/conversions/leads/better-auth.md): Learn how to track lead conversion events with Better Auth and Dub
+- [Clerk](https://dub.co/docs/conversions/leads/clerk.md): Learn how to track lead conversion events with Clerk and Dub
+- [Introduction](https://dub.co/docs/conversions/leads/introduction.md): Learn how to track lead conversion events with Dub Conversions
+- [NextAuth.js](https://dub.co/docs/conversions/leads/next-auth.md): Learn how to track lead conversion events with NextAuth.js and Dub
+- [Supabase](https://dub.co/docs/conversions/leads/supabase.md): Learn how to track lead conversion events with Supabase and Dub
+- [Quickstart](https://dub.co/docs/conversions/quickstart.md): Learn how to track conversion analytics with Dub.
+- [Introduction](https://dub.co/docs/conversions/sales/introduction.md): Learn how to track sales conversion events with Dub Conversions
+- [Shopify](https://dub.co/docs/conversions/sales/shopify.md): Learn how to track sale conversion events with Shopify and Dub
+- [Stripe](https://dub.co/docs/conversions/sales/stripe.md): Learn how to track sale conversion events with Stripe and Dub
+- [Introduction](https://dub.co/docs/integrations.md): Integrate Dub with your favorite tools and services.
+- [Build your own integration](https://dub.co/docs/integrations/quickstart.md): Learn how to authenticate users with OAuth 2.0. for your Dub integration.
+- [Introduction](https://dub.co/docs/introduction.md)
+- [Local development](https://dub.co/docs/local-development.md): A guide on how to run Dub's codebase locally.
+- [Quickstart](https://dub.co/docs/partners/quickstart.md): Learn how to set up your referral/affiliate program with Dub Partners.
+- [White-labeling](https://dub.co/docs/partners/white-labeling.md): Learn how to create a white-labeled referral dashboard with Dub Partners.
+- [Client-side click-tracking](https://dub.co/docs/sdks/client-side/features/client-side-click-tracking.md): Track clicks on the client-side using query parameters
+- [Conversion-tracking](https://dub.co/docs/sdks/client-side/features/conversion-tracking.md): Learn how to use the @dub/analytics script to track conversion events
+- [Cross-domain tracking](https://dub.co/docs/sdks/client-side/features/cross-domain-tracking.md): Track conversions across domains
+- [Reverse-proxy support](https://dub.co/docs/sdks/client-side/features/reverse-proxy-support.md): Track clicks on the client-side using a reverse proxy
+- [Framer](https://dub.co/docs/sdks/client-side/installation-guides/framer.md): How to add @dub/analytics to your Framer site
+- [Manual Installation](https://dub.co/docs/sdks/client-side/installation-guides/manual.md): How to add @dub/analytics to your website
+- [React](https://dub.co/docs/sdks/client-side/installation-guides/react.md): How to add @dub/analytics to your React or Next.js site
+- [Shopify](https://dub.co/docs/sdks/client-side/installation-guides/shopify.md): How to add @dub/analytics to your Shopify store
+- [Webflow](https://dub.co/docs/sdks/client-side/installation-guides/webflow.md): How to add @dub/analytics to your Webflow site
+- [WordPress](https://dub.co/docs/sdks/client-side/installation-guides/wordpress.md): How to add @dub/analytics to your WordPress site
+- [Introduction](https://dub.co/docs/sdks/client-side/introduction.md): Learn more about the @dub/analytics script and how to install it.
+- [Script Variants](https://dub.co/docs/sdks/client-side/variants.md): Learn more about the different variants of the @dub/analytics script.
+- [Analytics Embed](https://dub.co/docs/sdks/embed/analytics.md): Learn how to embed the Dub Analytics dashboard in your application.
+- [Referrals Embed](https://dub.co/docs/sdks/embed/referrals.md): Learn how to install the Dub Referrals Embed in your application.
+- [Go SDK](https://dub.co/docs/sdks/go.md): Learn how to integrate Dub with Go.
+- [Overview](https://dub.co/docs/sdks/overview.md): Open-source client libraries for the Dub API
+- [PHP SDK](https://dub.co/docs/sdks/php.md): Learn how to integrate Dub with PHP.
+- [Python SDK](https://dub.co/docs/sdks/python.md): Learn how to integrate Dub with Python.
+- [Ruby SDK](https://dub.co/docs/sdks/ruby.md): Learn how to integrate Dub with Ruby.
+- [TypeScript SDK](https://dub.co/docs/sdks/typescript.md): Learn how to integrate Dub with TypeScript.
+- [Self-hosting Dub](https://dub.co/docs/self-hosting.md): An end-to-end guide on how to self-host Dub – the open-source link attribution platform.
+
+
+## Optional
+
+- [Changelog](https://dub.co/changelog)

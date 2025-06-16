@@ -1,0 +1,9 @@
+# Promptmonitor — AI SEO / Generative Engine Optimization Tool
+
+Track and optimize your brand's visibility across ChatGPT, Claude, Gemini, Grok, DeepSeek, and other AI/LLMs. Win AI Search with Promptmonitor.
+
+## Optional
+
+- [Login](https://www.promptmonitor.io/login): Access your existing Promptmonitor account securely.
+- [Signup](https://www.promptmonitor.io/signup): Create a new account on Promptmonitor.
+- [Changelog](https://www.promptmonitor.io/changelog): View updates on new features, improvements, and bug fixes

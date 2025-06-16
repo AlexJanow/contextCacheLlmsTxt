@@ -1,0 +1,32 @@
+# YAMLResume: Resumes as Code in YAML
+
+YAMLResume allows you to create and version control your resumes using YAML and
+generate pixel perfect PDFs with professional layout and typesetting in a
+breeze.
+
+## Docs
+
+- [CLI](/docs/cli)
+- [Comparisons](/docs/comparisons)
+- [Quick Start](/docs)
+- [Installation](/docs/installation)
+- [Font](/docs/guide/font)
+- [Grammar](/docs/guide/grammar)
+- [Guide](/docs/guide)
+- [Publishing](/docs/guide/publishing)
+- [Punctuations](/docs/guide/punctuations)
+- [Typesetting](/docs/guide/typesetting)
+- [Chinese](/docs/content/multi-languages/chinese)
+- [English](/docs/content/multi-languages/english)
+- [Multi Languages](/docs/content/multi-languages)
+- [Spanish](/docs/content/multi-languages/spanish)
+- [Templates](/docs/layout/templates)
+- [Moderncv Banking](/docs/layout/templates/moderncv-banking)
+- [Moderncv Casual](/docs/layout/templates/moderncv-casual)
+- [Moderncv Classic](/docs/layout/templates/moderncv-classic)
+
+## Blog
+
+- [500 Stars](/blog/500-stars)
+- [Introducing YAMLResume](/blog/introducing-yamlresume)
+- [YAMLResume in Docker](/blog/yamlresume-docker)

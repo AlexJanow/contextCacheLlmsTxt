@@ -1,0 +1,33 @@
+{
+  "name": "llms-txt-library",
+  "version": "1.0.0",
+  "description": "A public directory of llms.txt files for LLM context sharing",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-index.mjs",
+    "fetch": "node scripts/fetch-remote.mjs",
+    "sync:remote": "node scripts/sync-remote.mjs",
+    "serve": "bundle exec jekyll serve",
+    "install-jekyll": "bundle install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/[your-username]/llms-txt-library.git"
+  },
+  "keywords": [
+    "llms",
+    "context",
+    "ai",
+    "documentation",
+    "static-site"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "glob": "^10.3.10",
+    "node-fetch": "^3.3.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {}
+}

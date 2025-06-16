@@ -1,0 +1,61 @@
+# Rslib
+
+> Rslib is a library development tool that leverages the well-designed configurations and plugins of Rsbuild.
+
+## Guide
+
+- [Introduction](/guide/start/index.md)
+- [Quick start](/guide/start/quick-start.md)
+- [Glossary](/guide/start/glossary.md)
+- [Packages](/guide/start/npm-packages.md)
+- [Solution](/guide/solution/index.md)
+- [Node.js](/guide/solution/nodejs.md)
+- [React](/guide/solution/react.md)
+- [Vue](/guide/solution/vue.md)
+- [CLI](/guide/basic/cli.md)
+- [Configure Rslib](/guide/basic/configure-rslib.md)
+- [Use TypeScript](/guide/basic/typescript.md)
+- [Output format](/guide/basic/output-format.md)
+- [Output structure](/guide/basic/output-structure.md)
+- [Upgrade Rslib](/guide/basic/upgrade-rslib.md)
+- [Handle third-party dependencies](/guide/advanced/third-party-deps.md)
+- [Output compatibility](/guide/advanced/output-compatibility.md)
+- [Declaration files](/guide/advanced/dts.md)
+- [Import static assets](/guide/advanced/static-assets.md)
+- [Import SVGR](/guide/advanced/svgr-files.md)
+- [Import JSON files](/guide/advanced/json-files.md)
+- [Module Federation](/guide/advanced/module-federation.md)
+- [Use Storybook](/guide/advanced/storybook.md)
+- [Modern.js Module](/guide/migration/modernjs-module.md)
+- [tsup](/guide/migration/tsup.md)
+- [Features FAQ](/guide/faq/features.md)
+
+## Config
+
+- [Config Overview](/config/index.md)
+- [Lib configurations](/config/lib/index.md)
+- [lib.format](/config/lib/format.md)
+- [lib.bundle](/config/lib/bundle.md)
+- [lib.autoExtension](/config/lib/auto-extension.md)
+- [lib.autoExternal](/config/lib/auto-external.md)
+- [lib.redirect](/config/lib/redirect.md)
+- [lib.syntax](/config/lib/syntax.md)
+- [lib.externalHelpers](/config/lib/external-helpers.md)
+- [lib.banner](/config/lib/banner.md)
+- [lib.footer](/config/lib/footer.md)
+- [lib.dts](/config/lib/dts.md)
+- [lib.shims](/config/lib/shims.md)
+- [lib.id](/config/lib/id.md)
+- [lib.umdName](/config/lib/umd-name.md)
+- [lib.outBase](/config/lib/out-base.md)
+- [Rsbuild configurations](/config/rsbuild/index.md)
+- [resolve](/config/rsbuild/resolve.md)
+- [source](/config/rsbuild/source.md)
+- [output](/config/rsbuild/output.md)
+- [tools](/config/rsbuild/tools.md)
+- [plugins](/config/rsbuild/plugins.md)
+
+## Blog
+
+- [Overview](/blog/index.md)
+- [Rslib: Build library with Rspack](/blog/introducing-rslib.md)

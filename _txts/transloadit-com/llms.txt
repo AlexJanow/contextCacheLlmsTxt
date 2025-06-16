@@ -1,0 +1,212 @@
+# Transloadit
+
+> Transloadit is a versatile file uploading and processing API that allows developers to create complex media processing workflows through declarative JSON recipes called Assembly Instructions.
+
+## Uploading and importing (INPUT)
+
+Transloadit handles file uploads over XHR or tus.io (our open source protocol for resumable file uploads) and can process files through various "Robots" (specialized processing steps) that can be chained together to create customized workflows.
+
+## Encoding workflows (PROCESS)
+
+Assembly Instructions at a glance:
+
+```json
+{
+  "steps": {
+    ":original": {
+      "robot": "/upload/handle"
+    },
+    "browser720_webm_encoded": {
+      "use": ":original",
+      "robot": "/video/encode",
+      "preset": "webm",
+      "width": 1280,
+      "height": 720
+    },
+    "browser720_h264_encoded": {
+      "use": ":original",
+      "robot": "/video/encode",
+      "preset": "mp4",
+      "width": 1280,
+      "height": 720
+    },
+    "thumbed": {
+      "use": "browser720_h264_encoded",
+      "robot": "/video/thumbs",
+      "width": 1280,
+      "height": 720,
+      "format": "jpg",
+      "resize_strategy": "fit",
+      "count": 1,
+    },
+    "exported": {
+      "use": ["browser720_webm_encoded", "browser720_h264_encoded", "thumbed", ":original"],
+      "robot": "/s3/store",
+      "credentials": "demo_s3_credentials",
+      "url_prefix": "https://demos.transloadit.com/"
+    }
+  }
+}
+```
+
+As you can see, our features are called Robots, and each Step inside
+the Assembly Instructions can refer one. Robots can pass files to each other
+with the `use` keyword. This means you can create complex workflows
+unique to your application.
+
+## Exporting to cloud storage or downloading results (OUTPUT)
+
+Transloadit can export to all the major cloud storage providers.
+Customers first need to store their credentials in their Transloadit account and
+then refer to them in the Assembly Instructions.
+
+Alternatively, Transloadit keeping 24h of temporary storage, you can directly download
+resulting files when an Assembly is finished.
+
+All meta data is available on a unique Assembly URL which contains the Assembly Status JSON.
+
+## Example integration code with Node.js
+
+```js
+// npm install transloadit
+const { Transloadit } = require('transloadit')
+
+const transloadit = new Transloadit({
+  authKey: 'TRANSLOADIT_KEY',
+  authSecret: 'TRANSLOADIT_SECRET',
+})
+
+const options = {
+  files: {
+    file1: '/PATH/TO/FILE.jpg',
+  },
+  params: {
+    steps: {
+      // You can have many Steps. In this case we will just resize any inputs (:original)
+      ':original': {
+        robot: '/upload/handle',
+      },
+      resize: {
+        use: ':original',
+        robot: '/image/resize',
+        result: true,
+        width: 75,
+        height: 75,
+      },
+    },
+    // OR if you already created a template, you can use it instead of "steps":
+    // template_id: 'YOUR_TEMPLATE_ID',
+  },
+  waitForCompletion: true, // Wait for the Assembly (job) to finish executing before returning
+}
+
+const status = await transloadit.createAssembly(options)
+console.log('✅ Success - Your resized image:', status?.results?.resize?.[0]?.ssl_url)
+```
+
+## SDKs
+
+- [Uppy](https://uppy.io/): Our open source browser UI for uploading files
+- [Node.js SDK](https://github.com/transloadit/node-sdk): Official Node.js integration
+- [Python SDK](https://github.com/transloadit/python-sdk): Official Python integration
+- [Ruby SDK](https://github.com/transloadit/ruby-sdk): Official Ruby integration
+- [All SDKs](https://transloadit.com/docs/sdks/): Complete list of available SDKs
+
+## Robots
+
+### Available Robots
+
+- [/audio/artwork](https://transloadit.com/docs/transcoding/audio-artwork/) - Extract or insert audio artwork
+- [/audio/concat](https://transloadit.com/docs/transcoding/audio-concat/) - Concatenate audio
+- [/audio/encode](https://transloadit.com/docs/transcoding/audio-encode/) - Encode audio
+- [/audio/loop](https://transloadit.com/docs/transcoding/audio-loop/) - Loop audio
+- [/audio/merge](https://transloadit.com/docs/transcoding/audio-merge/) - Merge audio files into one
+- [/audio/waveform](https://transloadit.com/docs/transcoding/audio-waveform/) - Generate waveform images from audio
+- [/azure/import](https://transloadit.com/docs/transcoding/azure-import/) - Import files from Azure
+- [/azure/store](https://transloadit.com/docs/transcoding/azure-store/) - Export files to Microsoft Azure
+- [/backblaze/import](https://transloadit.com/docs/transcoding/backblaze-import/) - Import files from Backblaze
+- [/backblaze/store](https://transloadit.com/docs/transcoding/backblaze-store/) - Export files to Backblaze
+- [/cloudfiles/import](https://transloadit.com/docs/transcoding/cloudfiles-import/) - Import files from Rackspace Cloud Files
+- [/cloudfiles/store](https://transloadit.com/docs/transcoding/cloudfiles-store/) - Export files to Rackspace Cloud Files
+- [/cloudflare/import](https://transloadit.com/docs/transcoding/cloudflare-import/) - Import files from Cloudflare R2
+- [/cloudflare/store](https://transloadit.com/docs/transcoding/cloudflare-store/) - Export files to Cloudflare R2
+- [/digitalocean/import](https://transloadit.com/docs/transcoding/digitalocean-import/) - Import files from DigitalOcean Spaces
+- [/digitalocean/store](https://transloadit.com/docs/transcoding/digitalocean-store/) - Export files to DigitalOcean Spaces
+- [/document/autorotate](https://transloadit.com/docs/transcoding/document-autorotate/) - Auto-rotate documents to the correct orientation
+- [/document/convert](https://transloadit.com/docs/transcoding/document-convert/) - Convert documents into different formats
+- [/document/merge](https://transloadit.com/docs/transcoding/document-merge/) - Merge documents into one
+- [/document/ocr](https://transloadit.com/docs/transcoding/document-ocr/) - Recognize text in documents
+- [/document/split](https://transloadit.com/docs/transcoding/document-split/) - Extract pages from a document
+- [/document/thumbs](https://transloadit.com/docs/transcoding/document-thumbs/) - Extract thumbnail images from documents
+- [/dropbox/import](https://transloadit.com/docs/transcoding/dropbox-import/) - Import files from Dropbox
+- [/dropbox/store](https://transloadit.com/docs/transcoding/dropbox-store/) - Export files to Dropbox
+- [/edgly/deliver](https://transloadit.com/docs/transcoding/edgly-deliver/) - Cache and deliver files globally
+- [/file/compress](https://transloadit.com/docs/transcoding/file-compress/) - Compress files
+- [/file/decompress](https://transloadit.com/docs/transcoding/file-decompress/) - Decompress archives
+- [/file/filter](https://transloadit.com/docs/transcoding/file-filter/) - Filter files
+- [/file/hash](https://transloadit.com/docs/transcoding/file-hash/) - Hash Files
+- [/file/preview](https://transloadit.com/docs/transcoding/file-preview/) - Generate a preview thumbnail
+- [/file/read](https://transloadit.com/docs/transcoding/file-read/) - Read file contents
+- [/file/serve](https://transloadit.com/docs/transcoding/file-serve/) - Serve files to web browsers
+- [/file/verify](https://transloadit.com/docs/transcoding/file-verify/) - Verify the file type
+- [/file/virusscan](https://transloadit.com/docs/transcoding/file-virusscan/) - Scan files for viruses
+- [/ftp/import](https://transloadit.com/docs/transcoding/ftp-import/) - Import files from FTP servers
+- [/ftp/store](https://transloadit.com/docs/transcoding/ftp-store/) - Export files to FTP servers
+- [/google/import](https://transloadit.com/docs/transcoding/google-import/) - Import files from Google Storage
+- [/google/store](https://transloadit.com/docs/transcoding/google-store/) - Export files to Google Storage
+- [/html/convert](https://transloadit.com/docs/transcoding/html-convert/) - Take screenshots of webpages or uploaded HTML files
+- [/http/import](https://transloadit.com/docs/transcoding/http-import/) - Import files from web servers
+- [/image/bgremove](https://transloadit.com/docs/transcoding/image-bgremove/) - Remove the background from images
+- [/image/describe](https://transloadit.com/docs/transcoding/image-describe/) - Recognize objects in images
+- [/image/facedetect](https://transloadit.com/docs/transcoding/image-facedetect/) - Detect faces in images
+- [/image/generate](https://transloadit.com/docs/transcoding/image-generate/) - Generate images from text prompts
+- [/image/merge](https://transloadit.com/docs/transcoding/image-merge/) - Merge several images into a single image
+- [/image/ocr](https://transloadit.com/docs/transcoding/image-ocr/) - Recognize text in images
+- [/image/optimize](https://transloadit.com/docs/transcoding/image-optimize/) - Optimize images without quality loss
+- [/image/resize](https://transloadit.com/docs/transcoding/image-resize/) - Convert, resize, or watermark images
+- [/meta/write](https://transloadit.com/docs/transcoding/meta-write/) - Write metadata to media
+- [/minio/import](https://transloadit.com/docs/transcoding/minio-import/) - Import files from MinIO
+- [/minio/store](https://transloadit.com/docs/transcoding/minio-store/) - Export files to MinIO
+- [/s3/import](https://transloadit.com/docs/transcoding/s3-import/) - Import files from Amazon S3
+- [/s3/store](https://transloadit.com/docs/transcoding/s3-store/) - Export files to Amazon S3
+- [/script/run](https://transloadit.com/docs/transcoding/script-run/) - Run Scripts
+- [/sftp/import](https://transloadit.com/docs/transcoding/sftp-import/) - Import files from SFTP servers
+- [/sftp/store](https://transloadit.com/docs/transcoding/sftp-store/) - Export files to SFTP servers
+- [/speech/transcribe](https://transloadit.com/docs/transcoding/speech-transcribe/) - Transcribe speech in audio or video files
+- [/supabase/import](https://transloadit.com/docs/transcoding/supabase-import/) - Import files from Supabase
+- [/supabase/store](https://transloadit.com/docs/transcoding/supabase-store/) - Export files to Supabase
+- [/swift/import](https://transloadit.com/docs/transcoding/swift-import/) - Import files from Openstack/Swift
+- [/swift/store](https://transloadit.com/docs/transcoding/swift-store/) - Export files to OpenStack Swift Spaces
+- [/text/speak](https://transloadit.com/docs/transcoding/text-speak/) - Speak text
+- [/text/translate](https://transloadit.com/docs/transcoding/text-translate/) - Translate text
+- [/tigris/import](https://transloadit.com/docs/transcoding/tigris-import/) - No description available
+- [/tigris/store](https://transloadit.com/docs/transcoding/tigris-store/) - No description available
+- [/tlcdn/deliver](https://transloadit.com/docs/transcoding/tlcdn-deliver/) - Cache and deliver files globally
+- [/tus/store](https://transloadit.com/docs/transcoding/tus-store/) - Export files to Tus-compatible servers
+- [/upload/handle](https://transloadit.com/docs/transcoding/upload-handle/) - Handle uploads
+- [/video/adaptive](https://transloadit.com/docs/transcoding/video-adaptive/) - Convert videos to HLS and MPEG-Dash
+- [/video/concat](https://transloadit.com/docs/transcoding/video-concat/) - Concatenate videos
+- [/video/encode](https://transloadit.com/docs/transcoding/video-encode/) - Transcode, resize, or watermark videos
+- [/video/merge](https://transloadit.com/docs/transcoding/video-merge/) - Merge video, audio, images into one video
+- [/video/ondemand](https://transloadit.com/docs/transcoding/video-ondemand/) - Stream videos with on-demand encoding
+- [/video/subtitle](https://transloadit.com/docs/transcoding/video-subtitle/) - Add subtitles to videos
+- [/video/thumbs](https://transloadit.com/docs/transcoding/video-thumbs/) - Extract thumbnails from videos
+- [/vimeo/store](https://transloadit.com/docs/transcoding/vimeo-store/) - Export files to Vimeo
+- [/wasabi/import](https://transloadit.com/docs/transcoding/wasabi-import/) - Import files from Wasabi
+- [/wasabi/store](https://transloadit.com/docs/transcoding/wasabi-store/) - Export files to Wasabi
+- [/youtube/store](https://transloadit.com/docs/transcoding/youtube-store/) - Export files to YouTube
+
+## More resources
+
+- [Getting Started](https://transloadit.com/docs/): Introduction to Transloadit's core concepts
+- [Assembly Instructions](https://transloadit.com/docs/topics/assembly-instructions/): How to create processing workflows
+- [Templates](https://transloadit.com/docs/topics/templates/): Learn about reusable Assembly Instructions
+- [API Reference](https://transloadit.com/docs/api/): Detailed API documentation
+- [Community Forum](https://community.transloadit.com/): Get help from other Transloadit users
+- [Status Page](https://status.transloadit.com/): Real-time status of our services
+- [Pricing](https://transloadit.com/pricing/): Transloadit pricing plans
+- [llms](https://transloadit.com/llms.txt): LLMs docs intro (13kb)
+- [llms-full](https://transloadit.com/llms-full.txt): LLMs full docs (270kb)
+- [Blog](https://transloadit.com/blog/): Latest news and updates
+
+this file is 13kB

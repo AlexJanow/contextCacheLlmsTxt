@@ -1,0 +1,34 @@
+# Example Project
+
+A sample project demonstrating how to create llms.txt files.
+
+## Overview
+
+This is an example llms.txt file that provides context about a fictional project. It contains key information that helps LLMs understand the project structure, purpose, and how to work with it.
+
+## Project Structure
+
+```
+example-project/
+├── src/           # Source code
+├── tests/         # Test files
+├── docs/          # Documentation
+└── README.md      # Project readme
+```
+
+## Key Features
+
+- Feature 1: Core functionality
+- Feature 2: Additional capabilities
+- Feature 3: Integration points
+
+## Usage
+
+```bash
+npm install example-project
+npm run start
+```
+
+## Contributing
+
+Please see our contributing guidelines in CONTRIBUTING.md

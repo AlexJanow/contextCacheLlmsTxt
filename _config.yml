@@ -1,0 +1,56 @@
+# Jekyll configuration for Context Cache - llms.txt library
+title: Context Cache - llms.txt Library
+description: A public directory of llms.txt files for LLM context sharing and AI assistant integration
+baseurl: "/Context-Cache---llms.txt-library" # GitHub Pages repository name
+url: "https://[your-username].github.io" # GitHub Pages URL
+
+# GitHub Pages settings
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  txts:
+    output: true
+    permalink: /txts/:path/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "txts"
+    values:
+      layout: "txt"
+
+# Navigation
+header_pages:
+  - index.html
+  - CONTRIBUTING.md
+
+# Exclude files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - scripts/
+  - .taskmaster/
+  - package.json
+  - package-lock.json
+  - "_txts/**/*.txt"
+  - "txts/"
+
+# Static files to copy without processing
+keep_files:
+  - "txts"
+
+# Don't process txt files as Liquid templates
+liquid:
+  error_mode: warn
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

@@ -1,0 +1,69 @@
+# Pass App
+
+## Home
+
+Pass App is the first intelligent wallet for crypto. It’s an AI-powered smart contract wallet designed to simplify and secure the Web3 experience. It enables users to discover onchain opportunities and manage digital assets effortlessly. Key features include:
+
+- **AI Agents**: Navigate Web3 with a personal AI assistant that simplifies crypto management through chat-based commands.
+- **Personalized Onchain Discovery**: Explore onchain opportunities tailored to individual interests and interact with them directly from the app.
+- **Multi-chain Support**: Perform transactions across multiple blockchain networks, including bridging and swapping.
+- **Smart Contract Capabilities**: Pay network fees with any token, schedule future orders, batch transactions, and more to keep the wallet running efficiently.
+- **User-Friendly Interface**: Built to meet the needs of both beginners and experienced crypto users.
+- **Advanced Security Stack**: Maintain full control with passkey-powered authentication and secure account access.
+- **In-App Rewards**: Earn points for actions like buying, swapping, and interacting onchain.
+- **Expert Support**: Access fast, human support directly from within the app.
+
+[Source: Pass App Home](https://pass.app/)
+
+## Security
+
+Pass App prioritizes user security by eliminating traditional passwords and seed phrases, without compromising ease of use. Its security features include:
+
+- **Passkey Authentication**: Utilizes cutting-edge passkey technology for transaction signatures and account access, enhancing security without the hassle.
+- **Non-Custodial Model**: Users retain full control over their assets, with passkeys stored securely on their devices and synced with native password managers.
+- **Fallback Recovery**: In case of passkey deletion or a new operating system, users can recover their wallets through a secure process involving phone number verification and encrypted recovery credentials.
+- **Pass Protect**: Scans transactions, dapps, tokens, and NFTs in real time to protect against risky transactions.
+
+[Source: Pass App Security](https://pass.app/security/)
+
+## About
+
+Pass App's mission is to provide everyone with the freedom to be onchain. Integrating AI with secure, intuitive access to crypto and the decentralized web will unlock life-changing opportunities. Backed by The Onchain Foundation, the team comprises experts in AI, blockchain, and user experience, committed to:
+
+- **Transparency and Accountability**: Emphasizing openness and responsibility in operations.
+- **Personal Growth and Innovation**: Fostering a culture of continuous learning and embracing cutting-edge technologies.
+- **Community and Teamwork**: Creating a collaborative environment that values shared success.
+
+[Source: About Pass App](https://pass.app/about/)
+
+## Careers
+
+Pass App is looking for exceptional people who are passionate about AI and building better tools to access cryptocurrency. Apply for a fully remote Web3 job and find your purpose, onchain.
+
+[See open positions](https://onchain.org/careers/?personiofilter%5Bdepartment%5D=319)
+
+[Source: Pass App Careers](https://pass.app/about/#careers)
+
+## Blog Posts
+
+Stay up-to-date with the latest Web3 insights and developments from Pass App:
+
+- [How Smart Crypto Wallets Are Redefining What’s Possible Onchain](https://pass.app/blog/advantages-of-smart-crypto-wallets/)
+- [What Is Web4? The Next Evolution of the Internet](https://pass.app/blog/what-is-web4/)
+- [Unlocking New Opportunities: Boost Your Pass Perks Rewards with Lisk](https://pass.app/blog/pass-perks/)
+- [Earn Exclusive Rewards for Being Onchain, with Pass Perks](https://pass.app/blog/pass-perks/)
+- [TOKEN2049 Recap: Navigating the Whirlwind of Innovation and Opportunity](https://pass.app/blog/token2049-recap/)
+- [Introducing Pass App – The Revolutionary Smart Wallet for a New Era](https://pass.app/blog/introducing-pass-app-the-revolutionary-smart-wallet-for-a-new-era/)
+
+[Source: Pass App Blog](https://pass.app/blog/)
+
+## Press Mentions
+
+(Section pending)
+
+## Other Resources
+
+- [The Onchain Foundation](https://onchain.org/)
+- [Press Kit](https://www.notion.so/pass-app/Pass-App-Press-Kit-19461927fb55804ca12ff4e803319a47)
+- [Help Center and How-to Articles](https://help.pass.app/en/)
+- [Download Pass App](https://pass.app/?download=open)

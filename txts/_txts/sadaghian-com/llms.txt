@@ -1,0 +1,23 @@
+# Sadaghian MacBook Repair
+
+> Professional Apple MacBook repair service in Hamburg offering diagnostics, water damage repair, display replacement, logic board repair, and more. Free shipping across Germany and 12-month warranty.
+
+## Docs
+
+- [Homepage](https://sadaghian.com): All MacBook repair services
+- [MacBook Repair](https://sadaghian.com/macbook-repair): Full MacBook repair info
+- [About Us](https://sadaghian.com/about): Our team and values
+
+## Examples
+
+- [Water Damage Repair](https://sadaghian.com/blog/macbook-wasserschaden.htm.md): Guide to handling water-damaged Macs
+- [Charging Issues](https://sadaghian.com/blog/macbook-pro-air-laedt-nicht.htm.md): Troubleshooting battery & charging ports
+- [Display Issues](https://sadaghian.com/blog/macbook-display-hat-streifen.htm.md): Fixes for screen artifacts and Flexgate
+- [Startup Failures](https://sadaghian.com/blog/macbook-startet-nicht.htm.md): Boot problems and solutions
+
+## Optional
+
+- [Shipping Tips](https://sadaghian.com/blog/versandschaden-vermeiden-macbook-richtig-verpacken-und-verschicken.htm.md): How to safely send your MacBook
+- [Warranty Info](https://sadaghian.com/blog/applecare.htm.md): Guide to AppleCare and extended warranties
+- [Insurance Help](https://sadaghian.com/blog/bezahlt-meine-versicherung-den-macbook-wasserschaden.htm.md): Insurance coverage for repairs
+- [Feet Replacement](https://sadaghian.com/blog/macbook-fuesse-ab-kostenloser-ersatz-der-apple-laptop-gummifuesse.htm.md): Free rubber foot replacement service

@@ -1,0 +1,4530 @@
+# Action Availability
+Source: https://docs.agent.ai/actions-available
+
+Agent.ai provides actions across the builder and SDKs.
+
+## **Action Availability**
+
+This document provides an overview of which Agent.ai actions are available across different platforms and SDKs, along with installation instructions for each package.
+
+## Installation Instructions
+
+### Python SDK
+
+The Agent.ai Python SDK provides a simple way to interact with the Agent.ai Actions API.
+
+**Installation:**
+
+```bash
+pip install agentai
+```
+
+**Links:**
+
+* [PIP Package](https://pypi.org/project/agentai/)
+* [GitHub Repository](https://github.com/OnStartups/python_sdk)
+
+### JavaScript SDK
+
+The Agent.ai JavaScript SDK allows you to integrate Agent.ai actions into your JavaScript applications.
+
+**Installation:**
+
+```bash
+# Using yarn
+yarn add @agentai/agentai
+
+# Using npm
+npm install @agentai/agentai
+```
+
+**Links:**
+
+* [NPM Package](https://www.npmjs.com/package/@agentai/agentai)
+* [GitHub Repository](https://github.com/OnStartups/js_sdk)
+
+### MCP Server
+
+The MCP (Multi-Channel Platform) Server provides a server-side implementation of all API functions.
+
+**Installation:**
+
+```bash
+# Using yarn
+yarn add @agentai/mcp-server
+
+# Using npm
+npm install @agentai/mcp-server
+```
+
+**Links:**
+
+* [NPM Package](https://www.npmjs.com/package/@agentai/mcp-server)
+* [GitHub Repository](https://github.com/OnStartups/agentai-mcp-server)
+* [Documentation](https://docs.agent.ai/mcp-server)
+
+**Legend:**
+
+* ✅ - Feature is available
+* ❌ - Feature is not available
+
+**Notes:**
+
+* The Builder UI has the most comprehensive set of actions available
+* The MCP Server implements all API functions
+* The Python and JavaScript SDKs currently implement the same set of actions
+* Some actions are only available in the Builder UI and are not exposed via the API yet, but we plan to get to 100% parity scross our packaged offerings.
+
+## Action Availability Table
+
+| Action                                 | Docs                                                                       | API                                                                            | Builder UI | API | MCP Server | Python SDK | JS SDK |
+| -------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------- | --- | ---------- | ---------- | ------ |
+| Get User Input                         | [Docs](https://docs.agent.ai/actions/get_user_input)                       | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Get User List                          | [Docs](https://docs.agent.ai/actions/get_user_list)                        | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Get User Files                         | [Docs](https://docs.agent.ai/actions/get_user_file)                        | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Get User Knowledge Base and Files      | [Docs](https://docs.agent.ai/actions/get_user_knowledge_base_and_files)    | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Web Page Content                       | [Docs](https://docs.agent.ai/actions/web_page_content)                     | [API](https://docs.agent.ai/api-reference/get-data/web-page-content)           | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Web Page Screenshot                    | [Docs](https://docs.agent.ai/actions/web_page_screenshot)                  | [API](https://docs.agent.ai/api-reference/get-data/web-page-screenshot)        | ✅          | ✅   | ✅          | ✅          | ✅      |
+| YouTube Transcript                     | [Docs](https://docs.agent.ai/actions/youtube_transcript)                   | [API](https://docs.agent.ai/api-reference/get-data/youtube-transcript)         | ✅          | ✅   | ✅          | ✅          | ✅      |
+| YouTube Channel Data                   | [Docs](https://docs.agent.ai/actions/youtube_channel_data)                 | [API](https://docs.agent.ai/api-reference/get-data/youtube-channel-data)       | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Get Twitter Users                      | [Docs](https://docs.agent.ai/actions/get_twitter_users)                    | [API](https://docs.agent.ai/api-reference/get-data/get-twitter-users)          | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Google News Data                       | [Docs](https://docs.agent.ai/actions/google_news_data)                     | [API](https://docs.agent.ai/api-reference/get-data/google-news-data)           | ✅          | ✅   | ✅          | ✅          | ✅      |
+| YouTube Search Results                 | [Docs](https://docs.agent.ai/actions/youtube_search_results)               | [API](https://docs.agent.ai/api-reference/get-data/youtube-search-results)     | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Search Results                         | [Docs](https://docs.agent.ai/actions/search_results)                       | [API](https://docs.agent.ai/api-reference/get-data/search-results)             | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Get HubSpot CRM Object                 | [Docs](https://docs.agent.ai/actions/get_hubspot_crm_object)               | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Recent Tweets                          | [Docs](https://docs.agent.ai/actions/get_recent_tweets)                    | [API](https://docs.agent.ai/api-reference/get-data/recent-tweets)              | ✅          | ✅   | ✅          | ✅          | ✅      |
+| LinkedIn Profile                       | [Docs](https://docs.agent.ai/actions/get_linkedin_profile)                 | [API](https://docs.agent.ai/api-reference/get-data/linkedin-profile)           | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Get LinkedIn Activity                  | [Docs](https://docs.agent.ai/actions/get_linkedin_activity)                | [API](https://docs.agent.ai/api-reference/get-data/linkedin-activity)          | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Enrich with Breeze Intelligence        | [Docs](https://docs.agent.ai/actions/enrich_with_breeze_intelligence)      | [API](https://docs.agent.ai/api-reference/get-data/enrich-company-data)        | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Company Earnings Info                  | [Docs](https://docs.agent.ai/actions/company_earnings_info)                | [API](https://docs.agent.ai/api-reference/get-data/company-earnings-info)      | ✅          | ✅   | ✅          | ❌          | ❌      |
+| Company Financial Profile              | [Docs](https://docs.agent.ai/actions/company_financial_profile)            | [API](https://docs.agent.ai/api-reference/get-data/company-financial-profile)  | ✅          | ✅   | ✅          | ❌          | ❌      |
+| Domain Info                            | [Docs](https://docs.agent.ai/actions/domain_info)                          | [API](https://docs.agent.ai/api-reference/get-data/domain-info)                | ✅          | ✅   | ✅          | ❌          | ❌      |
+| Get Data from Builder's Knowledge Base | [Docs](https://docs.agent.ai/actions/get_data_from_builders_knowledgebase) | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Get Data from User's Uploaded Files    | [Docs](https://docs.agent.ai/actions/get_data_from_users_uploaded_files)   | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Set Variable                           | [Docs](https://docs.agent.ai/actions/set_variable)                         | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Add to List                            | [Docs](https://docs.agent.ai/actions/add_to_list)                          | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Click Go to Continue                   | [Docs](https://docs.agent.ai/actions/click_go_to_continue)                 | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Use GenAI (LLM)                        | [Docs](https://docs.agent.ai/actions/use_genai)                            | [API](https://docs.agent.ai/api-reference/use-ai/invoke-llm)                   | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Generate Image                         | [Docs](https://docs.agent.ai/actions/generate_image)                       | [API](https://docs.agent.ai/api-reference/use-ai/generate-image)               | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Generate Audio Output                  | [Docs](https://docs.agent.ai/actions/generate_audio_output)                | [API](https://docs.agent.ai/api-reference/use-ai/output-audio)                 | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Orchestrate Tasks                      | [Docs](https://docs.agent.ai/actions/orchestrate_tasks)                    | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Orchestrate Agents                     | [Docs](https://docs.agent.ai/actions/orchestrate_agents)                   | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Convert File                           | [Docs](https://docs.agent.ai/actions/convert_file)                         | [API](https://docs.agent.ai/api-reference/advanced/convert-file)               | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Continue or Exit Workflow              | [Docs](https://docs.agent.ai/actions/continue_or_exit_workflow)            | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| If/Else Statement                      | [Docs](https://docs.agent.ai/actions/if_else)                              | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| For Loop                               | [Docs](https://docs.agent.ai/actions/for_loop)                             | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| End If/Else/For Statement              | [Docs](https://docs.agent.ai/actions/end_statement)                        | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Wait for User Confirmation             | [Docs](https://docs.agent.ai/actions/wait_for_user_confirmation)           | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Add HubSpot CRM Object                 | [Docs](https://docs.agent.ai/actions/add_hubspot_crm_object)               | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Update HubSpot CRM Object              | [Docs](https://docs.agent.ai/actions/update_hubspot_crm_object)            | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Get HubSpot Owners                     | [Docs](https://docs.agent.ai/actions/get_hubspot_owners)                   | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Get HubSpot Object Properties          | [Docs](https://docs.agent.ai/actions/get_hubspot_object_properties)        | -                                                                              | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Get Assigned Company                   | [Docs](https://docs.agent.ai/actions/get_assigned_company)                 | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Query HubSpot CRM                      | [Docs](https://docs.agent.ai/actions/query_hubspot_crm)                    | -                                                                              | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Create Web Page                        | [Docs](https://docs.agent.ai/actions/create_web_page)                      | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Get HubDB Data                         | [Docs](https://docs.agent.ai/actions/get_hubdb_data)                       | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Update HubDB                           | [Docs](https://docs.agent.ai/actions/update_hubdb)                         | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Get Conversation                       | [Docs](https://docs.agent.ai/actions/get_conversation)                     | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Start Browser Operator                 | [Docs](https://docs.agent.ai/actions/start_browser_operator)               | [API](https://docs.agent.ai/api-reference/advanced/start-browser-operator)     | ✅          | ✅   | ✅          | ❌          | ❌      |
+| Browser Operator Results               | [Docs](https://docs.agent.ai/actions/results_browser_operator)             | [API](https://docs.agent.ai/api-reference/advanced/browser-operator-results)   | ✅          | ✅   | ✅          | ❌          | ❌      |
+| Invoke Web API                         | [Docs](https://docs.agent.ai/actions/invoke_web_api)                       | [API](https://docs.agent.ai/api-reference/advanced/invoke-web-api)             | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Invoke Other Agent                     | [Docs](https://docs.agent.ai/actions/invoke_other_agent)                   | [API](https://docs.agent.ai/api-reference/advanced/invoke-other-agent)         | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Show User Output                       | [Docs](https://docs.agent.ai/actions/show_user_output)                     | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Send Message                           | [Docs](https://docs.agent.ai/actions/send_message)                         | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Create Blog Post                       | [Docs](https://docs.agent.ai/actions/create_blog_post)                     | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Save To Google Doc                     | [Docs](https://docs.agent.ai/actions/save_to_google_doc)                   | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Save To File                           | [Docs](https://docs.agent.ai/actions/save_to_file)                         | [API](https://docs.agent.ai/api-reference/create-output/save-to-file)          | ✅          | ✅   | ✅          | ❌          | ❌      |
+| Save To Google Sheet                   | [Docs](https://docs.agent.ai/actions/save_to_google_sheet)                 | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Format Text                            | [Docs](https://docs.agent.ai/actions/format_text)                          | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Store Variable to Database             | [Docs](https://docs.agent.ai/actions/store_variable_to_database)           | [API](https://docs.agent.ai/api-reference/advanced/store-variable-to-database) | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Get Variable from Database             | [Docs](https://docs.agent.ai/actions/get_variable_from_database)           | [API](https://docs.agent.ai/api-reference/advanced/get-variable-from-database) | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Bluesky Posts                          | [Docs](https://docs.agent.ai/actions/get_bluesky_posts)                    | [API](https://docs.agent.ai/api-reference/get-data/bluesky-posts)              | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Search Bluesky Posts                   | [Docs](https://docs.agent.ai/actions/search_bluesky_posts)                 | [API](https://docs.agent.ai/api-reference/get-data/search-bluesky-posts)       | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Post to Bluesky                        | [Docs](https://docs.agent.ai/actions/post_to_bluesky)                      | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+| Get Instagram Profile                  | [Docs](https://docs.agent.ai/actions/get_instagram_profile)                | [API](https://docs.agent.ai/api-reference/get-data/get-instagram-profile)      | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Get Instagram Followers                | [Docs](https://docs.agent.ai/actions/get_instagram_followers)              | [API](https://docs.agent.ai/api-reference/get-data/get-instagram-followers)    | ✅          | ✅   | ✅          | ✅          | ✅      |
+| Call Serverless Function               | [Docs](https://docs.agent.ai/actions/serverless_function)                  | -                                                                              | ✅          | ❌   | ❌          | ❌          | ❌      |
+
+## Summary
+
+* **UI Builder** supports all 65 actions listed above
+* **API** supports 31 actions
+* **MCP Server** supports the same 31 actions as the API
+* **Python SDK** supports 25 actions
+* **JavaScript SDK** supports 25 actions
+
+The Python and JavaScript SDKs currently implement the same set of core data retrieval and AI generation functions as the builder, but there are some actions that either don't make sense to implement via our API (i.e. get user input) or aren't useful as standalone actions (i.e. for loops).
+You can always implement an agent throught the builder UI and invoke it via API or daisy chain agents together.
+
+
+# Add HubSpot CRM Object
+Source: https://docs.agent.ai/actions/add_hubspot_crm_object
+
+
+
+## Overview
+
+Create a new CRM object, such as a contact or company, directly within HubSpot.
+
+### Use Cases
+
+* **Data Entry Automation**: Add new leads or companies during workflows.
+
+* **Campaign Management**: Create CRM objects for marketing initiatives.
+
+## Configuration Fields
+
+### Object Type
+
+* **Description**: Select the type of HubSpot object to add.
+
+* **Options**: Company, Contact
+
+* **Required**: Yes
+
+### Object Properties
+
+* **Description**: Enter object properties as key-value pairs, one per line.
+
+* **Example**: "name=Acme Corp" or "email=[john@example.com](mailto:john@example.com)."
+
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the new HubSpot object.
+
+* **Example**: "created\_contact" or "new\_company."
+
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+
+* **Required**: Yes
+
+
+# Add to List
+Source: https://docs.agent.ai/actions/add_to_list
+
+
+
+## Overview
+
+The "Add to List" action lets you add items to an existing list variable. This allows you to collect multiple entries or build up data over time within your workflow.
+
+### Use Cases
+
+* **Data Aggregation**: Collect multiple responses or items into a single list
+
+* **Iterative Storage**: Track user selections or actions throughout a workflow
+
+* **Building Collections**: Create lists of related items step by step
+
+* **Dynamic Lists**: Add user-provided items to predefined lists
+
+## Configuration Fields
+
+### Input Text
+
+* **Description**: Enter the text to append to the list.
+
+* **Example**:  Enter what you want to add to the list
+
+  1. Can be a fixed value: "Sample item"
+
+  2. Or a variable: \{\{first\_task}}
+
+  3. Or another list: \{\{additional\_tasks}}
+
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the updated list.
+
+* **Example**: "task\_list" or "user\_choices."
+
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+
+* **Required**: Yes
+
+## **Example: Example Agent for Adding and Using Lists**
+
+See this [simple Task Organizer Agent](https://agent.ai/agent/lists-agent-example). It collects an initial task, creates a list with it, then gathers additional tasks and adds them to the list. The complete list is then passed to an AI for analysis.&#x20;
+
+
+# Click Go to Continue
+Source: https://docs.agent.ai/actions/click_go_to_continue
+
+
+
+#
+
+## Overview
+
+The "Click Go to Continue" action adds a button that prompts users to proceed to the next step in the workflow.
+
+### Use Cases
+
+* **Workflow Navigation**: Simplify user progression with a clickable button.
+
+* **Confirmation**: Add a step for users to confirm their readiness to proceed.
+
+## Configuration Fields
+
+### Variable Value
+
+* **Description**: Set the display text for the button.
+
+* **Example**: "Proceed to Next Step" or "Continue."
+
+* **Required**: Yes
+
+
+# Continue or Exit Workflow
+Source: https://docs.agent.ai/actions/continue_or_exit_workflow
+
+
+
+## Overview
+
+Evaluate conditions to decide whether to continue or exit the workflow, providing control over the process flow.
+
+### Use Cases
+
+* **Conditional Completion**: End a workflow if certain criteria are met.
+* **Dynamic Navigation**: Determine the next step in the workflow based on user input or data.
+
+## Configuration Fields
+
+### Condition Logic
+
+* **Description**: Define the condition logic using Jinja template syntax.
+* **Example**: "if user\_age > 18" or "agent\_control = 'exit'."
+* **Required**: Yes
+
+
+# Convert File
+Source: https://docs.agent.ai/actions/convert_file
+
+
+
+## Overview
+
+Convert uploaded files to different formats, such as PDF, TXT, or PNG, within workflows.
+
+### Use Cases
+
+* **Document Management**: Convert user-uploaded files to preferred formats.
+* **Data Transformation**: Process files for compatibility with downstream actions.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WWRn_d4uQhc?si=x_FTZ9AG0fzuNuOR" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+## Configuration Fields
+
+### Input Files
+
+* **Description**: Select the files to be converted.
+* **Example**: "uploaded\_documents" or "images."
+* **Required**: Yes
+
+### Show All Conversion Options
+
+* **Description**: Enable to display all available conversion options.
+* **Required**: Yes
+
+### Convert to Extension
+
+* **Description**: Specify the desired output file format.
+* **Example**: "pdf," "txt," or "png."
+* **Required**: No
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the converted files.
+* **Example**: "converted\_documents" or "output\_images."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Create Blog Post
+Source: https://docs.agent.ai/actions/create_blog_post
+
+
+
+## Overview
+
+Generate a blog post with a title and body, allowing for easy content creation and publishing.
+
+### Use Cases
+
+* **Content Marketing**: Draft blog posts for campaigns or updates.
+* **Knowledge Sharing**: Create posts to share information with your audience.
+
+## Configuration Fields
+
+### Title
+
+* **Description**: Enter the title of the blog post.
+* **Example**: "5 Tips for Better Marketing" or "Understanding AI in Business."
+* **Required**: Yes
+
+### Body
+
+* **Description**: Provide the content for the blog post, including text, headings, and relevant details.
+* **Example**: "This blog covers the top 5 trends in AI marketing..."
+* **Required**: Yes
+
+
+# End If/Else/For Statement
+Source: https://docs.agent.ai/actions/end_statement
+
+
+
+## Overview
+
+Mark the end of a conditional statement or loop to clearly define process boundaries within the workflow.
+
+### Use Cases
+
+* **Workflow Clarity**: Ensure conditional branches or loops are properly closed.
+* **Error Prevention**: Avoid unintended behavior by marking the end of logical constructs.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vG61oEyqDtQ?si=VA1yu9ouWYYhN7HD" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+## Configuration Fields
+
+* **None Required**: This action serves as a boundary marker and does not require additional configuration.
+
+
+# Enrich with Breeze Intelligence
+Source: https://docs.agent.ai/actions/enrich_with_breeze_intelligence
+
+
+
+## Overview
+
+Gather enriched company data using Breeze Intelligence for deeper analysis and insights.
+
+### Use Cases
+
+* **Company Research**: Retrieve detailed information about a specific company for due diligence.
+* **Sales and Marketing**: Enhance workflows with enriched data for targeted campaigns.
+
+## Configuration Fields
+
+### Domain Name
+
+* **Description**: Enter the domain of the company to retrieve enriched data.
+* **Example**: "hubspot.com" or "example.com."
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the enriched company data.
+* **Example**: "company\_info" or "enriched\_data."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# For Loop
+Source: https://docs.agent.ai/actions/for_loop
+
+
+
+## Overview
+
+For Loops allow your agent to repeat actions for each item in a list or a specific number of times. This saves you from having to create multiple copies of the same steps and makes your workflow more efficient.
+
+### Use Cases
+
+* **Process Multiple Items**: Apply the same steps to each item in a list
+
+* **Repeat Actions**: Perform the same task multiple times
+
+* **Build Cumulative Results**: Gather information across multiple iterations
+
+* **Process User Lists**: Handle user-provided lists of items or requests
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3J3TKMJ4pXI?si=vFycP1JMoowvaJqe" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+## **How For Loops Work**
+
+A For Loop repeats the same actions for each item in your list. Think of it like an assembly line:
+
+1. The loop takes one item from your list
+
+2. It puts that item in a variable you can use
+
+3. It performs all the actions you've added to the loop
+
+4. Then it takes the next item and repeats the process until it's gone through every item
+
+## **Creating a For Loop**
+
+### **Step 1. Add the For Loop Action**
+
+1. In the Actions tab, click "Add action"
+
+2. Select "For Loop" from the Run Process tab
+
+### Step 2. Configuration Fields
+
+1. **List to loop over**&#x20;
+
+   * **Description**: Enter a list to loop over or a fixed number of iterations.
+
+   * **Example:** 
+
+     1. A variable containing a list (like \{\{topics\_list}})
+
+     2. A number of times to repeat (like 3)
+
+     3. A JSON array (like \["item1", "item2", "item3"])
+
+   * **Required**: Yes
+
+2. **Loop Index Variable Name**
+
+   * **Description**: Name the variable that will count your loops (this counter starts at 0 and increases by 1 each time through the loop)
+
+   * **Example**: loop\_index
+
+     1. If you're looping 3 times, this variable will be 0 during the first loop, 1 during the second loop, and 2 during the third loop
+
+   * **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+
+   * **Required**: Yes
+
+### **Step 3. Add Actions Inside the Loop**
+
+After your For Loop action, add the steps you want to repeat for each item. 
+
+### **Step 4: End the Loop**
+
+After all the actions you want to repeat, add an "End If/Else/For Statement" action to mark where your loop ends.
+
+## **Example: For Loop Example Agent**
+
+See this [<u>simple example agent</u>](https://agent.ai/agent/for-loop-agent-template) which uses a For Loop:
+
+1. Gets a list of 3 topics from the user
+
+2. Loops through each topic, one by one
+
+3. For each topic:
+
+   * Uses AI to generate an explanation
+
+   * Adds the explanation to a cumulative output
+
+4. Displays all topic explanations to the user when complete
+
+
+# Format Text
+Source: https://docs.agent.ai/actions/format_text
+
+
+
+## Overview
+
+Apply formatting to text, such as changing case, removing characters, or truncating, to prepare it for specific uses.
+
+### Use Cases
+
+* **Text Standardization**: Convert inputs to a consistent format.
+* **Data Cleaning**: Remove unwanted characters or HTML from text.
+
+## Configuration Fields
+
+### Format Type
+
+* **Description**: Select the type of formatting to apply.
+* **Options**: Make Uppercase, Make Lowercase, Capitalize, Remove Characters, Trim Whitespace, Split Text By Delimiter, Join Text By Delimiter, Remove HTML, Truncate
+* **Example**: "Make Uppercase" for standardizing text.
+* **Required**: Yes
+
+### Characters/Delimiter/Truncation Length
+
+* **Description**: Specify the characters to remove or delimiter to split/join text, or length for truncation.
+* **Example**: "@" to remove mentions or "5" for truncation length.
+* **Required**: No
+
+### Input Text
+
+* **Description**: Enter the text to format.
+* **Example**: "Hello, World!"
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the formatted text.
+* **Example**: "formatted\_text" or "cleaned\_data."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Generate Image
+Source: https://docs.agent.ai/actions/generate_image
+
+
+
+## Overview
+
+Create visually engaging images using AI models, with options for style, aspect ratio, and detailed prompts.
+
+### Use Cases
+
+* **Creative Design**: Generate digital art, illustrations, or concept visuals.
+* **Marketing Campaigns**: Produce images for advertisements or social media posts.
+* **Visualization**: Create representations of ideas or concepts.
+
+## Configuration Fields
+
+### Model
+
+* **Description**: Select the AI model to generate images.
+* **Options**: DALL-E 3, Playground v3, FLUX 1.1 Pro, Ideogram.
+* **Example**: "DALL-E 3" for high-quality digital art.
+* **Required**: Yes
+
+### Style
+
+* **Description**: Choose the style for the generated image.
+* **Options**: Default, Photo, Digital Art, Illustration, Drawing.
+* **Example**: "Digital Art" for a creative design.
+* **Required**: Yes
+
+### Aspect Ratio
+
+* **Description**: Set the aspect ratio for the image.
+* **Options**: 9:16, 1:1, 4:3, 16:9.
+* **Example**: "16:9" for widescreen formats.
+* **Required**: Yes
+
+### Prompt
+
+* **Description**: Enter a prompt to describe the image.
+* **Example**: "A futuristic cityscape" or "A serene mountain lake at sunset."
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Provide a variable name to store the generated image.
+* **Example**: "generated\_image" or "ai\_image."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+***
+
+
+# Get Assigned Company
+Source: https://docs.agent.ai/actions/get_assigned_company
+
+
+
+## Overview
+
+Fetch the assigned company data from HubSpot for targeted workflows.
+
+### Use Cases
+
+* **Lead Management**: Automatically retrieve the assigned company for a contact.
+* **Reporting**: Use company data for analysis or dashboards.
+
+## Configuration Fields
+
+### Output Variable Name
+
+* **Description**: Provide a variable name to store the assigned company data.
+* **Example**: "assigned\_company" or "company\_object."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Get Bluesky Posts
+Source: https://docs.agent.ai/actions/get_bluesky_posts
+
+
+
+## Overview
+
+Fetch recent posts from a specified Bluesky user handle, making it easy to monitor activity on the platform.
+
+### Use Cases
+
+* **Social Media Analysis**: Track a user's recent posts for sentiment analysis or topic extraction.
+* **Competitor Insights**: Observe recent activity from competitors or key influencers.
+
+## Configuration Fields
+
+### User Handle
+
+* **Description**: Enter the Bluesky handle to fetch posts from.
+* **Example**: "jay.bsky.social."
+* **Required**: Yes
+
+### Number of Posts to Retrieve
+
+* **Description**: Specify how many recent posts to fetch.
+* **Options**: 1, 5, 10, 25, 50, 100
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the retrieved posts.
+* **Example**: "recent\_posts" or "bsky\_feed."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Get Data from Builder's Knowledge Base
+Source: https://docs.agent.ai/actions/get_data_from_builders_knowledgebase
+
+
+
+## Overview
+
+Fetch semantic search results from the builder's knowledge base, enabling you to use structured data for analysis and decision-making.
+
+### Use Cases
+
+* **Content Retrieval**: Search for specific information in a structured knowledge base, such as FAQs or product documentation.
+* **Automated Assistance**: Power AI agents with relevant context from internal resources.
+
+## Configuration Fields
+
+### Query
+
+* **Description**: Enter the search query to retrieve relevant knowledge base entries.
+* **Example**: "Latest sales strategies" or "Integration instructions."
+* **Required**: Yes
+
+### Builder Knowledge Base to Use
+
+* **Description**: Select the knowledge base to search from.
+* **Example**: "Product Documentation" or "Employee Handbook."
+* **Required**: Yes
+
+### Max Number of Document Chunks to Retrieve
+
+* **Description**: Specify the maximum number of document chunks to return.
+* **Example**: "5" or "10."
+* **Required**: Yes
+
+### Qualitative Vector Score Cutoff for Semantic Search Cosine Similarity
+
+* **Description**: Set the score threshold for search relevance.
+* **Example**: "0.2" for broad results or "0.7" for precise matches.
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the search results.
+* **Example**: "knowledge\_base\_results" or "kb\_entries."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Get Data from User's Uploaded Files
+Source: https://docs.agent.ai/actions/get_data_from_users_uploaded_files
+
+
+
+## Overview
+
+Retrieve semantic search results from user-uploaded files for targeted information extraction.
+
+### Use Cases
+
+* **Data Analysis**: Quickly retrieve insights from reports or project files uploaded by users.
+* **Customized Searches**: Provide tailored responses by extracting specific data from user-uploaded files.
+
+## Configuration Fields
+
+### Query
+
+* **Description**: Enter the search query to find relevant information in uploaded files.
+* **Example**: "Revenue breakdown" or "Budget overview."
+* **Required**: Yes
+
+### User Uploaded Files to Use
+
+* **Description**: Specify which uploaded files to search within.
+* **Example**: "Recent uploads" or "project\_documents."
+* **Required**: Yes
+
+### Max Number of Document Chunks to Retrieve
+
+* **Description**: Set the maximum number of document chunks to return.
+* **Example**: "5" or "10."
+* **Required**: Yes
+
+### Qualitative Vector Score Cutoff for Semantic Search Cosine Similarity
+
+* **Description**: Adjust the score threshold for search relevance.
+* **Example**: "0.2" for broad results or "0.5" for specific results.
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the search results.
+* **Example**: "file\_search\_results" or "upload\_data."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Get HubSpot CRM Object
+Source: https://docs.agent.ai/actions/get_hubspot_crm_object
+
+
+
+## Overview
+
+Retrieve specific CRM objects like contacts or companies from HubSpot to use in workflows.
+
+### Use Cases
+
+* **Customer Insights**: Retrieve detailed information about a contact or company for targeted actions.
+* **Lead Assignment**: Use CRM data to inform lead distribution.
+
+## Configuration Fields
+
+### Object Type
+
+* **Description**: Select the type of HubSpot object to retrieve.
+* **Options**: Company, Contact
+* **Required**: Yes
+
+### Query (optional)
+
+* **Description**: Specify search criteria to filter HubSpot objects.
+* **Example**: "contact email" or "company domain."
+* **Required**: No
+
+### Output Variable Name
+
+* **Description**: Provide a variable name to store the HubSpot object.
+* **Example**: "retrieved\_company" or "contact\_info."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Get HubSpot Object Properties
+Source: https://docs.agent.ai/actions/get_hubspot_object_properties
+
+
+
+## Overview
+
+Retrieve object properties from HubSpot CRM, such as company or contact details.
+
+### Use Cases
+
+* **Data Analysis**: Use property data for insights or decision-making.
+* **Workflow Automation**: Leverage CRM properties to inform next steps.
+
+## Configuration Fields
+
+### Object Type
+
+* **Description**: Select the type of HubSpot object to retrieve properties from.
+* **Options**: Companies, Contacts, Deals, Products, Tickets
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the retrieved object properties.
+* **Example**: "company\_properties" or "contact\_properties."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Get HubSpot Owners
+Source: https://docs.agent.ai/actions/get_hubspot_owners
+
+
+
+## Overview
+
+Fetch a list of HubSpot owners to manage assignments or contacts.
+
+### Use Cases
+
+* **Team Management**: Assign contacts or deals to specific owners.
+* **Resource Allocation**: Distribute leads based on available owners.
+
+## Configuration Fields
+
+### Output Variable Name
+
+* **Description**: Provide a variable name to store the list of HubSpot owners.
+* **Example**: "owners\_list" or "hubspot\_owners."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Get Instagram Followers
+Source: https://docs.agent.ai/actions/get_instagram_followers
+
+
+
+## Overview
+
+Retrieve a list of top followers from a specified Instagram account for social media analysis.
+
+### Use Cases
+
+* **Audience Insights**: Understand the followers of an Instagram account for marketing purposes.
+* **Engagement Monitoring**: Track influential followers.
+
+## Configuration Fields
+
+### Instagram Username
+
+* **Description**: Enter the Instagram username (without @) to fetch followers.
+* **Example**: "fashionblogger123."
+* **Required**: Yes
+
+### Number of Top Followers
+
+* **Description**: Select the number of top followers to retrieve.
+* **Options**: 10, 20, 50, 100
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the followers data.
+* **Example**: "instagram\_followers" or "top\_followers."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Get Instagram Profile
+Source: https://docs.agent.ai/actions/get_instagram_profile
+
+
+
+## Overview
+
+Fetch detailed profile information for a specified Instagram username.
+
+### Use Cases
+
+* **Competitor Analysis**: Understand details of an Instagram profile for benchmarking.
+* **Content Creation**: Identify influencers or collaborators.
+
+## Configuration Fields
+
+### Instagram Username
+
+* **Description**: Enter the Instagram username (without @) to fetch profile details.
+* **Example**: "travelguru."
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the profile data.
+* **Example**: "instagram\_profile" or "profile\_data."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+***
+
+
+# Get LinkedIn Activity
+Source: https://docs.agent.ai/actions/get_linkedin_activity
+
+
+
+## Overview
+
+Retrieve recent LinkedIn posts from specified profiles to analyze professional activity and engagement.
+
+### Use Cases
+
+* **Recruitment**: Monitor LinkedIn activity for potential candidates.
+* **Industry Trends**: Analyze posts for emerging topics.
+
+## Configuration Fields
+
+### LinkedIn Profile URLs
+
+* **Description**: Enter one or more LinkedIn profile URLs, each on a new line.
+* **Example**: "[https://linkedin.com/in/janedoe](https://linkedin.com/in/janedoe)."
+* **Required**: Yes
+
+### Number of Posts to Retrieve
+
+* **Description**: Specify how many recent posts to fetch from each profile.
+* **Options**: 1, 5, 10, 25, 50, 100
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store LinkedIn activity data.
+* **Example**: "linkedin\_activity" or "recent\_posts."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Get LinkedIn Profile
+Source: https://docs.agent.ai/actions/get_linkedin_profile
+
+
+
+## Overview
+
+Retrieve detailed information from a specified LinkedIn profile for professional insights.
+
+### Use Cases
+
+* **Candidate Research**: Gather details about a LinkedIn profile for recruitment.
+* **Lead Generation**: Analyze profiles for sales and marketing.
+
+## Configuration Fields
+
+### Profile Handle
+
+* **Description**: Enter the LinkedIn profile handle to retrieve details.
+* **Example**: "[https://linkedin.com/in/johndoe](https://linkedin.com/in/johndoe)."
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the LinkedIn profile data.
+* **Example**: "linkedin\_profile" or "professional\_info."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Get Recent Tweets
+Source: https://docs.agent.ai/actions/get_recent_tweets
+
+
+
+## Overview
+
+Fetch recent tweets from a specified Twitter handle, enabling social media tracking and analysis.
+
+### Use Cases
+
+* **Real-time Monitoring**: Track the latest activity from a key influencer or competitor.
+* **Sentiment Analysis**: Analyze recent tweets for tone and sentiment.
+
+## Configuration Fields
+
+### Twitter Handle
+
+* **Description**: Enter the Twitter handle to fetch tweets from (without the @ symbol).
+* **Example**: "elonmusk."
+* **Required**: Yes
+
+### Number of Tweets to Retrieve
+
+* **Description**: Specify how many recent tweets to fetch.
+* **Options**: 1, 5, 10, 25, 50, 100
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the retrieved tweets.
+* **Example**: "recent\_tweets" or "tweet\_feed."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Get Twitter Users
+Source: https://docs.agent.ai/actions/get_twitter_users
+
+
+
+## Overview
+
+Search and retrieve Twitter user profiles based on specific keywords for targeted social media analysis.
+
+### Use Cases
+
+* **Influencer Marketing**: Identify key Twitter users for promotional campaigns.
+* **Competitor Research**: Find relevant profiles in your industry.
+
+## Configuration Fields
+
+### Search Keywords
+
+* **Description**: Enter keywords to find relevant Twitter users.
+* **Example**: "AI experts" or "marketing influencers."
+* **Required**: Yes
+
+### Number of Users to Retrieve
+
+* **Description**: Specify how many user profiles to retrieve.
+* **Options**: 1, 5, 10, 25, 50, 100
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the retrieved Twitter users.
+* **Example**: "twitter\_users" or "social\_media\_profiles."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Get User File
+Source: https://docs.agent.ai/actions/get_user_file
+
+
+
+## Overview
+
+The "Get User File" action allows users to upload files for processing, storage, or review.
+
+### Use Cases
+
+* **Resume Collection**: Upload resumes in PDF format.
+* **File Processing**: Gather data files for analysis.
+* **Document Submission**: Collect required documentation from users.
+
+## Configuration Fields
+
+### User Prompt
+
+* **Description**: Provide clear instructions for users to upload files.
+* **Example**: "Upload your resume as a PDF."
+* **Required**: Yes
+
+### Required?
+
+* **Description**: Mark this checkbox if file upload is necessary for the workflow to proceed.
+* **Required**: No
+
+### Output Variable Name
+
+* **Description**: Assign a variable name for the uploaded files.
+* **Example**: "user\_documents" or "uploaded\_images."
+* **Validation**:
+  * Only letters, numbers, and underscores (\_) are allowed.
+  * No spaces, special characters, or dashes.
+  * **Regex**: `^[a-zA-Z0-9_]+$`
+* **Hint**: This variable will be used to reference the files in subsequent steps.
+* **Required**: Yes
+
+### Show Only Files Uploaded in the Current Session
+
+* **Description**: Restrict access to files uploaded only during the current session.
+* **Required**: No
+
+
+# Get User Input
+Source: https://docs.agent.ai/actions/get_user_input
+
+
+
+## Overview
+
+The "Get User Input" action allows you to capture dynamic responses from users, such as text, numbers, URLs, and dropdown selections. This action is essential for workflows that require specific input from users to proceed.
+
+### Use Cases
+
+* **Survey Form**: Collect user preferences or feedback.
+* **Authentication**: Prompt for email addresses or verification codes.
+* **Customized Workflow**: Ask users to select options to determine the next steps.
+
+## Configuration Fields
+
+### Input Type
+
+* **Description**: Choose the type of input you want to capture from the user.
+* **Options**:
+  * **Text**: Open-ended text input.
+  * **Number**: Numeric input only.
+  * **Yes/No**: Binary selection.
+  * **Textarea**: Multi-line text input.
+  * **URL**: Input limited to URLs.
+  * **Website Domain**: Input limited to domains.
+  * **Dropdown (single)**: Single selection from a dropdown.
+  * **Dropdown (multiple)**: Multiple selections from a dropdown.
+  * **Multi-Item Selector**: Allows selecting multiple items.
+  * **Multi-Item Selector (Table View)**: Allows selecting multiple items in a table view.
+  * **Radio Select (single)**: Single selection using radio buttons.
+  * **HubSpot Portal**: Select a portal.
+  * **HubSpot Company**: Select a company.
+  * **Knowledge Base**: Select a knowledge base.
+* **Hint**: Select the appropriate input type based on your data collection needs. For example, use "Text" for open-ended input or "Yes/No" for binary responses.
+* **Required**: Yes
+
+### User Prompt
+
+* **Description**: Write a clear prompt to guide users on what information is required.
+* **Example**: "Please enter your email address" or "Select your preferred contact method."
+* **Required**: Yes
+
+### Default Value
+
+* **Description**: Provide a default response that appears automatically in the input field.
+* **Example**: "[example@domain.com](mailto:example@domain.com)" for an email field.
+* **Hint**: Use this field to pre-fill common or expected responses to simplify input for users.
+* **Required**: No
+
+### Required?
+
+* **Description**: Mark this checkbox if this input is mandatory.
+* **Example**: Enable if a response is essential to proceed in the workflow.
+* **Required**: No
+
+### Output Variable Name
+
+* **Description**: Assign a unique variable name for the input value.
+* **Example**: "user\_email" or "preferred\_contact."
+* **Validation**:
+  * Only letters, numbers, and underscores (\_) are allowed.
+  * No spaces, special characters, or dashes.
+  * **Regex**: `^[a-zA-Z0-9_]+$`
+* **Hint**: This variable will be used to reference the input value in subsequent steps.
+* **Required**: Yes
+
+
+# Get User KBs and Files
+Source: https://docs.agent.ai/actions/get_user_knowledge_base_and_files
+
+
+
+## Overview
+
+The "Get User Knowledge Base and Files" action retrieves information from user-selected knowledge bases and uploaded files to support decision-making within the workflow.
+
+### Use Cases
+
+* **Content Search**: Allow users to select a knowledge base to search from.
+* **Resource Management**: Link workflows to specific user-uploaded files.
+
+## Configuration Fields
+
+### User Prompt
+
+* **Description**: Provide a prompt for users to select a knowledge base.
+* **Example**: "Choose the knowledge base to search from."
+* **Required**: Yes
+
+### Required?
+
+* **Description**: Mark as required if selecting a knowledge base is essential for the workflow.
+* **Required**: No
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the knowledge base ID.
+* **Example**: "selected\_kb" or "kb\_source."
+* **Validation**:
+  * Only letters, numbers, and underscores (\_) are allowed.
+  * No spaces, special characters, or dashes.
+  * **Regex**: `^[a-zA-Z0-9_]+$`
+* **Hint**: This variable will be used to reference the knowledge base in subsequent steps.
+* **Required**: Yes
+
+
+# Get User List
+Source: https://docs.agent.ai/actions/get_user_list
+
+
+
+## Overview
+
+The "Get User List" action collects a list of items entered by users and splits them based on a specified delimiter or newline.
+
+### Use Cases
+
+* **Batch Data Input**: Gather a list of email addresses or item names.
+* **Bulk Selection**: Allow users to input multiple options in one field.
+
+## Configuration Fields
+
+### User Prompt
+
+* **Description**: Write a clear prompt to guide users on what information is required.
+* **Example**: "Enter the list of email addresses separated by commas."
+* **Required**: Yes
+
+### List Delimiter (leave blank for newline)
+
+* **Description**: Specify the character that separates the list items.
+* **Example**: Use a comma (,) for "item1,item2,item3" or leave blank for newlines.
+* **Required**: No
+
+### Required?
+
+* **Description**: Mark this checkbox if this input is mandatory.
+* **Example**: Enable if a response is essential to proceed in the workflow.
+* **Required**: No
+
+### Output Variable Name
+
+* **Description**: Assign a unique variable name for the input value.
+* **Example**: "email\_list" or "item\_names."
+* **Validation**:
+  * Only letters, numbers, and underscores (\_) are allowed.
+  * No spaces, special characters, or dashes.
+  * **Regex**: `^[a-zA-Z0-9_]+$`
+* **Hint**: This variable will be used to reference the list in subsequent steps.
+* **Required**: Yes
+
+
+# Get Variable from Database
+Source: https://docs.agent.ai/actions/get_variable_from_database
+
+
+
+## Overview
+
+Retrieve stored variables from the agent's database for use in workflows.
+
+### Use Cases
+
+* **Data Reuse**: Leverage previously stored variables for decision-making.
+* **Trend Analysis**: Access historical data for analysis.
+
+## Configuration Fields
+
+### Variable
+
+* **Description**: Specify the variable to retrieve from the database.
+* **Example**: "user\_input" or "order\_status."
+* **Required**: Yes
+
+### Retrieval Depth
+
+* **Description**: Choose how far back to retrieve the data.
+* **Options**: Most Recent Value, Historical Values
+* **Example**: "Most Recent Value" for the latest data.
+* **Required**: Yes
+
+### Historical Data Interval (optional)
+
+* **Description**: Define the interval for historical data retrieval.
+* **Options**: Hour, Day, Week, Month, All Time
+* **Example**: "Last 7 Days" for weekly data.
+* **Required**: No
+
+### Number of Items to Retrieve (optional)
+
+* **Description**: Enter the number of items to retrieve from historical data.
+* **Example**: "10" to fetch the last 10 entries.
+* **Required**: No
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the retrieved data.
+* **Example**: "tracked\_values" or "historical\_data."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Google News Data
+Source: https://docs.agent.ai/actions/google_news_data
+
+
+
+## Overview
+
+Fetch news articles based on queries and date ranges to stay updated on relevant topics or trends.
+
+### Use Cases
+
+* **Market Analysis**: Track news articles for industry trends.
+* **Brand Monitoring**: Stay updated on mentions of your company or competitors.
+
+## Configuration Fields
+
+### Query
+
+* **Description**: Enter search terms to find news articles.
+* **Example**: "AI advancements" or "global market trends."
+* **Required**: Yes
+
+### Since
+
+* **Description**: Select the timeframe for news articles.
+* **Options**: Last 24 hours, 7 days, 30 days, 90 days
+* **Required**: Yes
+
+### Location
+
+* **Description**: Specify a location to filter news results (optional).
+* **Example**: "New York" or "London."
+* **Required**: No
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the news data.
+* **Example**: "news\_data" or "articles."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# If/Else Statement
+Source: https://docs.agent.ai/actions/if_else
+
+
+
+## Overview
+
+If/Else statements create decision points in your workflow. They evaluate a condition and direct your agent down different paths based on whether that condition is true or false.
+
+### Use Cases
+
+* Create branching workflows based on user inputs or data values
+* Implement decision logic to handle different scenarios
+* Personalize responses to different types of users
+* Apply different processing based on data characteristics
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SICac2Zw9kQ?si=q3q2WjgUBd74pvlk" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+## **How to Use If/Else Statements**
+
+### **Step 1: Add the Action**
+
+1. In your agent's Actions tab, click "Add action"
+2. Select the "If/Else Statement" option
+
+### **Step 2: Configure the First Condition**
+
+1. Leave the "Is Else Statement?" checkbox **unchecked** for your first condition
+2. Enter your condition in the field 
+3. Add the actions you want to run when this condition is TRUE
+
+### **Writing Conditions**
+
+Conditions must evaluate to true or false. Common formats include:
+
+* **Comparing numbers**: variable > 100
+* **Checking equality**: variable == "specific value"
+* **Multiple conditions**: variable1 > 10 && variable2 == "active"
+
+### **Step 3: Add Additional Paths (Else If)**
+
+1. Add another "If/Else Statement" action
+2. Check the "Is Else Statement?" checkbox to connect it to the previous condition
+3. Enter your next condition
+4. Add the actions you want to run when this condition is TRUE
+5. Repeat this step to add as many alternative paths as needed
+
+### **Step 4: Add a Default Path (Else)**
+
+1. Add an "If/Else Statement" action after your other conditions
+2. Check the "Is Else Statement?" checkbox
+3. Leave the Conditional Statement field **blank**
+4. Add the actions to run when no other conditions are met
+
+### **Step 5: End the Statement**
+
+1. After all your conditional paths, add the "**End If/Else/For Statement**" action
+
+## **Example: IF/ELSE Example Agent**
+
+See [this simple example](https://agent.ai/agent/IF-ELSE-Example) agent to learn how to use If/Else statements:
+
+1. We collect a budget amount from the user
+2. We evaluate three budget ranges
+3. Each path provides different output based on the budget amount
+
+
+# Invoke Other Agent
+Source: https://docs.agent.ai/actions/invoke_other_agent
+
+
+
+## Overview
+
+Trigger another agent to perform additional processing or data handling within workflows.
+
+### Use Cases
+
+* **Multi-Agent Workflows**: Delegate tasks to specialized agents.
+* **Cross-Functionality**: Utilize existing agent capabilities for enhanced results.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DqWPxjlsT6o?si=uf7kUR209DgbpGpT" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+## Configuration Fields
+
+### Agent ID
+
+* **Description**: Enter the ID of the agent to invoke.
+* **Example**: "agent\_123" or "data\_processor."
+* **Required**: Yes
+
+### Parameters
+
+* **Description**: Specify parameters for the agent as key-value pairs, one per line.
+* **Example**: "action=update" or "user\_id=567."
+* **Required**: No
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the agent's response.
+* **Example**: "agent\_output" or "result\_data."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Invoke Web API
+Source: https://docs.agent.ai/actions/invoke_web_api
+
+
+
+## Overview
+
+The Invoke Web API action allows your agents to make RESTful API calls to external systems and services. This enables access to third-party data sources, submission of information to web services, and integration with existing infrastructure.
+
+### Use Cases
+
+* **External Data Retrieval**: Connect to public or private APIs to fetch real-time data 
+
+* **Data Querying**: Search external databases or services using specific parameters 
+
+* **Third-Party Integrations**: Access services that expose information via REST APIs 
+
+* **Enriching Workflows**: Incorporate external data sources into your agent's processing
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WWRn_d4uQhc?si=4bQ0c4K2Dm5m_hwG" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+## **How to Configure Web API Calls**
+
+### **Add the Action**
+
+1. In the Actions tab, click "Add action"
+
+2. Select the "Advanced" category
+
+3. Choose "Invoke Web API"
+
+## Configuration Fields
+
+### URL
+
+* **Description**: Enter the web address of the API you want to connect to (this information should be provided in the API documentation) 
+
+* **Example**: [https://api.nasa.gov/planetary/apod?api\_key=DEMO\_KEY](https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY)
+
+* **Required**: Yes
+
+### Method
+
+* **Description**: Choose how you want to interact with the API&#x20;
+
+* **Options:** 
+
+  * **GET**: Retrieve information (most common) 
+
+  * **POST**: Send information to create something new 
+
+  * **PUT**: Update existing information 
+
+  * **HEAD**: Check if a resource exists without retrieving it
+
+* **Required**: Yes
+
+### Headers (JSON)
+
+* **Description**: Think of these as your "ID card" when talking to an API..
+
+* **Example**: Many APIs need to know who you are before giving you information. For instance, for the X (Twitter) API, you’d need: \{"Authorization": "Bearer YOUR\_ACCESS\_TOKEN"}. The API's documentation will usually tell you exactly what to put here.
+
+* **Required**: No
+
+### Body (JSON)
+
+* **Description**: This is the information you want to send to the API. 
+
+  * Only needed when you're sending data (POST or PUT methods). 
+
+* **Example**: when posting a tweet with the X API, you'd include: \{"text": "Hello world!"}. 
+
+  * When using GET requests (just retrieving information), you typically leave this empty.
+
+  * The API's documentation will specify exactly what format to use
+
+* **Required**: No
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the API response.
+
+* **Example**: "api\_response" or "rest\_data."
+
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+
+* **Required**: Yes
+
+## **Using API Responses**
+
+The API response will be stored in your specified output variable. You can access specific data points using dot notation:
+
+* \{\{variable\_name.property}} 
+
+* \{\{variable\_name.nested.property}}
+
+## **Example:** RESTful API Example Agent
+
+See [this simple Grant Search Agent ](https://agent.ai/agent/RESTful-API-Example)that demonstrates API usage:
+
+1. **Step 1**: Collects a research focus from the user
+
+2. **Step 3**: Makes a REST API call to a government grants database with these keywords
+
+3. **Step 5**: Presents the information to the user as a formatted output
+
+This workflow shows how external APIs can significantly expand an agent's capabilities by providing access to specialized data sources that aren't available within the Agent.ai platform itself.
+
+
+# Post to Bluesky
+Source: https://docs.agent.ai/actions/post_to_bluesky
+
+
+
+## Overview
+
+Create and post content to Bluesky, allowing for seamless social media updates within workflows.
+
+### Use Cases
+
+* **Social Media Automation**: Share updates directly to Bluesky.
+* **Marketing Campaigns**: Schedule and post campaign content.
+
+## Configuration Fields
+
+### Bluesky Username
+
+* **Description**: Enter your Bluesky username/handle (e.g., username.bsky.social).
+* **Required**: Yes
+
+### Bluesky Password
+
+* **Description**: Enter your Bluesky account password.
+* **Required**: Yes
+
+### Post Content
+
+* **Description**: Provide the text content for your Bluesky post.
+* **Example**: "Check out our latest product launch!"
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the post result.
+* **Example**: "post\_response" or "bluesky\_post."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Save To File
+Source: https://docs.agent.ai/actions/save_to_file
+
+
+
+## Overview
+
+Save text content as a downloadable file in various formats, including PDF, Microsoft Word, HTML, and more within workflows.
+
+### Use Cases
+
+* **Content Export**: Allow users to download generated content in their preferred file format.
+* **Report Generation**: Create downloadable reports from workflow data.
+* **Documentation**: Generate and save technical documentation or user guides.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EAbJ9ksHbP8?si=Oyym3CNsMFR98heg" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+## Configuration Fields
+
+### File Type
+
+* **Description**: Select the output file format for the saved content.
+* **Options**: PDF, Microsoft Word, HTML, Markdown, OpenDocument Text, TeX File, Amazon Kindle Book File, eBook File, PNG Image File
+* **Default**: PDF
+* **Required**: Yes
+
+### Body
+
+* **Description**: Provide the content to be saved in the file, including text, bullet points, or other structured information.
+* **Example**: "# Project Summary\n\nThis document outlines the key deliverables for the Q3 project."
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the file URL for later reference in the workflow.
+* **Example**: "saved\_file" or "report\_document"
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed in variable names.
+* **Required**: Yes
+
+## Beta Feature
+
+This action is currently in beta. While fully functional, it may undergo changes based on user feedback.
+
+
+# Save To Google Doc
+Source: https://docs.agent.ai/actions/save_to_google_doc
+
+
+
+## Overview
+
+Save text content as a Google Doc for documentation, collaboration, or sharing.
+
+### Use Cases
+
+* **Documentation**: Save workflow results as structured documents.
+* **Team Collaboration**: Share generated content via Google Docs.
+
+## Configuration Fields
+
+### Title
+
+* **Description**: Enter the title of the Google Doc.
+* **Example**: "Project Plan" or "Meeting Notes."
+* **Required**: Yes
+
+### Body
+
+* **Description**: Provide the content to be saved in the Google Doc.
+* **Example**: "This document outlines the key objectives for Q1..."
+* **Required**: Yes
+
+
+# Search Bluesky Posts
+Source: https://docs.agent.ai/actions/search_bluesky_posts
+
+
+
+## Overview
+
+Search for Bluesky posts matching specific keywords or criteria to gather social media insights.
+
+### Use Cases
+
+* **Keyword Monitoring**: Track specific terms or hashtags on Bluesky.
+* **Trend Analysis**: Identify trending topics or content on the platform.
+
+## Configuration Fields
+
+### Search Query
+
+* **Description**: Enter keywords or hashtags to search for relevant Bluesky posts.
+* **Example**: "#AI" or "climate change."
+* **Required**: Yes
+
+### Number of Posts to Retrieve
+
+* **Description**: Specify how many posts to fetch.
+* **Options**: 1, 5, 10, 25, 50, 100
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the search results.
+* **Example**: "bluesky\_search\_results" or "matching\_posts."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Search Results
+Source: https://docs.agent.ai/actions/search_results
+
+
+
+## Overview
+
+Fetch search results from Google or YouTube for specific queries, providing valuable insights and content.
+
+### Use Cases
+
+* **Market Research**: Gather data on trends or competitors.
+* **Content Discovery**: Find relevant articles or videos for your workflow.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U7CpTt-Fpco?si=EhprGYprRGY5vuTm" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+## Configuration Fields
+
+### Query
+
+* **Description**: Enter search terms to find relevant results.
+* **Example**: "Best AI tools" or "Marketing strategies."
+* **Required**: Yes
+
+### Search Engine
+
+* **Description**: Choose the search engine to use for the query.
+* **Options**: Google, YouTube
+* **Required**: Yes
+
+### Number of Results to Retrieve
+
+* **Description**: Specify how many results to fetch.
+* **Options**: 1, 5, 10, 25, 50, 100
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the search results.
+* **Example**: "search\_results" or "google\_data."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Send Message
+Source: https://docs.agent.ai/actions/send_message
+
+
+
+## Overview
+
+Send messages to specified recipients, such as emails with formatted content or notifications. All messages are sent from [agent@agentaimail.com](mailto:agent@agentaimail.com).
+
+### Use Cases
+
+* **Customer Communication**: Notify users about updates or confirmations.
+* **Team Collaboration**: Share workflow results via email.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dimzBWcPcX0?si=lNJ0mWxvj-9YDR-F" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+## Configuration Fields
+
+### Message Type
+
+* **Description**: Select the type of message to send.
+* **Options**: Email
+* **Required**: Yes
+
+### Send To
+
+* **Description**: Enter the recipient's address.
+* **Example**: "[john.doe@example.com](mailto:john.doe@example.com)."
+* **Required**: Yes
+
+### Output Formatted
+
+* **Description**: Provide the message content, formatted as needed.
+* **Example**: "Hello, your order is confirmed!" or formatted HTML for emails.
+* **Required**: Yes
+
+
+# Call Serverless Function
+Source: https://docs.agent.ai/actions/serverless_function
+
+
+
+## Overview
+
+Serverless Functions allow your agents to execute custom code in the cloud without managing infrastructure. This powerful capability enables complex operations and integrations beyond what standard actions can provide.
+
+### Use Cases
+
+* **Custom Logic Implementation**: Execute specialized code for unique business requirements
+* **External System Integration**: Connect with third-party services and APIs
+* **Advanced Data Processing**: Perform complex calculations and transformations
+* **Extended Functionality**: Add capabilities not available in standard Agent.ai actions
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n5nTAzKGy18?si=6iUG3xZu3ekwG3GU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
+
+## **How Serverless Functions Work**
+
+Serverless Functions in Agent.ai:
+
+1. Run in AWS Lambda (fully managed by Agent.ai)
+2. Support Python and Node.js
+3. Automatically deploy when you save the action
+4. Generate a REST API endpoint for programmatic access
+
+## Creating a Serverless Function
+
+1. In the Actions tab, click "Add action"
+2. Select the "Advanced" category
+3. Choose "Call Serverless Function"
+
+## Configuration Fields
+
+### Language
+
+* **Description**: Select the programming language for the serverless function.
+* **Options**: Python, Node
+* **Required**: Yes
+
+### Serverless Code
+
+* **Description**: Write your custom code.
+* **Example**: Python or Node script performing custom logic.
+* **Required**: Yes
+
+### Serverless API URL
+
+* **Description**: Provide the API URL for the deployed serverless function.
+* **Required**: Yes (auto-generated upon deployment)
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the result of the serverless function.
+* **Example**: "function\_result" or "api\_response."
+* **Validation**: Only letters, numbers, and underscores (`_`) are allowed.
+* **Required**: Yes
+
+### Deploy and Save
+
+1. Click "Deploy to AWS Lambda"
+2. After successful deployment, the API URL will be populated automatically
+
+### Using Function Results
+
+The function's output is stored in your specified variable name. You can access specific data points using dot notation, for example:
+
+* `{{variable_name.message}}`
+* `{{variable_name.input}}`
+
+## Accessing Agent Variables
+
+When your agent runs a serverless function, any context variables created earlier in the workflow are passed into your function as part of the event object.
+
+Understanding how to access these variables is key to using serverless functions effectively.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bGnCZpjKJWw?si=oeyi6XDsFcW-sTOl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
+
+### Inspecting the Event Structure
+
+To inspect the data being passed to your function, you can set up a basic debug function. This is helpful for confirming that your agent variables are available and structured as expected.
+
+```python
+import json
+
+def execute(event, context):
+    debug_info = {
+        "received_event": json.dumps(event),
+        "received_context": str(context)
+    }
+
+    return {
+        "statusCode": 200,
+        "body": json.dumps({
+            "debug_info": debug_info
+        })
+    }
+```
+
+Running your agent with this code will return the full contents of the event and context objects. In most cases, the information you’ll want is located here:
+
+`event['body']['context']`
+
+This nested context object contains your agent's variables—such as out\_topic, out\_summary, and others defined earlier in your workflow.
+
+### Accessing Variables in Your Code
+
+Once you understand the structure, you can write your function to access specific values like this:
+
+```python
+import json
+
+def execute(event, context):
+    body = event.get('body', {})
+    agent_context = body.get('context', {})
+
+    topic = agent_context.get('out_topic')
+    summary = agent_context.get('out_summary')
+
+    result = f"The topic is {topic} and the summary is {summary}"
+
+    return {
+        "statusCode": 200,
+        "body": json.dumps({
+            "result": result
+        })
+    }
+```
+
+You can now use these variables to power more complex logic in your serverless functions.
+
+### Notes on Debugging
+
+* Use the `return` statement to pass debugging information back to the agent UI. `print()` statements will only appear in AWS logs.
+* The context panel in [Agent.ai](http://Agent.ai) shows the variables currently available to your serverless function—this can help confirm what’s being passed in.
+* If your function isn’t behaving as expected, start by confirming that the data is structured as described above.
+
+## Example: Serverless Function Agent
+
+See [this simple Message Analysis Agent](https://agent.ai/agent/serverless-function-example) that demonstrates how to use Serverless Functions:
+
+1. **Step 1**: Get user input text message
+2. **Step 2**: Call a serverless function that analyzes:
+   * Word count
+   * Character count
+   * Sentiment (positive/negative/neutral)
+3. **Step 3**: Display the results in a formatted output
+
+This sample agent shows how Serverless Functions can extend your agent's capabilities with custom logic that would be difficult to implement using standard actions alone.
+
+
+# Set Variable
+Source: https://docs.agent.ai/actions/set_variable
+
+
+
+## Overview
+
+Set or update variables within the workflow to manage dynamic data and enable seamless transitions between steps.
+
+![](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/getvariables.png)
+
+### Use Cases
+
+* **Dynamic Data Storage**: Assign user inputs or calculated values to variables for later use.
+
+* **Data Management**: Update variables based on workflow logic.
+
+## Configuration Fields
+
+### Output Variable Name
+
+* **Description**: Name the variable to be set or updated.
+
+* **Example**: "user\_email" or "order\_status."
+
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+
+* **Required**: Yes
+
+### Variable Value
+
+* **Description**: Enter the value to assign to the variable.
+
+* **Example**: "approved" for status updates or "[john.doe@example.com](mailto:john.doe@example.com)" for email storage.
+
+* **Required**: Yes
+
+
+# Show User Output
+Source: https://docs.agent.ai/actions/show_user_output
+
+
+
+## Overview
+
+The "Show User Output" action displays information to users in a visually organized way. It lets you present data, results, or messages in different formats to make them easy to read and understand.
+
+### Use Cases
+
+* **Real-time Feedback**: Display data summaries or workflow outputs to users.
+
+* **Interactive Reports**: Present results in a structured format like tables or markdown.
+
+## **How to Configure**
+
+### **Step 1: Add the Action**
+
+1. In the Actions tab, click "Add action"
+
+2. Select "Show User Output" from the options
+
+## Step 2: Configuration Fields
+
+### Heading
+
+* **Description**: Provide a heading for the output display.
+
+* **Example**: "User Results" or "Analysis Summary."
+
+* **Required**: No
+
+### Output Formatted
+
+* **Description**: Enter the formatted output in HTML, JSON, or Markdown.
+
+* **Example**:&#x20;
+
+1. Can be text: "Here are your results"
+
+2. Or a variable: \{\{analysis\_results}}
+
+3. Or a mix of both: "Analysis complete: \{\{analysis\_results}}"
+
+* **Required**: Yes
+
+### Format
+
+* **Description**: Choose the format for output display.
+
+* **Options**: Auto, HTML, JSON, Table, Markdown, Audio, Text, JSX
+
+* **Example**: "HTML" for web-based formatting.
+
+* **Required**: Yes
+
+## **Output Formats Explained**
+
+### **Auto**
+
+Agent.AI will try to detect the best format automatically based on your content. Use this when you're unsure which format to choose.
+
+### **HTML**
+
+Displays content with web formatting (like colors, spacing, and styles).
+
+* Example: \<h1>Results\</h1>\<p>Your information is ready.\</p>
+
+* Good for: Creating visually structured content with different text sizes, colors, or layouts
+
+* Tip: When using AI tools like Claude or GPT, you can ask them to format their responses in HTML
+
+### **Markdown**
+
+A simple way to format text with headings, lists, and emphasis.
+
+* Example: # Results\n\n- First item\n- Second item
+
+* Good for: Creating organized content with simple formatting needs
+
+* Tip: You can ask AI models to output their responses in Markdown format for easier display
+
+### **JSON**
+
+Displays data in a structured format with keys and values.
+
+* Example: \{"name": "John", "age": 30, "email": "[john@example.com](mailto:john@example.com)"}
+
+* Good for: Displaying data in an organized, hierarchical structure
+
+* To get a specific part of a JSON string, use dot notation:
+
+  * \{\{user\_data.name}} to display just the name
+
+  * \{\{weather.forecast.temperature}} to display a nested value
+
+  * For array items, use: \{\{items.0}} for the first item, \{\{items.1}} for the second, etc.
+
+* Tip: You can request AI models to respond in JSON format when you need structured data
+
+### **Table**
+
+Shows information in rows and columns, like a spreadsheet.
+
+* **Important**: Tables requires a very specific format:
+
+1\) A JSON array of arrays:
+
+```
+[
+  ["Column 1", "Column 2", "Column 3"],
+  ["Row 1 Data", "More Data", "Even More"],
+  ["Row 2 Data", "More Data", "Even More"]
+]
+```
+
+2\) Or a CSV:
+
+```
+Column 1,Column 2,Column 3
+Row 1 Data,More Data,Even More
+Row 2 Data,More Data,Even More
+```
+
+See [<u>this example agent</u>](https://agent.ai/agent/Table-Creator) for table output format.
+
+### **Text**
+
+Simple plain text without any special formatting. What you type is exactly what the user sees.
+
+* Good for: Simple messages or information that doesn't need special formatting
+
+### **Audio**
+
+Displays an audio player to play sound files. See [<u>this agent</u>](https://agent.ai/agent/autio-template) as an example. 
+
+### **JSX**
+
+For technical users who need to create complex, interactive displays.
+
+* Good for: Interactive components with special styling needs
+
+* Requires knowledge of React JSX formatting
+
+
+# Store Variable to Database
+Source: https://docs.agent.ai/actions/store_variable_to_database
+
+
+
+# Overview
+
+Store variables in the agent's database for tracking and retrieval in future workflows.
+
+### Use Cases
+
+* **Historical Tracking**: Save variables for analysis over time.
+
+* **Data Persistence**: Ensure key variables are available across workflows.
+
+## Configuration Fields
+
+### Variable
+
+* **Description**: Specify the variable to store in the database.
+
+* **Example**: "user\_input" or "order\_status."
+
+* **Required**: Yes
+
+***
+
+
+# Update HubSpot CRM Object
+Source: https://docs.agent.ai/actions/update_hubspot_crm_object
+
+
+
+## Overview
+
+Modify properties of existing CRM objects, like contacts or companies, within HubSpot.
+
+### Use Cases
+
+* **Data Correction**: Update CRM information to ensure accuracy.
+* **Workflow Automation**: Automatically update deal stages or lead information.
+
+## Configuration Fields
+
+### Object Type
+
+* **Description**: Select the type of HubSpot object to update.
+* **Options**: Company, Contact
+* **Required**: Yes
+
+### Object ID
+
+* **Description**: Enter the ID of the HubSpot object to update.
+* **Example**: "12345" for a company or "67890" for a contact.
+* **Required**: Yes
+
+### Property Identifier
+
+* **Description**: Specify the property to update.
+* **Example**: "name" for company name or "email" for contact email.
+* **Required**: Yes
+
+### Value
+
+* **Description**: Enter the new value for the specified property.
+* **Example**: "Acme Corp Updated" for a company name or "[jane.doe@example.com](mailto:jane.doe@example.com)" for a contact email.
+* **Required**: Yes
+
+
+# Use GenAI (LLM)
+Source: https://docs.agent.ai/actions/use_genai
+
+
+
+## Overview
+
+Invoke a language model (LLM) to generate text based on input instructions, enabling creative and dynamic text outputs.
+
+### Use Cases
+
+* **Content Generation**: Draft blog posts, social media captions, or email templates.
+* **Summarization**: Generate concise summaries of complex documents.
+* **Customer Support**: Create personalized responses or FAQs.
+
+## Configuration Fields
+
+### LLM Engine
+
+* **Description**: Select the language model to use for generating text.
+* **Options**: Auto Optimized, GPT-4o, Claude Opus, Gemini 2.0 Flash, and more.
+* **Example**: "GPT-4o" for detailed responses or "Claude Opus" for creative writing.
+* **Required**: Yes
+
+### Instructions
+
+* **Description**: Enter detailed instructions for the language model.
+* **Example**: "Write a summary of this document" or "Generate a persuasive email."
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the generated text.
+* **Example**: "llm\_output" or "ai\_generated\_text."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Wait for User Confirmation
+Source: https://docs.agent.ai/actions/wait_for_user_confirmation
+
+
+
+## Overview
+
+The "Wait for User Confirmation" action pauses the workflow until the user explicitly confirms to proceed.
+
+### Use Cases
+
+* **Decision Points**: Pause workflows at critical junctures to confirm user consent.
+* **Verification**: Ensure users are ready to proceed to the next steps.
+
+## Configuration Fields
+
+### Message to Show User (optional)
+
+* **Description**: Enter a message to prompt the user for confirmation.
+* **Example**: "Are you sure you want to proceed?" or "Click OK to continue."
+* **Required**: No
+
+
+# Web Page Content
+Source: https://docs.agent.ai/actions/web_page_content
+
+
+
+## Overview
+
+Extract text content from a specified web page for analysis or use in workflows.
+
+### Use Cases
+
+* **Data Extraction**: Retrieve content from web pages for structured analysis.
+* **Content Review**: Automate the review of online articles or blogs.
+
+## Configuration Fields
+
+### URL
+
+* **Description**: Enter the URL of the web page to extract content from.
+* **Example**: "[https://example.com/article](https://example.com/article)."
+* **Required**: Yes
+
+### Mode
+
+* **Description**: Choose between scraping a single page or crawling multiple pages.
+* **Options**: Single Page, Multi-page Crawl
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the extracted content.
+* **Example**: "web\_content" or "page\_text."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# Web Page Screenshot
+Source: https://docs.agent.ai/actions/web_page_screenshot
+
+
+
+## Overview
+
+Capture a visual screenshot of a specified web page for documentation or analysis.
+
+### Use Cases
+
+* **Archiving**: Save visual records of web pages.
+* **Presentation**: Use screenshots for reports or presentations.
+
+## Configuration Fields
+
+### URL
+
+* **Description**: Enter the URL of the web page to capture.
+* **Example**: "[https://example.com](https://example.com)."
+* **Required**: Yes
+
+### Cache Expiration Time
+
+* **Description**: Specify how often to refresh the screenshot.
+* **Options**: 1 hour, 1 day, 1 week, 1 month
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the screenshot.
+* **Example**: "web\_screenshot" or "page\_image."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# YouTube Channel Data
+Source: https://docs.agent.ai/actions/youtube_channel_data
+
+
+
+## Overview
+
+Retrieve detailed information about a YouTube channel, including its videos and statistics.
+
+### Use Cases
+
+* **Audience Analysis**: Understand the content and engagement metrics of a channel.
+* **Competitive Research**: Analyze competitors' channels.
+
+## Configuration Fields
+
+### YouTube Channel URL
+
+* **Description**: Provide the URL of the YouTube channel to analyze.
+* **Example**: "[https://youtube.com/channel/UC12345](https://youtube.com/channel/UC12345)."
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the channel data.
+* **Example**: "channel\_data" or "youtube\_info."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# YouTube Search Results
+Source: https://docs.agent.ai/actions/youtube_search_results
+
+
+
+## Overview
+
+Perform a YouTube search and retrieve results for specified queries.
+
+### Use Cases
+
+* **Content Discovery**: Find relevant YouTube videos for research or campaigns.
+* **Trend Monitoring**: Identify trending videos or topics.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yrHbh5pnCW8?si=_nhWaN3B6auJXZX1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+## Configuration Fields
+
+### Query
+
+* **Description**: Enter search terms for YouTube.
+* **Example**: "Machine learning tutorials" or "Travel vlogs."
+* **Required**: Yes
+
+### Output Variable Name
+
+* **Description**: Assign a variable name to store the search results.
+* **Example**: "youtube\_results" or "video\_list."
+* **Validation**: Only letters, numbers, and underscores (\_) are allowed.
+* **Required**: Yes
+
+
+# AI Agents Explained
+Source: https://docs.agent.ai/ai-agents-explained
+
+Understanding the basics of AI agents for beginners
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RbnXeQkzyWg?si=WjE6maYfY5K5qmfl" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+# **What Is an AI Agent?**
+
+An AI agent is essentially a digital worker that helps you achieve specific objectives. Think of it as a virtual assistant that can take on tasks with varying levels of independence. Unlike basic AI tools that simply respond to prompts, agents can work toward goals by taking multiple steps and making decisions along the way.
+
+When you work with an AI agent:
+
+* You define a goal for the agent to accomplish
+* The agent selects appropriate actions to meet that goal
+* It interacts with its environment and adapts to changes
+* It collects and processes necessary data
+* It executes tasks to achieve the defined goal
+
+# **How AI Agents Work: A Real Example**
+
+Let's say you create an AI sales development representative (SDR) agent with the goal of generating leads. Here's how it would work:
+
+1. You define the objective: "Generate 20 qualified leads this month"
+2. The agent selects necessary tasks:
+3. Find potential leads from various sources
+   * Research information about those leads
+   * Generate personalized outreach messages
+   * Send initial emails
+   * Monitor for responses
+   * Send follow-up emails when needed
+4. The agent gathers and processes information about the leads
+5. It executes each task in sequence
+6. It works toward achieving your defined goal
+
+# **Understanding Levels of AI Agent Autonomy**
+
+It's important to understand that AI agents exist on a spectrum of autonomy. Current technology isn't yet at the point where you can simply define a goal and let the agent handle everything independently. Here's how to think about the different levels:
+
+## **Level 0: No Autonomy**
+
+* Acts purely as a tool with no initiative
+* Similar to traditional machine learning algorithms
+* Only does exactly what it was programmed to do
+
+## **Level 1: Assistive Autonomy**
+
+* Handles simple tasks with direct instruction
+* Similar to how ChatGPT works - you provide a prompt, it responds
+* Each interaction requires specific direction
+
+## **Level 2: Partial Autonomy**
+
+* Manages multi-step tasks
+* Requires human oversight and intervention
+* This is where most current agent platforms like [Agent.ai](http://Agent.ai) operate
+
+## **Level 3: High Autonomy**
+
+* Achieves complex tasks with minimal human input
+* Requires occasional guidance
+
+## **Level 4: Full Autonomy**
+
+* Handles all aspects of tasks independently
+* You simply define the goal and the agent figures out everything else
+
+# [******What Is Agent.ai?******](http://Agent.ai)
+
+[Agent.ai](http://Agent.ai) is a low-code/no-code platform that allows you to build AI agents without programming knowledge. While developers have access to tools like LangChain or [Crew.ai](http://Crew.ai) that require coding, [Agent.ai](http://Agent.ai) gives business stakeholders the ability to configure their own agents through a user-friendly interface.
+
+With [Agent.ai](http://Agent.ai), you can:
+
+* Create custom AI agents tailored to your specific needs
+* Configure multi-step workflows
+* Define how your agent should interact with various systems
+* Set up decision-making parameters
+* Deploy agents that can help achieve your business goals
+
+## **Getting Started**
+
+To begin using [Agent.ai](http://Agent.ai), you'll need to:
+
+1. Clearly define the goal you want your agent to accomplish
+2. Break down the steps required to achieve that goal
+3. Configure your agent using the [Agent.ai](http://Agent.ai) platform
+4. Test your agent's performance
+5. Refine and improve as needed
+
+In the current state of AI agent technology, you'll still need to provide some oversight and guidance, but the platform handles much of the complexity for you.
+
+Have questions or need help? Reach out to our [support team](https://agent.ai/feedback) or [community](https://community.agent.ai/feed).
+
+
+# Browser Operator Results
+Source: https://docs.agent.ai/api-reference/advanced/browser-operator-results
+
+api-reference/v1/v1.0.1_openapi.json post /action/results_browser_operator
+Get the browser operator session results.
+
+
+
+# Convert file
+Source: https://docs.agent.ai/api-reference/advanced/convert-file
+
+api-reference/v1/v1.0.1_openapi.json post /action/convert_file
+Convert a file to a different format.
+
+
+
+# Convert file options
+Source: https://docs.agent.ai/api-reference/advanced/convert-file-options
+
+api-reference/v1/v1.0.1_openapi.json post /action/convert_file_options
+Gets the full set of options that a file extension can be converted to.
+
+
+
+# Invoke Agent
+Source: https://docs.agent.ai/api-reference/advanced/invoke-agent
+
+api-reference/v1/v1.0.1_openapi.json post /action/invoke_agent
+Trigger another agent to perform additional processing or data handling within workflows.
+
+
+
+# REST call
+Source: https://docs.agent.ai/api-reference/advanced/rest-call
+
+api-reference/v1/v1.0.1_openapi.json post /action/rest_call
+Make a REST API call to a specified endpoint.
+
+
+
+# Retrieve Variable
+Source: https://docs.agent.ai/api-reference/advanced/retrieve-variable
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_variable_from_database
+Retrieve a variable from the agent's database
+
+
+
+# Start Browser Operator
+Source: https://docs.agent.ai/api-reference/advanced/start-browser-operator
+
+api-reference/v1/v1.0.1_openapi.json post /action/start_browser_operator
+Starts a browser operator to interact with web pages and perform actions.
+
+
+
+# Store Variable
+Source: https://docs.agent.ai/api-reference/advanced/store-variable
+
+api-reference/v1/v1.0.1_openapi.json post /action/store_variable_to_database
+Store a variable in the agent's database
+
+
+
+# Find Agents
+Source: https://docs.agent.ai/api-reference/agent-discovery/find-agents
+
+api-reference/v1/v1.0.1_openapi.json post /action/find_agents
+Search and discover agents based on various criteria including status, tags, and search terms.
+
+
+
+# Save To File
+Source: https://docs.agent.ai/api-reference/create-output/save-to-file
+
+api-reference/v1/v1.0.1_openapi.json post /action/save_to_file
+Save text content as a downloadable file.
+
+
+
+# Enrich Company Data
+Source: https://docs.agent.ai/api-reference/get-data/enrich-company-data
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_company_object
+Gather enriched company data using Breeze Intelligence for deeper analysis and insights.
+
+
+
+# Find LinkedIn Profile
+Source: https://docs.agent.ai/api-reference/get-data/find-linkedin-profile
+
+api-reference/v1/v1.0.1_openapi.json post /action/find_linkedin_profile
+Find the LinkedIn profile slug for a person.
+
+
+
+# Get Bluesky Posts
+Source: https://docs.agent.ai/api-reference/get-data/get-bluesky-posts
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_bluesky_posts
+Fetch recent posts from a specified Bluesky user handle, making it easy to monitor activity on the platform.
+
+
+
+# Get Company Earnings Info
+Source: https://docs.agent.ai/api-reference/get-data/get-company-earnings-info
+
+api-reference/v1/v1.0.1_openapi.json post /action/company_financial_info
+Retrieve company earnings information for a given stock symbol over time.
+
+
+
+# Get Company Financial Profile
+Source: https://docs.agent.ai/api-reference/get-data/get-company-financial-profile
+
+api-reference/v1/v1.0.1_openapi.json post /action/company_financial_profile
+Retrieve detailed financial and company profile information for a given stock symbol, such as market cap and the last known stock price for any company.
+
+
+
+# Get Domain Information
+Source: https://docs.agent.ai/api-reference/get-data/get-domain-information
+
+api-reference/v1/v1.0.1_openapi.json post /action/domain_info
+Retrieve detailed information about a domain, including its registration details, DNS records, and more.
+
+
+
+# Get Instagram Followers
+Source: https://docs.agent.ai/api-reference/get-data/get-instagram-followers
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_instagram_followers
+Retrieve a list of top followers from a specified Instagram account for social media analysis.
+
+
+
+# Get Instagram Profile
+Source: https://docs.agent.ai/api-reference/get-data/get-instagram-profile
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_instagram_profile
+Fetch detailed profile information for a specified Instagram username.
+
+
+
+# Get LinkedIn Activity
+Source: https://docs.agent.ai/api-reference/get-data/get-linkedin-activity
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_linkedin_activity
+Retrieve recent LinkedIn posts from specified profiles to analyze professional activity and engagement.
+
+
+
+# Get LinkedIn Profile
+Source: https://docs.agent.ai/api-reference/get-data/get-linkedin-profile
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_linkedin_profile
+Retrieve detailed information from a specified LinkedIn profile for professional insights.
+
+
+
+# Get Recent Tweets
+Source: https://docs.agent.ai/api-reference/get-data/get-recent-tweets
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_recent_tweets
+This action fetches recent tweets from a specified Twitter handle.
+
+
+
+# Get Twitter Users
+Source: https://docs.agent.ai/api-reference/get-data/get-twitter-users
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_twitter_users
+Search and retrieve Twitter user profiles based on specific keywords for targeted social media analysis.
+
+
+
+# Google News Data
+Source: https://docs.agent.ai/api-reference/get-data/google-news-data
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_google_news
+Fetch news articles based on queries and date ranges to stay updated on relevant topics or trends.
+
+
+
+# Search Bluesky Posts
+Source: https://docs.agent.ai/api-reference/get-data/search-bluesky-posts
+
+api-reference/v1/v1.0.1_openapi.json post /action/search_bluesky_posts
+Search for Bluesky posts matching specific keywords or criteria to gather social media insights.
+
+
+
+# Search Results
+Source: https://docs.agent.ai/api-reference/get-data/search-results
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_search_results
+Fetch search results from Google or YouTube for specific queries, providing valuable insights and content.
+
+
+
+# Web Page Content
+Source: https://docs.agent.ai/api-reference/get-data/web-page-content
+
+api-reference/v1/v1.0.1_openapi.json post /action/grab_web_text
+Extract text content from a specified web page or domain.
+
+
+
+# Web Page Screenshot
+Source: https://docs.agent.ai/api-reference/get-data/web-page-screenshot
+
+api-reference/v1/v1.0.1_openapi.json post /action/grab_web_screenshot
+Capture a visual screenshot of a specified web page for documentation or analysis.
+
+
+
+# YouTube Channel Data
+Source: https://docs.agent.ai/api-reference/get-data/youtube-channel-data
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_youtube_channel
+Retrieve detailed information about a YouTube channel, including its videos and statistics.
+
+
+
+# YouTube Search Results
+Source: https://docs.agent.ai/api-reference/get-data/youtube-search-results
+
+api-reference/v1/v1.0.1_openapi.json post /action/run_youtube_search
+Perform a YouTube search and retrieve results for specified queries.
+
+
+
+# YouTube Video Transcript
+Source: https://docs.agent.ai/api-reference/get-data/youtube-video-transcript
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_youtube_transcript
+Fetches the transcript of a YouTube video using the video URL.
+
+
+
+# Get Hubspot Company Data
+Source: https://docs.agent.ai/api-reference/hubspot/get-hubspot-company-data
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_hubspot_company_object
+Retrieve company data from Hubspot based on a query or get the most recent company.
+
+
+
+# Get Hubspot Contact Data
+Source: https://docs.agent.ai/api-reference/hubspot/get-hubspot-contact-data
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_hubspot_contact_object
+Retrieve contact data from Hubspot based on a query or get the most recent contact.
+
+
+
+# Get Hubspot Object Data
+Source: https://docs.agent.ai/api-reference/hubspot/get-hubspot-object-data
+
+api-reference/v1/v1.0.1_openapi.json post /action/get_hubspot_object
+Retrieve data for any supported Hubspot object type based on a query or get the most recent object.
+
+
+
+# Convert text to speech
+Source: https://docs.agent.ai/api-reference/use-ai/convert-text-to-speech
+
+api-reference/v1/v1.0.1_openapi.json post /action/output_audio
+Convert text to a generated audio voice file.
+
+
+
+# Generate Image
+Source: https://docs.agent.ai/api-reference/use-ai/generate-image
+
+api-reference/v1/v1.0.1_openapi.json post /action/generate_image
+Create visually engaging images using AI models, with options for style, aspect ratio, and detailed prompts.
+
+
+
+# Use GenAI (LLM)
+Source: https://docs.agent.ai/api-reference/use-ai/use-genai-llm
+
+api-reference/v1/v1.0.1_openapi.json post /action/invoke_llm
+Invoke a language model (LLM) to generate text based on input instructions, enabling creative and dynamic text outputs.
+
+
+
+# Knowledge Base & Files
+Source: https://docs.agent.ai/builder/kb-and-files
+
+
+
+[Knowledge bases in ](https://agent.ai/builder/files)[Agent.ai](http://Agent.ai) are organized collections of documents that your agents can reference in their workflows. Think of them as specialized folders containing information that you want your agents to know and use. You could have separate knowledge bases for product documentation, internal policies, and more.
+
+Knowledge bases and files can be used in certain agent actions like:
+
+[Get User KBs and Files](https://docs.agent.ai/actions/get_user_knowledge_base_and_files)
+
+[Get Data from Builder’s Knowledge Base](https://docs.agent.ai/actions/get_data_from_builders_knowledgebase)
+
+![Kb Files Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/kb-files.png)
+
+On this page, you can see how many files and vectors are in each knowledge base. Vectors are small chunks of text from your uploaded files that have been converted into a format the AI can search and understand. They help the agent find and respond with the right information.
+
+You can edit the name or description by clicking the **Edit** icon. You can also delete a knowledge base by clicking the **trash** icon.
+
+<Warning>
+  Deleting a knowledge base will also delete all files within the knowledge base.
+</Warning>
+
+## Upload Files to Knowledge Bases
+
+In the “Files” section, you can upload files directly to a knowledge base. You can also click on a file name to preview its contents or click the **trash** icon next to a file to delete it.
+
+![Kb Files2 Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/kb-files2.png)
+
+If you have any questions about setting up Knowledge Bases or managing your files in [Agent.ai](http://Agent.ai), please reach out to our [support team](https://agent.ai/feedback).
+
+
+# Builder Overview
+Source: https://docs.agent.ai/builder/overview
+
+
+
+The Agent.AI Builder is a no-code tool that allows users at all technical levels to build powerful agentic AI applications in minutes.
+
+Once you sign up for your Agent.AI account, enable your Builder account by clicking on "Agent Builder" in the menu bar. Then, head over to the [Agent Builder](https://agent.ai/builder/agents) to get started.
+
+## Create Your First Agent
+
+To create an agent, click on the "Create Agent" modal. You can either start building an agent from scratch or start building from one of our existing templates.
+
+Let's start by building an agent from scratch. Don't worry, it's easier than it sounds!
+
+## Settings
+
+The builder has 5 different sections: Settings, Triggers, Actions, Sharing, and Advanced. Most information is optional, so don't if you don't know what some of those words mean.
+
+Let's start with the settings panel. Here we define how the agent will show up when users try to use it and how it will show up in the marketplace.
+
+<img alt="Builder Settings panel" classname="hidden dark:block" src="https://mintlify.s3.us-west-1.amazonaws.com/agentai/builder/settings.jpg" />
+
+#### Required Information
+
+The following information is required:
+
+* Agent Name: Name your agent based on its function. Make this descriptive to reflect what the agent does (e.g., "Data Fetcher," "Customer Profile Enricher").
+* Agent Description: Describe what your agent is built to do. This can include any specific automation or tasks it handles (e.g., "Fetches and enriches customer data from LinkedIn profiles").
+* Agent Tag(s): Add tags that make it easier to search or categorize your agent for quick access.
+
+#### Optional Information
+
+The following information is not required, but will help people get a better understanding of what your agent can do and will help it stand out:
+
+* Icon URL: You can add a visual representation by uploading an icon or linking to an image file that represents your agent's purpose.
+* Sharing and Visibility:
+  * Private: unlisted, where only people with the link can use the agent
+  * User only: only the author can use this agent
+  * Public: all users can use this agent
+* Expected Runtime: Gives users an indication as to how long the agent will take to run, on average. It also allows the builder to create a progress bar as the agent executes.
+* Video Demo: Provide the public video URL of a live demo of your agent in action from Youtube, Loom, Vimeo, or Wistia, or upload a local recording. You can copy this URL from the video player on any of these sites. This video will be shown to Agent.AI site explorers to help better understand the value and behavior of your agent.
+* Agent Username: This is the unique identifier for your agent, which will be used in the agent URL.
+
+## Trigger
+
+<img alt="Builder Triggers panel" classname="hidden dark:block" src="https://mintlify.s3.us-west-1.amazonaws.com/agentai/builder/triggers.jpg" />
+
+Triggers determine when the agent will run. You can set up the following trigger types:
+
+#### **Manual**
+
+Agents can always be run manually, but selecting ‘Manual Only’ ensures this agent can only be triggered directly from Agent.AI
+
+#### **User configured schedule**
+
+Enabling user configured schedules allows users of your agent to set up recurring runs of the agent using inputs from their previously defined inputs.
+
+**How it works**
+
+1. When a user runs your agent that has "User configured schedule" enabled, they will see an "Auto Schedule" button
+2. Clicking "Auto Schedule" opens a scheduling dialog where:
+   * The inputs from their last run will be pre-filled
+   * They can choose a frequency (Daily, Weekly, Monthly, or Quarterly)
+   * They can review and confirm the schedule
+3. After clicking "Save Schedule", the agent will run automatically on the selected schedule
+
+**Note**: You can see and manage all your agent schedules in your [<u>Agent Scheduled Runs</u>](https://agent.ai/user/agent-runs). You will receive email notifications with outputs of each run as they complete.
+
+#### **Enable agent via email**
+
+When this setting is enabled, the agent will also be accessible via email. Users can email the agent's address and receive a full response back.
+
+<Note>
+  Agents will only respond to emails sent from the same address you use to log into [Agent.ai](http://Agent.ai).
+</Note>
+
+#### **HubSpot Contact/Company Added**
+
+Automatically trigger the agent when a new contact or company is added to HubSpot, a useful feature for CRM automation.
+
+#### **Webhook**
+
+By enabling a webhook, the agent can be triggered whenever an external system sends a request to the specified endpoint. This ensures your agent remains up to date and reacts instantly to new events or data.
+
+**How to Use Webhooks**
+
+When enabled, your agent can be triggered by sending an HTTP POST request to the webhook URL, it would look like:
+
+```
+curl -L -X POST -H 'Content-Type: application/json' \
+    'https://api-lr.agent.ai/v1/agent/and2o07w2lqhwjnn/webhook/ef2681a0' \
+    -d '{"user_input":"REPLACE_ME"}'
+```
+
+**Manual Testing:**
+
+1. Copy the curl command from your agent's webhook configuration
+2. Replace placeholder values with your actual data
+3. Run the command in your terminal for testing
+4. Your agent will execute automatically with the provided inputs
+
+**Example: Webhook Example Agent**
+
+See [this example agent ](https://agent.ai/agent/webhook-template)that demonstrates webhook usage. The agent delivers a summary of a YouTube video to a provided email address.
+
+```
+curl -L -X POST -H 'Content-Type: application/json' \
+  'https://api-lr.agent.ai/v1/agent/2uu8sx3kiip82da4/webhook/7a1e56b0' \
+  -d '{"user_input_url":"REPLACE_ME","user_email":"REPLACE_ME"}'
+```
+
+To trigger this agent via webhook: 
+
+* Replace the first "REPLACE\_ME" with a YouTube URL 
+* Replace the second "REPLACE\_ME" with your email address 
+* Paste and run in your terminal (command prompt)
+* You'll receive an email with the video summary shortly
+
+## Actions
+
+In the SmartFlow section, users define the steps the agent will perform. Each action is a building block in your workflow, and the order of these actions will determine how the agent operates. Below is a breakdown of the available actions and how you can use them effectively.
+
+<img alt="Builder Triggers panel" classname="hidden dark:block" src="https://mintlify.s3.us-west-1.amazonaws.com/agentai/builder/smartflow.jpg" />
+
+Actions are grouped in categories, such as:
+
+#### User Input
+
+Capture a wide range of user responses with various input types, from simple text boxes and dropdowns to file uploads and multi-item selectors. For example, prompt users to submit URLs, answer Yes/No questions, or upload documents for review. These actions ensure flexible data collection, enabling interactions that are tailored to different user needs, such as gathering user feedback, survey responses, or receiving important files for processing.
+
+#### Get Data
+
+Access real-time information from a wide range of sources, such as extracting content from web pages, fetching social media data like recent tweets or YouTube videos, and retrieving news articles or Google Calendar events. For example, use these actions to keep users updated with the latest industry news, analyze competitor profiles, or compile social media statistics—providing comprehensive data to power smarter decisions and insights.
+
+#### Access HubSpot
+
+Seamlessly integrate with HubSpot's CRM to manage, update, or query CRM data directly within workflows. Retrieve contact information, add new companies, update deal properties, or pull HubSpot owners for targeted actions. For example, use this integration to update contact information, assign sales leads, or pull a list of recent deals—enhancing customer relationship management with precise, automated actions.
+
+#### Use AI
+
+Leverage AI-powered actions to enhance workflows with intelligent outputs, such as generating text, creating images, or synthesizing audio. For instance, use an AI language model to draft content based on user input, generate a product image, or convert text to speech for an audio message. These actions bring cutting-edge AI capabilities directly into workflows, enabling creative automation and smarter outputs.
+
+#### Run Process
+
+Control workflow logic with essential operations like checking conditions, setting variables, or prompting users for confirmation. Use actions such as ‘Set Variable’ to manage dynamic data flows, or ‘If/Else Statement’ to direct users down different paths based on logic outcomes. Whether it’s guiding a user to the next step based on their input or dynamically altering a process, these actions provide robust adaptability for automating complex workflows.
+
+#### Create Output
+
+Deliver meaningful, formatted results that can be communicated or saved for further use. Create engaging outputs like email messages, blog posts, Google Docs, or formatted tables based on workflow data. For example, send users a custom report via email, save generated content as a document, or display a summary table directly on the interface—ensuring results are clear, actionable, and easy to understand.
+
+#### Advanced
+
+Execute specialized, technical tasks that support advanced automation needs. Run serverless functions, invoke Python modules, or make direct web API calls to extend workflows beyond standard capabilities. For instance, fetch data from custom endpoints, process complex calculations using Python, or integrate external services via APIs—enabling deep customization, advanced data handling, and complex integrations.
+
+<img alt="Builder Triggers panel" classname="hidden dark:block" src="https://mintlify.s3.us-west-1.amazonaws.com/agentai/builder/actions.jpg" />
+
+We'll run through each available action in the Actions page.
+
+## Sharing
+
+<img alt="Builder Sharing panel" classname="hidden dark:block" src="https://mintlify.s3.us-west-1.amazonaws.com/agentai/builder/sharing.jpg" />
+
+Here, you define who can use your agent:
+
+#### Just me
+
+Only you can run and see the agent.
+
+#### Anyone with the link
+
+The agent is available to anyone with a direct link to it.
+
+#### Specific users
+
+Limit access to certain people or teams.
+
+#### Public
+
+Make the agent public for everyone.
+
+## Advanced
+
+<img alt="Builder Advanced panel" classname="hidden dark:block" src="https://mintlify.s3.us-west-1.amazonaws.com/agentai/builder/advanced.jpg" />
+
+Here are a few more advanced options:
+
+#### Automatically generate sharable URLs
+
+When this setting is enabled, user inputs will automatically be appended to browser urls as new parameters. Users can then share the URL with others, or reload the url themselves to automatically run your agent with those same values.
+
+#### Cache agent LLM actions for 7 days
+
+When enabled, this feature stores LLM responses for up to seven days. If the same prompt is used again during that period, the system will return the cached response instead of generating a new one.
+
+
+# Policy for Public Agents
+Source: https://docs.agent.ai/builder/public-agent-policy
+
+This is the Agent.ai policy for publishing public agents. Below you’ll find the criteria your agent needs to meet to be published. Published agents can show up in search so other users can find and use them. This document should be viewed alongside our Terms of Service and Privacy Policy.
+
+*Last updated May 14, 2025. Subject to change.*
+
+## Public Agents need to meet our standards for Usability, Remarkability, and Safety (URS).
+
+### **Usability** means that the agent:
+
+* **Runs successfully**: executes its assigned tasks as described without bugs or crashes.
+* **Has a clear and unique name**: Is easily found by users searching for something that does what it does. Avoids using trademarked terms without permission
+* **Has a helpful description:** Explains expected user inputs, outputs, agent behavior and purpose
+  * Ideally includes a short demo video.
+* **Doesn’t break easily**:
+  * Handles poor/incomplete inputs without failing
+  * Handles errors gracefully via dependent APIs
+  * Avoids brittle logic, (e.g. looks for LinkedIn handle, breaks when given a full URL.)
+* **Is useful and formatted well**:
+  * Provides output that is readable, helpful and aligned with the task (text, HTML, JSON, etc.)
+
+### **Remarkability** means that the agent:
+
+* **Is unique**: Isn’t a copy of another agent or serves a duplicate function of another agent already listed.
+* **Has a purpose**: Solves a clear user problem or provides unique utility
+* **Demonstrates value:**
+  * Goes beyond a basic LLM call through thoughtful prompt design.
+  * Adds novel methods, integrations, or problem-solving techniques not yet found on [Agent.ai](http://Agent.ai).
+  * Incorporates your own perspective, unique insights or subject matter expertise to delight users.
+
+### **Safety** means that the agent:
+
+* **Avoids inappropriate language or content:** No prohibited content or behavior.
+* **Is not spammy:** Doesn’t send emails or other messages without explicit user permission.
+* **Asks for user consent:** Asks for explicit permission before collecting email addresses, user\_context, personally identifying information (PII) or before sending any data to a third party.
+* **Does not aim to deceive:** Does not contain aggressive or deceptive calls to action or claims.
+* **Respects user security:** Does not collect passwords, payment information, government IDs or other sensitive information.
+* **Displays proper disclaimers if they’re related to regulated services**: Any agents that in fields like finance, legal, medicine, or other regulated industries must display a disclaimer.
+* **Self-identifies honestly**: Doesn’t pretend to be human or hide its nature as an AI.
+
+## Agents may be delisted if they:
+
+* No longer meet the above criteria.
+* Get too many bad reviews, recurring issues, or poor user feedback.
+* Are changed in a way that violates our Terms of Service.
+
+
+# Using Secrets in Agent.ai
+Source: https://docs.agent.ai/builder/secrets
+
+
+
+Secrets let you securely store sensitive data like API keys or tokens and use them in your agents without hardcoding values directly into your workflow. This is especially useful when using REST actions to call external services.
+
+By using secrets, you can keep credentials safe, reduce duplication across agents, and simplify maintenance if values ever change.
+
+## When to Use Secrets
+
+Use a secret whenever you're working with:
+
+* API keys (e.g. OpenWeather, Slack, Notion)
+* Authorization tokens
+* Other sensitive config values you don’t want exposed in your agent steps
+
+![Secrets Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/secrets.png)
+
+## How to Add a Secret
+
+To add a new secret:
+
+1. Go to the [Secrets tab](https://agent.ai/builder/secrets) from the profile navigation menu.
+2. Click **Add secret**
+3. Enter a **name** (e.g. weather\_api\_key) and the **secret value**
+4. Click **Save**
+
+Once saved, your secret will appear in the list as a masked value. You’ll reference it by name in your agents, not by its raw value.
+
+## How to Use a Secret in an Agent
+
+Anywhere you'd normally paste an API key or token in a REST call or prompt, use the secret reference format:
+
+```
+{{secrets.weather_api_key}}
+```
+
+For example, in your REST action’s header:
+
+```json
+{
+  "Authorization": "Bearer {{secrets.weather_api_key}}"
+}
+```
+
+Or directly in your request URL or body:
+
+```json
+{
+  "url": "https://api.example.com/data?key={{secrets.weather_api_key}}"
+}
+```
+
+## Best Practices
+
+* Use clear, descriptive names (e.g. `notion_token`, `slack_webhook`)
+* Avoid including the actual key in prompt text or test runs
+* Rotate or update secrets as needed in the Secrets tab without having to update your agents
+
+Questions about configuring secrets and handling sensitive credentials in Agent.ai? Reach out to our [support team](https://agent.ai/feedback).
+
+
+# Managing Serverless Functions
+Source: https://docs.agent.ai/builder/serverless-functions
+
+
+
+Builders can use the **Call Serverless Function** action to execute custom code as part of advanced agent workflows. Once a serverless function has been created, it will appear on the **Serverless Functions** page, accessible from the profile navigation menu.
+
+![Serverless Functions Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/serverless-functions.png)
+
+From this page, you can view key details about each function and take the following actions:
+
+* **View the agent** – Click the Agent ID to open the associated agent in the builder tool
+* **Check logs** – Click the log icon to see runtime logs for that function
+* **Delete** – Click the trash icon to permanently remove the function
+
+<Warning>
+  Deleting a serverless function from this page will also remove the action from the agent’s workflow.
+</Warning>
+
+If you have any questions about serverless functions, you can reach out to our [support team](https://agent.ai/feedback).
+
+
+# Using Snippets in Agent.ai
+Source: https://docs.agent.ai/builder/snippets
+
+
+
+Use [**Snippets**](https://agent.ai/builder/snippets) to define reusable values that are available to all agents across the platform. This is useful for things like shared sign-offs, disclaimers, or other repeated text.
+
+To reference a snippet in your agent’s prompt or output, use:\
+`{{snippets.var_name}}`
+
+For example, a snippet with the name signature could be used as `{{snippets.signature}}`.
+
+<Note>
+  Snippets are not encrypted and should not be used to store API keys, passwords, or other sensitive information. Use the [**Secrets**](https://agent.ai/builder/secrets) feature for storing production credentials or private data securely.
+</Note>
+
+You can add, edit, or delete snippets from this page.
+
+![Snippets Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/snippets.png)
+
+Reach out to our [support team](https://agent.ai/feedback) if you need help with snippets.
+
+
+# Explore and Clone Existing Agent Flows
+Source: https://docs.agent.ai/clone-agents
+
+When builders allow others to view and clone their agents, it makes it easier for the community to explore how things work and build on top of them.
+
+The "Clone Agent" feature makes it easy to understand and even build upon the work of other [Agent.ai](http://Agent.ai) builders. From the "View Agent Flow" screen, you can quickly clone any agent that’s been made visible to the community—including all its actions, prompts, and configurations. This essentially "open sources" agents within [Agent.ai](http://Agent.ai), so you can not only see how others have built their agents, but also extend and customize them to fit your own needs.
+
+Note: Outside of starter agents, only agents that have **Allow other builders to view actions and details** enabled can be cloned.
+
+## Enable Visibility for Your Agent
+
+![Enable Agent Visibility Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/enable-agent-visibility.png)
+
+If you want other builders to be able to view and clone your agent:
+
+1. Go to the agent's Settings page.
+2. Under the "Sharing & visibility", check the box that says "Allow other builders to view this agent's actions and details".
+3. Click the **Publish changes** button to save your change.
+
+## View an Agent's Actions
+
+![View Agent Actions Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/view-agent-actions.png)
+
+To see how another builder's agent works (if it's been made visible), go to the agent run page and click **View Agent Flow** to explore the full flow.
+
+## Clone an Agent
+
+![Clone Agent Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/clone-agent.png)
+
+Once you're viewing an agent's flow, click **Clone Agent** to copy it to your builder account and open it in the editor.
+
+While on the "View Agent Flow" page, you can also explore all the agent's actions in detail. Click on any action to expand it and view prompts or other configuration details.
+
+You can try it yourself by cloning this [test agent](https://agent.ai/agent/test-webpage-summarizer).
+
+## Clone Your Own Agent
+
+![clone my agent.png](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/clonemyagent.png)
+
+In the Builder Tool, you can also clone your own agent to make changes and test things without messing with your existing, working agent. You can do this by opening the agent editor, clicking the **three dots** next to your agent's name, and clicking **Clone Agent**.
+
+## Need Help?
+
+If you have any questions about cloning agents or making your own agents visible to the community, please reach out to our [support team](https://agent.ai/feedback).
+
+
+# How to Use Lists in For Loops
+Source: https://docs.agent.ai/lists-in-for-loops
+
+How to transform multi-select values into a usable format in Agent.ai workflows
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qy84PxZPFhw?si=eNa6AxbJavt7EbiE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+## **Overview**
+
+When using **for loop** actions in [Agent.ai](http://Agent.ai), you might run into issues if you're working with multi-select dropdowns. The problem usually comes down to format: **for loop** expects a very specific type of input, and the raw output from a multi-dropdown list might not be an exact match.
+
+This guide walks you through how to inspect your input, transform it using a built-in LLM, and successfully run a loop with multi-dropdown values.
+
+## **Required Format for for loop**
+
+[Agent.ai](http://Agent.ai)'s **for loop** requires a **plain list of strings** in the following format:
+
+```
+["item1", "item2", "item3"]
+```
+
+Unspecified
+
+* Must include square brackets **\[]**
+* Each item must be in quotes
+* Items must be separated by commas
+
+Structured JSON (e.g., objects with ) will not work directly.
+
+## **Step 1: Inspect Multi-Dropdown Output**
+
+Multi-dropdown inputs do not return a list of strings. Instead, you'll get a list of objects that looks like this:
+
+```
+[  
+  {"label": "LinkedIn", "value": "LinkedIn"},
+  {"label": "Twitter", "value": "Twitter"}
+]
+```
+
+To verify this, add a **Create Output** action immediately after your multi-dropdown input and display the variable. This lets you confirm the exact format before using it in a loop.
+
+## **Step 2: Transform the Input**
+
+To convert this into a usable format, insert an **LLM** **action** before the the loop action. Use a prompt that extracts only the **value** fields and returns a plain list of strings.
+
+### **Example Prompt**
+
+You will receive a JSON array of objects. Each object has a "label" and "value."
+
+Your task:
+
+* Extract the "value" from each object
+* Return a plain Python list of strings
+* No extra text, no code block formatting, no JSON structure
+* Only output something like: \["LinkedIn", "Twitter"]
+
+## **Step 3: Use the Transformed List**
+
+Once the LLM returns the cleaned-up list, pass it into your **for loop** action. The loop should now work as expected.
+
+Have questions or need help with your agent? Reach out to our [support team](https://agent.ai/feedback) or [community](https://community.agent.ai/feed).
+
+
+# LLM Models
+Source: https://docs.agent.ai/llm-models
+
+Agent.ai provides a number of LLM models that are available for use.
+
+## **LLM Models**
+
+Selecting the right Large Language Model (LLM) for your application is a critical decision that impacts performance, cost, and user experience. This guide provides a comprehensive comparison of leading LLMs to help you make an informed choice based on your specific requirements.
+
+## How to Select the Right LLM
+
+When choosing an LLM, consider these key factors:
+
+1. **Task Complexity**: For complex reasoning, research, or creative tasks, prioritize models with high accuracy scores (8-10), even if they're slower or more expensive. For simpler, routine tasks, models with moderate accuracy (6-8) but higher speed may be sufficient.
+2. **Response Time Requirements**: If your application needs real-time interactions, prioritize models with speed ratings of 8-10. Customer-facing applications generally benefit from faster models to maintain engagement.
+3. **Context Needs**: If your application processes long documents or requires maintaining extended conversations, select models with context window ratings of 8 or higher. Some specialized tasks might work fine with smaller context windows.
+4. **Budget Constraints**: Cost varies dramatically across models. Free and low-cost options (0-2 on our relative scale) can be excellent for startups or high-volume applications, while premium models (5+) might be justified for mission-critical enterprise applications where accuracy is paramount.
+5. **Specific Capabilities**: Some models excel at particular tasks like code generation, multimodal understanding, or multilingual support. Review the use cases to find models that specialize in your specific needs.
+
+The ideal approach is often to start with a model that balances your primary requirements, then test alternatives to fine-tune performance. Many organizations use multiple models: premium options for complex tasks and more affordable models for routine operations.
+
+## Vendor Overview
+
+**OpenAI**: Offers the most diverse range of models with industry-leading capabilities, though often at premium price points, with particular strengths in reasoning and multimodal applications.
+
+**Anthropic (Claude)**: Focuses on highly reliable, safety-aligned models with exceptional context length capabilities, making them ideal for document analysis and complex reasoning tasks.
+
+**Google**: Provides models with impressive context windows and competitive pricing, with the Gemini series offering particularly strong performance in creative and analytical tasks.
+
+**Perplexity**: Specializes in research-oriented models with unique web search integration, offering free access to powerful research capabilities and real-time information.
+
+**Other Vendors**: Offer open-source and specialized models that provide strong performance at minimal or no cost, making advanced AI accessible for deployment in resource-constrained environments.
+
+## OpenAI Models
+
+| Model        | Speed | Accuracy | Context Window | Relative Cost | Use Cases                                                                                                                                                                          |
+| ------------ | :---: | :------: | :------------: | :-----------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GPT-4o       |   9   |     9    |        9       |       3       | • Multimodal assistant for text, audio, and images<br /> • Complex reasoning and coding tasks<br /> • Cost-sensitive deployments                                                   |
+| GPT-4o-Mini  |   10  |     8    |        9       |       1       | • Real-time chatbots and high-volume applications<br /> • Long-context processing<br /> • General AI assistant tasks where affordability and speed are prioritized                 |
+| GPT-4 Vision |   5   |     9    |        5       |       5       | • Image analysis and description<br /> • High-accuracy general assistant tasks<br /> • Creative and technical writing with visual context                                          |
+| o1           |   6   |    10    |        9       |       4       | • Tackling highly complex problems in science, math, and coding<br /> • Advanced strategy or research planning<br /> • Scenarios accepting high latency/cost for superior accuracy |
+| o1 Mini      |   8   |     8    |        9       |       1       | • Coding assistants and developer tools<br /> • Reasoning tasks that need efficiency over broad knowledge<br /> • Applications requiring moderate reasoning but faster responses   |
+| o3 Mini      |   9   |     9    |        9       |       1       | • General-purpose chatbot for coding, math, science<br /> • Developer integrations<br /> • High-throughput AI services                                                             |
+| GPT-4.5      |   5   |    10    |        9       |       10      | • Mission-critical AI tasks requiring top-tier intelligence<br /> • Highly complex problem solving or content generation<br /> • Multi-modal and extended context applications     |
+
+## Anthropic (Claude) Models
+
+| Model                         | Speed | Accuracy | Context Window | Relative Cost | Use Cases                                                                                                                                                     |
+| ----------------------------- | :---: | :------: | :------------: | :-----------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Claude 3.7 Sonnet             |   8   |     9    |        9       |       2       | • Advanced coding and debugging assistant<br /> • Complex analytical tasks<br /> • Fast turnaround on detailed answers                                        |
+| Claude 3.5 Sonnet             |   7   |     8    |        9       |       2       | • General-purpose AI assistant for long documents<br /> • Coding help and Q\&A<br /> • Everyday reasoning tasks with high reliability and alignment           |
+| Claude 3.5 Sonnet Multi-Modal |   7   |     8    |        9       |       2       | • Image understanding in French or English<br /> • Multi-modal customer support<br /> • Research assistants combining text and visual data                    |
+| Claude Opus                   |   6   |     7    |        9       |       9       | • High-precision analysis for complex queries<br /> • Long-form content summarization or generation<br /> • Enterprise scenarios requiring strict reliability |
+
+## Google Models
+
+| Model                          | Speed | Accuracy | Context Window | Relative Cost | Use Cases                                                                                                                                                               |
+| ------------------------------ | :---: | :------: | :------------: | :-----------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Gemini 2.0 Pro                 |   7   |    10    |        8       |       5       | • Expert code generation and debugging<br /> • Complex prompt handling and multi-step reasoning<br /> • Cutting-edge research applications requiring maximum accuracy   |
+| Gemini 2.0 Flash               |   9   |     9    |       10       |       1       | • Interactive agents and chatbots<br /> • General enterprise AI tasks at scale<br /> • Large-context processing up to \~1M tokens                                       |
+| Gemini 2.0 Flash Thinking Mode |   8   |     9    |       10       |       2       | • Improved reasoning in QA and problem-solving<br /> • Explainable AI scenarios<br /> • Tasks requiring a balance of speed and reasoning accuracy                       |
+| Gemini 1.5 Pro                 |   7   |     9    |       10       |       1       | • Sophisticated coding and mathematical problem solving<br /> • Processing extremely large contexts<br /> • Use cases tolerating higher cost/latency for higher quality |
+| Gemini 1.5 Flash               |   9   |     7    |       10       |       1       | • Real-time assistants and chat services<br /> • Handling lengthy inputs<br /> • General tasks requiring decent reasoning at minimal cost                               |
+| Gemma 7B It                    |   10  |     6    |        4       |       1       | • Italian-language chatbot and content generation<br /> • Lightweight reasoning and coding help<br /> • On-device or private deployments                                |
+| Gemma2 9B It                   |   9   |     7    |        5       |       1       | • Multilingual assistant<br /> • Developer assistant on a budget<br /> • Text analysis with moderate complexity                                                         |
+
+## Perplexity Models
+
+| Model                    | Speed | Accuracy | Context Window | Relative Cost | Use Cases                                                                                                                                                           |
+| ------------------------ | :---: | :------: | :------------: | :-----------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Perplexity               |   10  |     7    |        4       |       1       | • Quick factual Q\&A with web citations<br /> • Fast information lookups<br /> • General knowledge queries for free                                                 |
+| Perplexity Deep Research |   3   |     9    |       10       |       1       | • In-depth research reports on any topic<br /> • Complex multi-hop questions requiring reasoning and evidence<br /> • Scholarly or investigative writing assistance |
+
+## Open Source Models
+
+| Model            | Speed | Accuracy | Context Window | Relative Cost | Use Cases                                                                                                                                                                   |
+| ---------------- | :---: | :------: | :------------: | :-----------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DeepSeek R1      |   7   |     9    |        9       |       1       | • Advanced reasoning engine for math and code<br /> • Integrating into Retrieval-Augmented Generation pipelines<br /> • Open-source AI deployments needing strong reasoning |
+| Llama 3.3 70B    |   8   |     9    |        9       |       1       | • Versatile technical and creative assistant<br /> • High-quality AI for smaller setups<br /> • Resource-efficient deployment                                               |
+| Mixtral 8×7B 32K |   9   |     8    |        8       |       1       | • General-purpose open-source chatbot<br /> • Long document analysis and retrieval QA<br /> • Scenarios needing both efficiency and quality on modest hardware              |
+
+## Model Deprecation
+
+In the **LLM Engine** dropdown, there's a section labeled **"Legacy Models Soon To Be Deprecated"**. These are models we plan to remove soon, and we’ll automatically migrate agents using them to a recommended alternative.
+
+
+# How Credits Work
+Source: https://docs.agent.ai/marketplace-credits
+
+Agent.ai uses credits to enable usage and reward actions in the community.
+
+## **Agent.ai's Mission**
+
+Agent.ai is free to use and build with.
+
+As a platform, Agent.ai's goal is to build the world's best professional marketplace for AI agents.
+
+## **How Credits Fit In**
+
+Credits are an agent.ai marketplace currency with no monetary value. Credits cannot be bought, sold, or exchanged for money. They exist to enable usage of the platform and reward actions in the communiuty.
+
+Generally speaking, running an agent costs 1 credit.
+
+You can earn more credits by performing actions like completing your profile or referring new users. Additionally, [Agent.ai](http://Agent.ai) replenishes credits on a weekly basis — if your balance falls below 25, we’ll automatically top it back up to 100.
+
+If you ever do happen to hit your credit limit (most people won't) and can't run agents because you need more credits, let us know — we're happy to top you back up.
+
+
+# MCP Server
+Source: https://docs.agent.ai/mcp-server
+
+Agent.ai provides an MCP server that is available for use.
+
+## **Using the Model Context Protocol Server with Claude Desktop**
+
+> A guide to integrating MCP-based tools with Claude and other AI assistants
+
+## What is MCP?
+
+Model Context Protocol (MCP) allows Claude and other AI assistants to access external tools and data sources through specialized servers. This enables Claude to perform actions like retrieving financial data, converting files, or managing directories.
+
+## Setting Up MCP with Claude Desktop
+
+Follow these steps to connect Claude Desktop to our MCP server:
+
+### 1. Install Claude Desktop
+
+Download and install the Claude desktop application from [claude.ai/download](https://claude.ai/download)
+
+### 2. Access Developer Settings
+
+1. Open Claude Desktop
+2. Click on the Claude menu in the top menu bar
+3. Select "Settings"
+4. Navigate to the "Developer" tab
+5. Click the "Edit Config" button
+
+### 3. Configure the MCP Server
+
+This will open your file browser to edit the `claude_desktop_config.json` file. Add our AgentAI MCP server configuration as shown below:
+
+```json
+{
+  "mcpServers": {
+    "agentai": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@agentai/mcp-server"
+      ],
+      "env": {
+        "API_TOKEN": "YOUR_API_TOKEN_HERE"
+      }
+    }
+  }
+}
+```
+
+Replace `YOUR_API_TOKEN_HERE` with your actual API token.
+
+> **Note**: You can also set up multiple MCP servers, including the local filesystem server:
+
+```json
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/path/to/accessible/directory1",
+        "/path/to/accessible/directory2"
+      ]
+    },
+    "agentai": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@agentai/mcp-server"
+      ],
+      "env": {
+        "API_TOKEN": "YOUR_API_TOKEN_HERE"
+      }
+    }
+  }
+}
+```
+
+### 4. Restart Claude Desktop
+
+Save the configuration file and restart Claude Desktop for the changes to take effect.
+
+## Using MCP Tools with Claude
+
+Once configured:
+
+1. Open a new conversation in Claude Desktop
+2. Look for the "Tools" icon in the main chat window
+3. Clicking this icon will display all available tools from your configured MCP servers
+4. You can directly ask Claude to use these tools in your conversation
+
+For example, typing "Give me the latest company financial details about HubSpot" will prompt Claude to:
+
+* Identify the appropriate tool from available MCP servers
+* Request your permission to use the tool
+* Execute the request
+* Provide the results in a formatted response
+
+## MCP Server Package
+
+Our MCP server is available as an NPM package at [https://www.npmjs.com/package/@agentai/mcp-server](https://www.npmjs.com/package/@agentai/mcp-server). The package provides the necessary infrastructure to connect Claude and other AI assistants to our API services.
+
+## Security Considerations
+
+* Claude will always request your permission before running any MCP tool
+* You can grant permission for a single use or for the entire conversation
+* Review each action carefully before approving
+
+## Troubleshooting
+
+If you encounter issues:
+
+1. Verify your API token is correct
+2. Ensure Claude Desktop has been restarted after configuration changes
+3. Check that the NPM packages can be installed (requires internet connection)
+4. Check that npx is available (bundled with Node.js; reinstall or run npm install -g npx if missing)
+5. Examine Claude's error messages for specific issues
+
+## Using with Other MCP-Compatible Applications
+
+This MCP server can be used with any application that supports the Model Context Protocol, not just Claude Desktop. The configuration process may vary by application, but the core functionality remains the same.
+
+For additional help or to report issues, please contact our support team.
+
+
+# How to Format Output for Better Readability
+Source: https://docs.agent.ai/output-formatting
+
+
+
+When working with data in [Agent.ai](http://Agent.ai), you might find that the default output format isn't always easy to read or interpret. This is especially true when dealing with structured data like tweets, JSON, or other complex information. In this guide, we'll show you simple but powerful techniques to transform messy output into beautifully formatted, readable content.
+
+## Create Better Formatting Prompts
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yJmF7c0N4Vg?si=oISTh9cgo7pxkAkZ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+### Step 1: Identify the Formatting Issue
+
+First, recognize when your [Agent.ai](http://Agent.ai) output needs better formatting. If you're looking at data that's hard to read or doesn't have clear visual organization, it's time to improve the formatting.
+
+### Step 2: Ask ChatGPT to Generate a Better Prompt
+
+Take your unformatted output to ChatGPT and ask it to create a prompt specifically designed for better formatting. For example:
+
+"I have a list of tweets with data about the tweets, etc. It's in a raw, non-human readable format. I'd like you to generate a prompt that'll do two things:
+
+1. Generate a summary of the tweets
+2. Return each tweet in a readable form"
+
+Then paste your unformatted output so ChatGPT can see what you're working with.
+
+### Step 3: Use the New Prompt in [Agent.ai](http://Agent.ai)
+
+ChatGPT will provide you with a more detailed prompt that includes specific formatting instructions. It might look something like:
+
+"I have a dataset of tweets in JSON format. Perform the following tasks:
+
+1. Generate a summary of the tweets
+2. For each tweet, reformat it so it looks like this: \[Example of nicely formatted output]"
+
+Copy this entire prompt and paste it into your [Agent.ai](http://Agent.ai) editor, replacing your original prompt.
+
+### Step 4: Run Your Agent with the New Prompt
+
+When you run your agent with the improved prompt, you'll get much more readable output. For example, instead of jumbled text about tweets, you might get:
+
+Summary of tweets: \[Clear summary of main topics]
+
+Most notable tweet: \[Highlighted important tweet]
+
+Tweet Details: Date: \[Date] Content: \[Tweet content] Retweets: \[Number] Impressions: \[Number]
+
+## Create Markdown Tables
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZHsrNv82B6U?si=sZ97MKlX8CjdMOLL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
+
+### Step 1: Set Up Your Agent's Data Collection
+
+First, create an agent that collects the data you want to display. For example, you could create a news agent that:
+
+* Takes a topic as input
+* Uses an API (like Google News) to fetch relevant articles
+* Stores the results in a variable
+
+### Step 2: Add a Formatting Action
+
+After collecting your data, add a new action that will format the results into a markdown table:
+
+1. Create a new action in your agent workflow
+2. Use the following prompt structure to instruct the AI to create a markdown table: Format the following \[data type] into a markdown table. The table should include the following columns: \[list your columns] Ensure the output is properly formatted for markdown rendering and all links are properly formatted using markdown syntax.
+
+For example, if you're creating a news agent, your prompt might look like:
+
+> Format the following JSON list into a markdown table. The table should include the following columns: Title, Source, and Link Ensure the output is properly formatted for markdown rendering and all links are properly formatted using markdown syntax.
+
+### Step 3: Configure the Output Format
+
+When setting up your final response:
+
+1. Pass the formatted markdown table to your output
+2. In the output settings, select "Format as Markdown" to ensure proper rendering
+
+This will ensure that your table displays correctly with proper columns, rows, and formatting.
+
+## Create Interactive HTML Output
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-3FHfdikyf8?si=0ZNsXsecJ7uKA2Xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
+
+### Structuring Your Content
+
+When designing an agent that outputs HTML, it's important to define a consistent structure.
+
+Common sections for informational agents might include:
+
+* Overview
+* Financials
+* Products
+* Competitors
+* News
+* Additional Resources
+
+You can also include a Table of Contents at the top of the page that links to each section. Passing structured variables makes it easier for the agent to organize the final output.
+
+### Engineering the HTML Prompt
+
+To generate HTML, add a final instruction asking the agent to format the response accordingly.
+
+Example prompt:
+
+> "Format the response as a complete HTML document. Include a Table of Contents linking to each section (Overview, Financials, Products, Competitors, News, Additional Resources). Organize the information with clear headings, bullet points, and tables where appropriate."
+
+You can instruct the agent to create anchor links for navigation and use lightweight formatting for better readability. At the end of the prompt, add:
+
+> "Format the response as HTML."
+
+This tells [Agent.ai](http://Agent.ai) to render the final output as HTML rather than plain text.
+
+### Best Practices
+
+* Use section headers (\<h2>, \<h3>) to organize information.
+* Add anchor links (\<a href="#section-id">) for easier navigation.
+* Use tables for structured data like financials or product comparisons.
+* Keep formatting lightweight and focused on clarity.
+
+Formatting agent responses as HTML allows you to create more structured, interactive outputs without custom development.
+By defining your content flow, gathering the right inputs, and prompting clearly, you can design richer user experiences directly inside Agent.ai.
+
+Have questions or need help with your agent? Reach out to our [support team](https://agent.ai/feedback) or [community](https://community.agent.ai/feed).
+
+
+# Rate Limits
+Source: https://docs.agent.ai/ratelimits
+
+Agent.ai implements rate limit logic to ensure a consistent user experience.
+
+## **Rate Limits**
+
+We implement the following rate limits to ensure a consistent user experience: 20 requests per minute and 1000 requests per day.
+
+For each request, we expose the following rate limit headers so that you can monitor and adjust your application's behavior accordingly:
+
+* `ratelimit-limit: 1000`: 1000
+* `ratelimit-remaining`: 999
+* `ratelimit-reset`: The timestamp when the rate limit resets.
+* `ratelimit-reset-date`: The ISO UTC date when the rate limit resets.
+* `retry-after`: The number of seconds to wait before retrying the request.
+
+
+# Company Research Agent
+Source: https://docs.agent.ai/recipes/company-research-agent
+
+How to build a Company Research agent in Agent.ai
+
+Need to quickly research companies before meetings or sales calls? This guide will show you how to build a simple AI agent that can automatically research any company and provide information about their products and industry. You don't need technical skills—just follow these steps to create your own company research assistant.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j2wG29JRx6U?si=S8vUiBHyycE7T5eP" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+# **Step 1: Create a New Agent**
+
+To get started with your company research agent:
+
+1. Navigate to the Agent Builder section in [Agent.ai](http://Agent.ai)
+2. Click "Create Agent"
+3. Select "Start from scratch"
+4. Name your agent (e.g., "Simple Company Research")
+5. Add a description like "This agent will take the name of a company and do some research on what products the company sells"
+6. Create a URL for your agent (e.g., "company\_research")
+7. Choose an icon for your agent
+8. Set the visibility to private or public (if public, it will go through an approval process)
+9. Add relevant tags (e.g., "sales and marketing")
+
+# **Step 2: Set Up the Trigger**
+
+For this simple agent, you'll use a manual trigger:
+
+1. In the trigger section, select "Manual"
+2. This means users will manually start the agent when they need company information
+
+# **Step 3: Create the Input Action**
+
+Now you'll set up how the agent collects the company name:
+
+1. Go to the Actions screen
+2. Click to add a new action
+3. Select "Get user input"
+4. Choose "Text box" as the input type
+5. Add a prompt like "Enter the name of the company"
+6. Optionally, add an example (e.g., "Upsot")
+7. In the "Store value in" field, enter "out\_company" (this creates a variable to store the company name)
+8. Save this action
+
+# **Step 4: Create the Research Action**
+
+Next, set up the AI to research the company:
+
+1. Add another action
+2. Select "Use AI" then "Use Gen AI"
+3. Choose an LLM model (e.g., GPT-4 Mini for cost efficiency)
+4. In the instructions field, enter your prompt:
+5. You are an experienced researcher. I am giving you the name of a company: {out_company}. I would like you to research this company and list out the products this company sells and what industry it is in.
+6. In the "Store output in" field, enter "out\_company\_research"
+7. Save this action
+
+# **Step 5: Display the Results**
+
+Finally, set up how the agent will show the research results:
+
+1. Add a final action
+2. Select "Show user output"
+3. Choose the variable "out\_company\_research" to display
+4. Save this action
+
+# **Step 6: Test Your Agent**
+
+Your company research agent is now ready to use:
+
+1. Click the "Run" button to test your agent
+2. When prompted, enter a company name (e.g., "[Pigment.com](http://Pigment.com)")
+3. The agent will process the request and display information about the company's products and industry
+
+## **Example Output**
+
+When testing with "[Pigment.com](http://Pigment.com)", the agent might return something like:
+
+"Pigment operates in the field of business intelligence and data visualization, focusing on helping organizations manage their data more effectively. Their main product is a SaaS platform that offers business planning, forecasting, and analytics solutions."
+
+# **Advanced Options**
+
+Once you're comfortable with your basic agent, you can explore more advanced features:
+
+* Set up automatic email generation of results
+* Create more complex research workflows
+* Add additional data sources
+* Customize the output format
+
+Have questions or need help with your agent? Reach out to our [support team](https://agent.ai/feedback) or [community](https://community.agent.ai/feed).
+
+
+# Executive News Agent
+Source: https://docs.agent.ai/recipes/executive-news-agent
+
+How to build an Executive News agent
+
+Need to stay updated on the latest news about specific executives? You can build a simple agent that searches Google News for recent articles about an executive and provides you with a summarized report. This guide will walk you through creating an agent that gathers and summarizes news about any executive from the past week.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QTlrTpbcJJw?si=V8tLcnlYqYRcm2E5" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+# **Step 1: Plan Your Agent's Workflow**
+
+Before building your agent, it's helpful to map out the steps it will follow:
+
+1. Get the name of the executive and their company from the user
+2. Search Google News for recent articles about that executive
+3. Generate a summary of the news articles found
+4. Display the formatted summary to the user
+
+# **Step 2: Create a New Agent**
+
+1. In the Builder Tool, click "Create a new agent" and select "Start from scratch"
+2. Name your agent (e.g., "Executive News")
+3. Add a description: "Given the name and Company of an executive, summarize the news about them from the past week"
+4. Choose a relevant icon
+5. Add tags like "Sales" and "Marketing"
+6. Set the trigger to "Manual"
+
+# **Step 3: Configure User Input**
+
+1. Add a "Get user input" action
+2. Enter the prompt: "Enter the name and Company of the executive"
+3. Save the output as "exec"
+
+# **Step 4: Set Up Google News Search**
+
+1. Add a new action and select "Get data"
+2. Choose the "Google News" connector
+3. Configure the search to use the executive's name and company
+4. Set the time period to "Last 7 days" (you can adjust to 30 days if needed)
+5. Leave the location blank (or specify if you want news from a particular region)
+6. Save the output as "news"
+
+# **Step 5: Create a Summary with AI**
+
+1. Add a “Use GenAI” action
+2. Select your preferred model (e.g., GPT-4)
+3. Write a prompt like: "I am providing you with news articles about an executive. Please review each article and generate a summary that includes: 1) the title of the article, 2) the link to the article, and 3) a brief summary of the content."
+4. Make sure to include the variable containing your news articles: "news"
+5. Save the output as "formatted\_news\_summary"
+
+# **Step 6: Display the Results**
+
+1. Add a "Show user output" action
+2. Insert the variable containing your formatted summary: "formatted\_news\_summary"
+3. Save your agent
+
+# **Step 7: Test and Debug**
+
+1. Run your agent from the Run screen
+2. Enter an executive's name and company (e.g., "Satya Nadella Microsoft")
+3. Review the results
+4. If needed, go back and refine your prompts or settings
+
+# **Tips for Improvement**
+
+* You can enhance your agent by adding instructions to remove duplicate articles
+* Consider adjusting the time period if you need more or fewer results
+* Refine your AI prompt to get more specific types of information about the executive
+
+Have questions or need help with your agent? Reach out to our [support team](https://agent.ai/feedback) or [community](https://community.agent.ai/feed).
+
+
+# Executive Tweet Analyzer Agent
+Source: https://docs.agent.ai/recipes/executive-tweet-analyzer
+
+How to build an Executive Tweet Analyzer agent
+
+When you're preparing for important meetings or trying to understand an executive's public persona, analyzing their Twitter activity can provide valuable insights. This guide will walk you through creating an agent that fetches and summarizes an executive's recent tweets using [Agent.ai](http://Agent.ai).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1UqmkC8rhyk?si=sgtkG7g3iuFtaTM4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+# **Step 1: Create a New Agent**
+
+1. Start by creating a new agent in the Builder Tool.
+2. Name your agent "Executive Tweets"
+3. Add a description like "Given the Twitter handle of an executive, this agent will return a summary of their tweets"
+4. Select an appropriate icon and tags
+5. Set the trigger as "Manual"
+
+# **Step 2: Get the Twitter Handle**
+
+1. Add a "Get User Input" action
+2. Set the prompt to "Enter the handle of the executive"
+3. Add examples like "@username" to guide users
+4. Set the output variable name to "out\_handle"
+5. Save this step
+
+# **Step 3: Fetch Recent Tweets**
+
+1. Add a "Get Data" action
+2. Select "Recent Tweets" from the available data sources
+3. Set it to fetch the 20 most recent tweets
+4. Insert the handle variable you collected in the previous step
+5. Set the output variable name to "out\_tweets"
+6. Save this step
+
+# **Step 4: Generate a Summary**
+
+1. Add a “Use GenAI” action (you can use Claude or another available model)
+2. Create a prompt like: "I am providing you with a list of tweets. Please generate a summary about these tweets."
+3. Pass in the tweets variable from the previous step
+4. Set the output variable name to "out\_summary"
+5. Save this step
+
+# **Step 5: Display the Results**
+
+1. Add a "Show User Output" action
+2. Include both the summary and the raw tweets for reference
+3. To improve readability, consider adding formatting like line breaks between tweets
+4. Save this step
+
+# **Step 6: Test Your Agent**
+
+1. Run your agent
+2. Enter an executive's Twitter handle (e.g., @username)
+3. Review the summary and raw tweets that are returned
+
+The summary will typically include:
+
+* Main topics the executive discusses
+* Their engagement patterns
+* Any recurring themes or interests
+* Recent announcements or news they've shared
+
+# **Tips for Improvement**
+
+For better formatting and readability, you can:
+
+* Add line breaks between tweets in your output
+* Use the LLM to format the tweets in a more structured way
+* Create a more detailed prompt that asks for specific insights about the executive's Twitter activity
+
+This agent provides a quick way to understand an executive's public messaging and interests before important meetings or as part of your research process.
+
+Have questions or need help with your agent? Reach out to our [support team](https://agent.ai/feedback) or [community](https://community.agent.ai/feed).
+
+
+# LinkedIn Research Agent
+Source: https://docs.agent.ai/recipes/linkedin-research-agent
+
+How to build a LinkedIn Research agent
+
+Building an Executive Research agent with [Agent.ai](http://Agent.ai) allows you to automatically gather and summarize information about executives from their LinkedIn profiles and posts. This guide will walk you through creating an agent that takes a LinkedIn handle as input, retrieves profile data and recent posts, and generates a comprehensive summary.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qTn6fc_vICE?si=amGeexutAwndCSoH" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+# **Before You Begin**
+
+Planning your agent's workflow before building is crucial. Taking time to visualize the process and break it down into smaller tasks will help you create more effective agents. Consider sketching out your workflow using a tool like Miro or a simple flowchart to map the steps.
+
+# **Step 1: Create a New Agent**
+
+1. Go to [Agent.ai](http://Agent.ai) and click "Create an Agent"
+2. Select "Start from scratch"
+3. Name your agent (e.g., "Simple Executive Research")
+4. Add a description: "Given the LinkedIn handle of an executive, this will generate a summary about the executive"
+5. Select an icon for the agent
+6. Add relevant tags (e.g., Sales, Marketing)
+7. Set the trigger to "Manual"
+
+# **Step 2: Configure User Input**
+
+1. Add an action to get user input
+2. Set the prompt to "Enter the LinkedIn handle of the executive"
+3. Name the output variable "out\_handle"
+4. Save the action
+
+# **Step 3: Retrieve LinkedIn Profile Data**
+
+1. Add another workflow action
+2. Go to the "Get Data" tab
+3. Select "LinkedIn Profile" as the data source
+4. Insert the variable "out\_handle" as the profile handle
+5. Name the output "out\_LinkedIn\_data"
+6. Save the action
+
+# **Step 4: Retrieve LinkedIn Posts**
+
+1. Add another workflow action
+2. Go to the "Get Data" tab again
+3. Select "LinkedIn Activity" as the data source
+4. Insert the LinkedIn URL (you'll need to format this correctly)
+5. Name the output "out\_LinkedIn\_posts"
+6. Save the action
+
+# **Step 5: Generate the Executive Summary**
+
+1. Add a **Use GenAI** action
+2. Select GPT-4 Mini (or another model of your choice)
+3. Create a prompt like: "I am providing you with the LinkedIn profile and posts of an executive. Please generate a detailed summary."
+4. Insert the LinkedIn data variables, labeling them clearly (e.g., "profile data" and "posts")
+5. Name the output "out\_summary"
+6. Save the action
+
+# **Step 6: Display the Results**
+
+1. Add an action to show the output
+2. Insert the "out\_summary" variable
+3. Save the action
+
+## **Step 7: Test Your Agent**
+
+1. Run your agent
+2. Enter a LinkedIn handle when prompted
+3. The agent will retrieve the profile data and posts
+4. Review the generated summary
+
+## **Customization Options**
+
+You can enhance your agent by modifying the prompt in Step 5. Consider requesting specific information such as:
+
+* Education details
+* Career progression
+* Post sentiment analysis
+* Common topics in their content
+* Professional interests
+
+The more detailed your prompt, the more tailored the summary will be.
+
+## **Troubleshooting**
+
+If you encounter issues, use the dev console to debug. You can access this from the agent builder interface to see what data is being retrieved at each step and identify any problems.
+
+Have questions or need help with your agent? Reach out to our [support team](https://agent.ai/feedback) or [community](https://community.agent.ai/feed).
+
+
+# Community-Led Recipes
+Source: https://docs.agent.ai/recipes/overview
+
+
+
+This section features a mix of agent recipes shared by the [Agent.ai](http://Agent.ai) community. Some are straightforward walkthroughs to help you build useful agents fast. Others take a more unconventional route — creative workarounds that push the platform in unexpected ways.
+
+These recipes aren’t official product guides. They’re built by users, for users — showcasing how real people are solving problems with [Agent.ai](http://Agent.ai).
+
+## What You’ll Find
+
+* **Quick-start tutorials** for building useful agents
+* **Creative logic chains** that stretch what agents can do
+* **Ideas to customize and remix** for your own workflows
+
+Use them as-is or as a jumping-off point. Want to share one? [Join the community](https://community.agent.ai) and tell us what you’ve built.
+
+
+# Calling Agents from Salesforce (SFDC)
+Source: https://docs.agent.ai/recipes/salesforce
+
+
+
+This guide walks you through integrating [Agent.ai](http://Agent.ai)'s intelligent agents directly within Salesforce without requiring external code. By setting up Named Credentials and creating a Flow with HTTP callouts, you'll enable your Salesforce instance to seamlessly communicate with [Agent.ai](http://Agent.ai)'s services. This integration allows your agents to respond to record creation events, process data from your Salesforce objects, and write results back to your records—all while maintaining the security and governance controls of your Salesforce environment. Follow these step-by-step instructions to set up this powerful integration in under 30 minutes.
+
+## Before You Begin
+
+Before setting up the Salesforce integration with [Agent.ai](http://Agent.ai), ensure you have:
+
+**Tested Your Agent with cURL:**
+
+Verify your [Agent.ai](http://Agent.ai) webhook is functional by testing it with cURL first. This confirms the endpoint is working and helps you understand the expected request/response format:
+
+```bash
+curl -L -X POST -H 'Content-Type: application/json' \
+'https://api-lr.agent.ai/v1/agent/YOUR_AGENT_ID/webhook/YOUR_WEBHOOK_ID' \
+-d '{"input_name":"Test User"}'
+```
+
+Save this cURL command and response for reference during setup.
+
+1. **API Access in Salesforce**: Ensure the Salesforce users who will be configuring and using this integration have:
+   * "API Enabled" permission
+   * "Modify All Data" or appropriate object-level permissions
+   * Access to create and modify Flows
+   * Permission to create Named Credentials
+2. **Required Information**:
+   * Your complete [Agent.ai](http://Agent.ai) webhook URL
+   * The expected request payload structure
+   * The response format from your agent
+   * Salesforce fields you want to use for input/output
+3. **Salesforce Edition**: Confirm you're using a Salesforce edition that supports Named Credentials and Flows (Enterprise, Unlimited, Developer, or Performance).
+
+Taking these preparatory steps will significantly streamline the integration process and help avoid common setup issues.
+
+## Creating Credentials
+
+### **1. Create External Credentials**
+
+1. Navigate to Setup → Named Credentials → External Credentials (Tab) → New
+2. Fill in the required fields (remember: Name must NOT contain spaces)
+3. Select **No Authentication** from the dropdown
+4. Save your settings
+
+### **2. Create Named Credentials**
+
+1. Navigate to **Setup → Named Credentials → Named Credentials (Tab) → New**
+2. Complete the form with:
+   * Label: A descriptive name (e.g., "AgentAI Named Credential")
+   * Name: Same as label without spaces
+   * URL: Your [Agent.ai](http://Agent.ai) endpoint (e.g., "[<u>https://api-lr.agent.ai</u>](https://api-lr.agent.ai)")
+   * Enable "Enabled for Callouts"
+   * Select your External Credential from the dropdown
+   * Check "Generate Authorization Header"
+   * Set Outbound Network Connection to "--None--"
+   * Save your settings
+
+### **3. Create Principal for Named Credentials**
+
+1. Navigate to **Setup → Named Credentials → "AgentAI External Credential" → Principals → New**
+2. Complete the form:
+   * Parameter Name: A descriptive name
+   * Sequence Number: 1
+   * Identity Type: "Named Principal"
+   * Save your settings
+
+### **4. Create a Permission Set for External Credentials**
+
+1. Navigate to **Setup → Permission Sets → New**
+2. Enter permission set details:
+   * Label: "AgentAI External Credentials Permissions"
+   * API Name: Should auto-populate
+   * Save your settings
+
+### **5. Assign Permissions**
+
+1. Navigate to Setup → Permission Sets → "AgentAI External Credentials Permissions" → Manage Assignments
+2. Click **Add Assignment**
+3. Select users who need access
+4. Click **Next** (no expiration date needed)
+5. Click **Assign**
+
+### **6. Manage Permissions in Permission Set**
+
+1. Navigate to **Setup → Permission Sets → "AgentAI External Credentials Permissions" → External Credential Principal Access**
+2. Click **Edit**
+3. Enable the Credential Principal
+4. Save your settings
+5. *Verify your configuration*
+
+## Creating The Flow
+
+### **1. Create Record Triggered Flow**
+
+1. Navigate to **Setup → Flows → New Flow**
+2. Select **Record Triggered Flow**
+3. Choose **When A Record Is Created**
+4. Set to optimize for "Action and Related Records"
+5. Check "Include a Run Asynchronously path to access an external system after the original transaction for the triggering record is successfully committed"
+
+### **2. Create HTTP Callout Action**
+
+1. Click **Add Element**
+2. Select **Action**
+3. Find and select **Create HTTP Callout** (scroll to the bottom of the list)
+
+### **3. Create External Service**
+
+* Give your service a name (alphanumeric values only)
+
+  **Note:** Use version names if creating multiple services
+* Select your Named Credential from the dropdown
+* Save your settings
+
+### **4. Create Invokable Action**
+
+1. Set Method to **POST**
+2. Enter URL Path to your Agent webhook endpoint
+   * Example: /v1/agent/kkmiv48izo6wo7fk/webhook/b45b7a8e
+3. For Sample JSON Request, copy from your webhook example:
+   * Example: `{"input_name":"REPLACE_ME"}`
+4. Ignore any error that appears
+5. Click **Review**
+6. Confirm data structure is detected (input\_name as String)
+7. Click **Connect for Schema**
+8. Click **Connect**
+9. Review return types match what your Agent returns
+10. Name the Action for your external service
+
+### **6. Assign Body Payload Parameters**
+
+1. Click **Assign → Set Variable Values**
+2. Select data to pass to agent:
+   * Variable: agentRequestBody > input\_name
+   * Operator: Equals
+   * Value: Choose your field (e.g., Triggering Lead > First Name)
+3. Save your settings
+
+### **7. Save and Refresh The Page**
+
+1. Save your flow to update the UI with new values
+
+### **8. Set Up Response Handling**
+
+1. Select the **Flow Action → Show Advanced Options → Store Output Values**
+2. For 2XX responses, create a new resource
+3. For Default Exception, create a new resource (Text type)
+4. For Response Code, create a new resource (Number, 0 decimal places)
+5. Save to finalize resource names
+
+### **9. Assign Values from API Call to Objects**
+
+1. After the HTTP Request Action, create an Assignment
+2. Update the triggering record:
+   * **Field:** The field you want to update (e.g., Greeting\_Phrase\_\_c)
+   * **Value:** responseBodyOut2XX > response
+3. **Note:** responseBodyOut2XX contains all output objects from your Agent
+
+### **10. Test Your Flow**
+
+1. Save your flow
+2. Click **Debug**
+3. Select **Run Asynchronously**
+4. Select a record to test with
+5. Run the flow and verify the results
+
+## Debug Checklist
+
+Use this checklist to troubleshoot if your [Agent.ai](http://Agent.ai) integration isn't working properly:
+
+* **External Credentials**: Verify name contains no spaces and "No Authentication" is selected
+* **Named Credentials**: Confirm URL is correct and "Enabled for Callouts" is checked
+* **Principal**: Check that Principal is created with correct sequence number
+* **Permission Set**: Ensure External Credential Principal is enabled
+* **User Assignments**: Confirm relevant users have the permission set assigned
+* **Flow Trigger**: Verify flow is set to trigger on the correct object and event
+* **HTTP Callout**: Check that the webhook URL path is correct
+* **Request Body**: Confirm input parameters match what your Agent expects (e.g., "input\_name")
+* **Response Handling**: Ensure output variables are correctly mapped
+* **Field Updates**: Verify targeted fields exist and are accessible for updates
+* **Asynchronous Execution**: Confirm "Include to Run Asynchronously" is checked
+* **External Service**: Check Named Credential is properly selected in External Service
+* **Flow Activation**: Make sure the flow is activated after testing
+* **Agent Webhook**: Verify your [Agent.ai](http://Agent.ai) webhook endpoint is active and responding
+* **SFDC Logs**: Review debug logs for any callout errors
+
+If issues persist, check your SFDC debug logs for specific error messages and verify that your [Agent.ai](http://Agent.ai) webhook is responding as expected with proper formatting.
+
+## Conclusion
+
+Congratulations! You've successfully integrated [Agent.ai](http://Agent.ai) with Salesforce using native SFDC capabilities, eliminating the need for middleware or custom code. This integration creates a powerful automation pipeline that leverages AI agents to enhance your Salesforce experience. As records are created in your system, they now automatically trigger intelligent processing through your [Agent.ai](http://Agent.ai) webhooks, with results flowing seamlessly back into your Salesforce records. This approach maintains Salesforce's security model while expanding its capabilities with [Agent.ai](http://Agent.ai)'s intelligence.
+
+Consider extending this implementation by creating additional flows for different record types, implementing decision branches based on agent responses, or adding more complex data transformations. As you grow comfortable with this integration, you can enhance it to support increasingly sophisticated business processes, bringing the power of [Agent.ai](http://Agent.ai) to all aspects of your Salesforce implementation. Remember to monitor your usage and performance to ensure optimal operation as your integration scales.
+
+
+# Data Security & Privacy at Agent.ai
+Source: https://docs.agent.ai/security-privacy
+
+Agent.ai prioritizes your data security and privacy with full encryption, no data reselling, and transparent handling practices. Find out how we protect your information while providing AI agent services and our current compliance status.
+
+## **Does Agent.ai store information submitted to agents?**
+
+Yes, Agent.ai stores the inputs you submit and the outputs you get when interacting with our agents. This is necessary to provide you with a seamless experience and to ensure continuity in your conversations with our AI assistants.
+
+## **How we handle your data**
+
+* **We store inputs and outputs**: Your conversations and data submissions are stored to maintain context and conversation history.
+
+* **We don't share or resell your data**: Your information remains yours—we do not sell, trade, or otherwise transfer your data to outside parties.
+
+* **No secondary use**: The data you share is not used to train our models or for any purpose beyond providing you with the service you requested.
+
+* **Comprehensive encryption**: All user data—both inputs and outputs—is fully encrypted in transit using industry-standard encryption protocols.
+
+## **Third-party LLM providers and your data**
+
+When you interact with agents on Agent.ai, your information may be processed by third-party Large Language Model (LLM) providers, depending on which AI model powers the agent you're using.
+
+* **API-based processing**: Agent.ai connects to third-party LLMs via their APIs. When you submit data to an agent, that information is transmitted to the relevant LLM provider for processing.
+
+* **Varying privacy policies**: Different LLM providers have different approaches to data privacy, retention, and usage. The handling of your data once it reaches these providers is governed by their individual privacy policies.
+
+* **Considerations for sensitive data**: When building or using agents that process personally identifiable information (PII), financial data, health information, or company-sensitive information, we recommend:
+
+  * Reviewing the specific LLM provider's privacy policy
+
+  * Understanding their data retention practices
+
+  * Confirming their compliance with relevant regulations (HIPAA, GDPR, etc.)
+
+  * Considering data minimization approaches where possible
+
+Agent.ai ensures secure transmission of your data to these providers through encryption, but we encourage users to be mindful of the types of information shared with agents, especially for sensitive use cases.
+
+## **Our commitment to your privacy**
+
+At Agent.ai, we believe that privacy isn't just a feature—it's a fundamental right. Our approach to data security reflects our core company values:
+
+**Trust**: We understand that meaningful AI assistance requires sharing information that may be sensitive or confidential. We honor that trust by implementing rigorous security measures and transparent data practices.
+
+**Respect**: Your data belongs to you. Our business model doesn't rely on monetizing your information—it's built on providing value through our services.
+
+**Integrity**: We're straightforward about what we do with your data. We collect only what's necessary to provide our services and use it only for the purposes you expect.
+
+## **Intellectual Property Rights for Agent Builders**
+
+When you create an agent on Agent.ai, you retain full ownership of the intellectual property (IP) associated with that agent. Similar to sellers on marketplace platforms (Amazon, Etsy), Agent.ai serves as the venue where your creation is hosted and discovered, but the underlying IP remains your own. This applies to the agent's concept, design, functionality, and unique implementation characteristics.
+
+* **Builder ownership**: You maintain ownership rights to the agents you build, including their functionality, design, and purpose
+
+* **Platform hosting**: Agent.ai provides the infrastructure and marketplace for your agent but does not claim ownership of your creative work
+
+* **Content responsibility**: As the owner, you're responsible for ensuring your agent doesn't infringe on others' intellectual property
+
+For complete details regarding intellectual property rights, licensing terms, and usage guidelines, please review our [Terms of Service](https://www.agent.ai/terms). Our approach to IP ownership aligns with our broader commitment to respecting your rights and fostering an ecosystem where builders can confidently innovate.
+
+## **Compliance and certifications**
+
+Agent.ai does not currently hold specific industry certifications such as SOC 2, HIPAA compliance, ISO 27001, or other specialized security and privacy certifications. While our security practices are robust and our encryption protocols are industry-standard, organizations with specific regulatory requirements should carefully evaluate whether our current security posture meets their compliance needs. If your organization requires specific certifications for data handling, we recommend reviewing our security documentation or contacting our team to discuss whether our platform aligns with your requirements.
+
+## **Security measures**
+
+Our encryption and security protocols are regularly audited and updated to maintain the highest standards of data protection. We implement multiple layers of technical safeguards to ensure your information remains secure throughout its lifecycle on our platform.
+
+If you have specific concerns about data security or would like more information about our privacy practices, please contact our support team who can provide additional details about our security infrastructure.
+
+
+# Agent Run History
+Source: https://docs.agent.ai/user/agent-runs
+
+
+
+The [**Agent Runs**](https://agent.ai/user/agent-runs) page shows a history of your agent executions—past and scheduled—so you can review when agents were triggered, what they responded with, and optionally leave feedback.
+
+### Past Runs
+
+In this tab, you can see:
+
+* The **execution date** (timestamp in GMT)
+* The **agent name**
+* A preview of the response
+* Any feedback you’ve left on the run
+
+<Tip>
+  Click any agent response to view the full output.
+</Tip>
+
+![Agent Runs1 Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/agent-runs1.png)
+
+### Scheduled Runs
+
+The **Scheduled Runs** tab shows agents that are set to run on a recurring schedule. You can **update how often they run** or **delete the scheduled run** if it’s no longer needed.
+
+![Agent Runs2 Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/agent-runs2.png)
+
+Questions about a recent agent run? Reach out to our [support team](https://agent.ai/feedback).
+
+
+# Adding Agents to Your Team
+Source: https://docs.agent.ai/user/agent-team
+
+
+
+The [**Agents Team**](https://agent.ai/user/team) page shows agents you’ve added to your team—this functions like a **bookmark list** for quick access to agents you use frequently.
+
+When you mark an agent as part of your team, it’s saved to this view for easy access. Click **Go** to run any agent on your team.
+
+To **remove** an agent from your team, just click the **Team** button again to uncheck it.
+
+<Tip>
+  Think of an agent team as your saved agent library.
+</Tip>
+
+![Agent Team Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/agent-team.png)
+
+Reach out to our [support team](https://agent.ai/feedback) if you need any help with your agent team.
+
+
+# Submit Agent Requests in Agent.ai
+Source: https://docs.agent.ai/user/request-an-agent
+
+
+
+Have an idea for a new agent? Head to the [Request an Agent](https://agent.ai/suggest-an-agent) page to suggest it. You can also get there from the profile navigation menu.
+
+On this page, you can:
+
+* Submit your own agent ideas
+* Search and browse requests from other users
+* Upvote ideas you support to help them get prioritized
+
+<Tip>
+  Clear, specific requests are more likely to get picked up by builders.
+</Tip>
+
+![Request Agent 1 Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/request-agent-1.png)
+
+## How to Submit a Request
+
+Click **Add a Request** to open the submission form. Then:
+
+1. Give your idea a clear title
+2. Describe what the agent should do (include examples if helpful)
+3. Optionally select a category to help others find it
+4. Click **Submit Post**
+
+![Request Agent 2 Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/request-agent-2.png)
+
+## What happens after you submit?
+
+The [Agent.ai](http://Agent.ai) team regularly reviews top-voted requests and shares the most popular ideas with the builder community to help bring them to life.
+
+Questions about submitting an agent request? Reach out to our [support team](https://agent.ai/feedback).
+
+
+# User Settings in Agent.ai
+Source: https://docs.agent.ai/user/settings
+
+
+
+The User Settings page lets you manage your profile details, preferences, and integrations. From notifications to API credits, this is where you control how [Agent.ai](http://Agent.ai) works for you.
+
+## User Context
+
+Add basic info like your name, location, title, and role so agents can tailor their responses to your background and communication style.
+
+To update your user context:
+
+1. Go to **User Context** in your [profile settings](https://agent.ai/user/settings)
+2. Fill out any fields you’d like agents to reference in their responses
+
+![User Settings 1 Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/user-settings-1.png)
+
+## Notifications
+
+Manage when you receive email notifications from [Agent.ai](http://Agent.ai). You can choose to be notified when:
+
+* Someone follows your profile
+* One of your agents receives a new rating
+
+To update your [notification preferences](https://agent.ai/user/settings#notifications), check or uncheck the boxes, then click **Save**.
+
+![User Settings 2 Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/user-settings-2.png)
+
+## Integrations
+
+Connect third-party services like X, Google, and HubSpot to unlock agent actions powered by your own data.
+
+From [this page](https://agent.ai/user/settings#integrations), you can:
+
+* Add, reconnect, or disconnect integrations
+* Set a default account (for email or portal use)
+* View agent-specific access when applicable
+
+### X Connection
+
+Connect your X (formerly Twitter) account to create a public **builder profile** and enable agents to perform X-specific actions like retrieving X accounts or posts.
+
+* Your builder email alias will be based on your handle (e.g. [yourhandle@agent.ai](mailto:yourhandle@agent.ai))
+* Click **Reconnect** or **Disconnect** to manage access
+
+![User Settings 3 Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/user-settings-3.png)
+
+### Google Connections
+
+Connect your Google account to enable agents to perform actions like creating Google Docs.
+
+* Add multiple accounts and set a **default email**
+* Click **Connect More Accounts** to add others
+* Use **Reconnect** or **Disconnect** as needed
+
+![User Settings 4 Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/user-settings-4.png)
+
+### HubSpot Connections
+
+Connect your HubSpot portal to enable agents to perform CRM-related actions, including working with contacts and companies. You can connect to multiple HubSpot portals and:
+
+* Set a **default portal**
+* View which agents have private access to your portal
+* Click **Connect More Portals** to add additional HubSpot accounts
+
+![User Settings 5 Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/user-settings-5.png)
+
+## Credits & API Key
+
+On [this page](https://agent.ai/user/settings#credits), you can track your available credits, refer friends, redeem gift codes, or access your API key for programmatic agent interactions.
+
+### Credits & Referrals
+
+* View your current credit balance
+* Copy your referral link to share [Agent.ai](http://Agent.ai)—when someone signs up with your link, you both receive **50 additional credits**
+
+### Credit Gift Code
+
+* If you have a gift code, enter it in the field provided and click **Redeem a gift code** to add more credits to your account
+
+![User Settings 6 Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/user-settings-6.png)
+
+### API Key
+
+Your API key allows you to integrate [Agent.ai](http://Agent.ai) features directly into your own tools and workflows. You’ll find:
+
+* Your **API key**
+* Sample curl requests
+* A link to the [Agent.ai](http://Agent.ai)[ API documentation](http://)
+
+<Note>
+  Keep your API key private. It grants access to your [Agent.ai](http://Agent.ai) account and credit usage—treat it like a password. Don’t share it or commit it to public repositories.
+</Note>
+
+![User Settings 7 Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/user-settings-7.png)
+
+## Account
+
+If you no longer wish to use [Agent.ai](http://Agent.ai), you can permanently delete your account and all associated data.
+
+To delete your account:
+
+1. Go to the [**Account tab**](https://agent.ai/user/settings#account) in your settings
+2. Click **Delete account**
+3. Confirm the action when prompted
+
+<Warning>
+  This action is irreversible. All agents, data, and settings will be permanently removed.
+</Warning>
+
+![User Settings 8 Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/user-settings-8.png)
+
+## MCP
+
+Use the [**MCP tab**](https://agent.ai/user/settings#mcp) to configure your [Agent.ai](http://Agent.ai) MCP server and manage which agents are available to external MCP-supported tools like Claude Desktop.
+
+### [Agent.ai](http://Agent.ai) MCP Tools Listing Settings
+
+Choose which agents you'd like to expose to your MCP environment:
+
+* **Action Agents** (default)
+* My Team Agents
+* Private Agents
+* Top Public Agents (rating > 4.2, reviews > 3)
+
+Check the boxes you want, then click **Save**.
+
+### MCP Configuration
+
+To connect your MCP server to [Agent.ai](http://Agent.ai), add the provided config block to your MCP server’s configuration file.
+
+For full setup instructions, see the [MCP Integration Guide](https://docs.agent.ai/mcp-server).
+
+![User Settings 9 Pn](https://mintlify.s3.us-west-1.amazonaws.com/agentai/images/user-settings-9.png)
+
+Reach out to our [support team](https://agent.ai/feedback) if you have any questions about user settings or navigating Agent.ai.
+
+
+# Welcome
+Source: https://docs.agent.ai/welcome
+
+
+
+## What is Agent.AI?
+
+Agent.AI is the #1 Professional Network For A.I. Agents (also, the only professional network for A.I. agents).
+It is a marketplace and professional network for AI agents and the people who love them.
+Here, you can discover, connect with and hire AI agents to do useful things.
+
+<CardGroup cols={2}>
+  <Card title="For Users" icon="stars">
+    Discover, connect with and hire AI agents to do useful things
+  </Card>
+
+  <Card title="For Builders" icon="screwdriver-wrench">
+    Build advanced AI agents using an easy, extensible, no-code platform with data tools and access to frontier LLMS.
+  </Card>
+</CardGroup>
+
+## Do I have to be a developer to build AI agents?
+
+Not at all! Our platform is a no-code platform, where you can drag and drop various components together to build AI agents.
+
+Our builder had dozens of actions that can grab data from various data sources (i.e. X. Bluesky, LinkedIn, Google) and use any frontier LLM (i.e. OpenAI's 4o and o1, Google's Gemini models, Anthropic's Claude models, as well as open source Meta Llama 3s and Mistral models) in an intuitive interface.
+
+For those users looking for can code and are looking for more advanced functionality, you can even use third party APIs and write serverless functions to interact with your agent's steps.
+
+

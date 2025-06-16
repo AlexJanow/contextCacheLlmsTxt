@@ -1,0 +1,188 @@
+# DeployHQ.com
+
+## Main Features
+- [Features Overview](https://www.deployhq.com/features): Core features and capabilities of DeployHQ
+- [Automatic Deployment](https://www.deployhq.com/features/automatic-deployment): Set up automated deployments with DeployHQ
+- [Build Pipelines](https://www.deployhq.com/features/build-pipelines): Configure build processes with DeployHQ
+- [Deploy Behind Firewalls](https://www.deployhq.com/features/deploy-behind-firewalls): Deploy to protected environments with DeployHQ
+- [DeployHQ AI](https://www.deployhq.com/features/deployhq-ai): AI-powered deployment features in DeployHQ
+- [Deployment Targets](https://www.deployhq.com/features/deployment-targets): Configure deployment destinations with DeployHQ
+- [Deployment Templates](https://www.deployhq.com/features/deployment-templates): Create reusable deployment configs with DeployHQ
+- [Zero Downtime Deployments](https://www.deployhq.com/features/zero-downtime-deployments): Deploy without service interruption with DeployHQ
+
+## Integrations
+- [Bugsnag](https://www.deployhq.com/features/integrations/bugsnag): Error tracking integration
+- [Cloudflare](https://www.deployhq.com/features/integrations/cloudflare): CDN integration
+- [Discord](https://www.deployhq.com/features/integrations/discord): Chat notifications and alerts
+- [Honeybadger](https://www.deployhq.com/features/integrations/honeybadger): Error monitoring integration
+- [Microsoft Teams](https://www.deployhq.com/features/integrations/microsoft-teams): Microsoft Teams chat integration
+- [New Relic](https://www.deployhq.com/features/integrations/new-relic): Performance monitoring integration
+- [Rollbar](https://www.deployhq.com/features/integrations/rollbar): Error tracking integration
+- [Sentry](https://www.deployhq.com/features/integrations/sentry): Error monitoring integration
+- [Slack](https://www.deployhq.com/features/integrations/slack): Chat notifications and alerts
+
+## Repository Support
+- [Deploy from Bitbucket](https://www.deployhq.com/deploy-from-bitbucket): Bitbucket integration
+- [Deploy from GitHub](https://www.deployhq.com/deploy-from-github): GitHub integration
+- [Deploy from GitLab](https://www.deployhq.com/deploy-from-gitlab): GitLab integration
+
+## Documentation & Support
+- [Support Documentation](https://www.deployhq.com/support): Help guides and documentation
+- [API Documentation](https://www.deployhq.com/support/api): REST API reference
+- [Blog](https://www.deployhq.com/blog): Product updates and guides
+- [Contact](https://www.deployhq.com/contact): Get in touch with support
+- [Privacy Policy](https://www.deployhq.com/privacy): Privacy information
+- [Terms of Service](https://www.deployhq.com/terms): Terms and conditions
+
+## Deployment Guides
+- [Angular](https://www.deployhq.com/guides/angular): Deploy Angular applications
+- [Drupal](https://www.deployhq.com/guides/drupal): Deploy Drupal sites
+- [Gatsby](https://www.deployhq.com/guides/gatsby): Deploy Gatsby sites
+- [Jekyll](https://www.deployhq.com/guides/jekyll): Deploy Jekyll sites
+- [Laravel](https://www.deployhq.com/guides/laravel): Deploy Laravel applications
+- [Next.js](https://www.deployhq.com/guides/nextjs): Deploy Next.js applications
+- [React](https://www.deployhq.com/guides/react): Deploy React applications
+- [Ruby on Rails](https://www.deployhq.com/guides/ruby-on-rails): Deploy Rails applications
+- [Vue](https://www.deployhq.com/guides/vue): Deploy Vue applications
+- [WordPress](https://www.deployhq.com/guides/wordpress): Deploy WordPress sites
+
+## Platform Specific Guides
+- [Amazon EC2](https://www.deployhq.com/guides/amazon-ec2): Deploy to EC2
+- [DigitalOcean](https://www.deployhq.com/guides/digitalocean): Deploy to DigitalOcean
+- [Google Cloud](https://www.deployhq.com/guides/google-cloud): Deploy to GCP
+- [Microsoft Azure](https://www.deployhq.com/guides/microsoft-azure): Deploy to Azure
+- [Cloudflare](https://www.deployhq.com/guides/cloudflare): Deploy with Cloudflare
+- [AWS Lightsail](https://www.deployhq.com/guides/aws-lightsail): Deploy to Lightsail
+
+## Technical Documentation
+- [Build Pipeline Configuration](https://www.deployhq.com/support/build-pipelines): Configure build processes
+- [Environment Variables](https://www.deployhq.com/support/projects/variables): Manage environment variables
+- [SSH Commands](https://www.deployhq.com/support/ssh-commands): Execute SSH commands
+- [Config Files](https://www.deployhq.com/support/config-files): Manage configuration files
+- [Server Configuration](https://www.deployhq.com/support/servers): Configure deployment servers
+- [Network Agents](https://www.deployhq.com/support/network-agents): Deploy behind firewalls
+- [Zero Downtime Deployments](https://www.deployhq.com/support/deployments/setting-up-atomic-deployments): Configure zero-downtime deployments
+
+## API Reference
+- [API Overview](https://www.deployhq.com/support/api): API documentation
+- [Projects API](https://www.deployhq.com/support/api/projects): Manage projects via API
+- [Deployments API](https://www.deployhq.com/support/api/deployments): Control deployments via API
+- [Servers API](https://www.deployhq.com/support/api/servers): Manage servers via API
+- [Templates API](https://www.deployhq.com/support/api/templates): Work with deployment templates
+- [Repository API](https://www.deployhq.com/support/api/repository): Manage repository connections
+
+## Troubleshooting
+- [Build Errors](https://www.deployhq.com/support/build-errors): Common build issues
+- [Deployment Errors](https://www.deployhq.com/support/common-deployment-errors): Common deployment problems
+- [Repository Errors](https://www.deployhq.com/support/common-repository-errors): Repository connection issues
+- [Server Errors](https://www.deployhq.com/support/common-server-errors): Server configuration problems
+- [Network Agent Errors](https://www.deployhq.com/support/network-agent-errors): Network agent issues
+
+## Account Management
+- [Personal Profile](https://www.deployhq.com/support/managing-your-account/personal-profile): Manage your profile
+- [Billing](https://www.deployhq.com/support/managing-your-account/billing): Billing information
+- [Team Management](https://www.deployhq.com/support/users): Manage team members
+- [Two-Factor Authentication](https://www.deployhq.com/support/managing-your-account/personal-profile/two-factor-authentication): Set up 2FA
+
+## Security & Compliance
+- [Security Settings](https://www.deployhq.com/support/managing-your-account/personal-profile/security-settings): Configure security options
+- [IP Restrictions](https://www.deployhq.com/support/faq/our-ip-ranges): IP whitelisting information
+- [SSH Key Management](https://www.deployhq.com/support/global-ssh-keys): Manage SSH keys
+- [Access Controls](https://www.deployhq.com/support/managing-your-account/account-configuration/account-and-access): Configure access permissions
+
+## Build Tools & Languages
+- [Node.js/NPM](https://www.deployhq.com/support/faq/how-do-I-install-a-custom-version-of-npm-nodejs): Node.js configuration
+- [Ruby](https://www.deployhq.com/guides/ruby-on-rails): Ruby environment setup
+- [Python](https://www.deployhq.com/support/build-errors/pip): Python configuration
+- [PHP](https://www.deployhq.com/blog/deploying-your-php-site-with-deployhq): PHP deployment
+- [Go](https://www.deployhq.com/blog/build-your-go-projects-with-deployhq): Go build setup
+- [Rust](https://www.deployhq.com/support/faq/using-rust-with-deployhq-build): Rust configuration
+- [Bun](https://www.deployhq.com/support/build-errors/bun): Bun build setup
+
+## Advanced Features
+- [Build Caching](https://www.deployhq.com/support/build-pipelines/build-caching): Cache build artifacts
+- [Deployment Scheduling](https://www.deployhq.com/support/deployments/scheduling-deployments): Schedule deployments
+- [Parallel Deployments](https://www.deployhq.com/support/deployments/parallel-deployments): Run concurrent deployments
+- [Config File Deployments](https://www.deployhq.com/support/deployments/config-file-deployments): Deploy configuration files
+- [Deployment Artefacts](https://www.deployhq.com/support/deployments/artefact-storage): Manage deployment artifacts
+
+## Hosting Platform Integration
+- [AWS S3](https://www.deployhq.com/support/servers/adding-a-server/amazon-s3): Deploy to S3 buckets
+- [Cloudflare R2](https://www.deployhq.com/support/servers/adding-a-server/cloudflare-r2): Deploy to R2 servers
+- [Shopify](https://www.deployhq.com/support/servers/adding-a-server/shopify): Deploy to Shopify servers
+- [WordPress](https://www.deployhq.com/wordpress): WordPress deployment guide
+- [Shell Servers](https://www.deployhq.com/support/servers/adding-a-server/shell-server): Deploy to shell servers (SSH)
+
+## Monitoring & Notifications
+- [Browser Notifications](https://www.deployhq.com/support/notifications/browser): Browser alerts and notifications
+- [Email Notifications](https://www.deployhq.com/support/notifications/e-mail): Email alerts and notifications
+- [Slack Integration](https://www.deployhq.com/support/integrations/slack): Slack notifications and alerts
+- [Discord Integration](https://www.deployhq.com/support/integrations/discord): Discord alerts and notifications
+- [Microsoft Teams Integration](https://www.deployhq.com/support/integrations/microsoft-teams): Teams notifications
+
+## CLI & Automation
+- [CLI Usage](https://www.deployhq.com/support/cli): Command line interface (CLI)
+- [Automatic Deployments](https://www.deployhq.com/support/deployments/automatic-deployments): Configure auto-deploy settings
+- [Webhooks](https://www.deployhq.com/support/deployments/automatic-deployments/custom): Custom webhook integration
+- [API Scripting](https://www.deployhq.com/support/scripting): Automate with API scripts
+
+## Resources
+- [Blog Articles](https://www.deployhq.com/blog): Latest updates and guides
+- [Documentation](https://www.deployhq.com/support): Complete documentation
+- [API Reference](https://www.deployhq.com/support/api): API documentation
+- [FAQ](https://www.deployhq.com/support/faq): Frequently asked questions
+- [Support Contact](https://www.deployhq.com/contact): Get help from our team
+
+## Featured Blog Posts
+- [Fail2Ban: Comprehensive Protection for Your Servers](https://www.deployhq.com/blog/fail2ban-comprehensive-protection-for-your-servers): Comprehensive guide to Fail2Ban features, implementation, and best practices (Posted May 2025)
+- [The Ultimate Deployment Checklist: Ensuring Smooth and Successful Releases](https://www.deployhq.com/blog/the-ultimate-deployment-checklist-ensuring-smooth-and-successful-releases): Best practices for minimizing errors and maximizing efficiency in deployments (Posted May 2025)
+- [GitLab vs GitHub 2025: In‑Depth Comparison & Platform Choice Guide](https://www.deployhq.com/blog/gitlab-vs-github-2025-in-depth-comparison-platform-choice-guide): Compare key features, CI/CD, and AI integration (Posted May 2025)
+- [10 Deployment Secrets That Will Transform Your DevOps Workflow](https://www.deployhq.com/blog/10-deployment-secrets-that-will-transform-your-devops-workflow): Strategies to save time and reduce errors in deployment (Posted May 2025)
+- [Understanding Podman: Docker's Open Source Alternative](https://www.deployhq.com/blog/understanding-podman-dockers-open-source-alternative): Exploring Podman for enhancing deployment workflows (Posted March 2025)
+- [Introducing Accelerated TAR Deployments: Faster, Smarter File Transfers](https://www.deployhq.com/blog/introducing-accelerated-tar-deployments-faster-smarter-file-transfers): Up to 90% faster file transfers with new beta feature (Posted March 2025)
+- [Conventional Commits: A Standardized Approach to Commit Messages](https://www.deployhq.com/blog/conventional-commits-a-standardized-approach-to-commit-messages): Structured and consistent communication of changes (Posted March 2025)
+- [Understanding Infrastructure as Code (IaC): A Comprehensive Guide](https://www.deployhq.com/blog/understanding-infrastructure-as-code-iac-a-comprehensive-guide): Harnessing IaC for streamlined infrastructure management (Posted March 2025)
+- [The Perfect Pull Request: Best Practices for Collaborative Development](https://www.deployhq.com/blog/the-perfect-pull-request-best-practices-for-collaborative-development): Improving collaboration and maintaining code quality (Posted March 2025)
+- [Choosing the Right Package Manager: npm vs yarn vs pnpm vs bun](https://www.deployhq.com/blog/choosing-the-right-package-manager-npm-vs-yarn-vs-pnpm-vs-bun): Comparing features for effective dependency management (Posted March 2025)
+- [Make: The Swiss Army Knife of Build Automation](https://www.deployhq.com/blog/make-the-swiss-army-knife-of-build-automation): How this classic tool can streamline development workflows (Posted February 2025)
+- [Managing Application Services with Systemd and Monit](https://www.deployhq.com/blog/managing-application-services-with-systemd-and-monit): Automating service management and recovery for application reliability (Posted February 2025)
+- [What is The Twelve-Factor App Methodology?](https://www.deployhq.com/blog/what-is-the-twelve-factor-app-methodology): Best practices for building portable and resilient SaaS apps (Posted February 2025)
+- [What are Feature Flags?](https://www.deployhq.com/blog/what-are-feature-flags): Controlling application features without deployments for flexibility (Posted January 2025)
+- [What is a Build Script?](https://www.deployhq.com/blog/what-is-a-build-script): Automating deployments with build scripts (Posted January 2025)
+- [What is a Deployment Script?](https://www.deployhq.com/blog/what-is-a-deployment-script): Streamlining workflows and reducing errors with deployment scripts (Posted January 2025)
+- [What is GitOps?](https://www.deployhq.com/blog/what-is-gitops): Improving feedback and shared responsibility with GitOps (Posted December 2024)
+- [Deployment Automation: A Quick Overview](https://www.deployhq.com/blog/deployment-automation-a-quick-overview): Saving time and reducing errors with automated processes (Posted August 2024)
+- [Introducing DeployHQ Log Intelligence](https://www.deployhq.com/blog/introducing-deployhq-log-intelligence-your-ai-powered-deployment-log-analyzer): AI-powered log analysis
+- [Git Auto Deployment Guide](https://www.deployhq.com/blog/git-auto-deployment-when-it-s-a-game-changer-and-when-it-s-a-gamble): When and how to use auto-deployment
+- [Beginners Guide to Website Deployment](https://www.deployhq.com/blog/beginners-guide-website-deployment): Getting started with deployments
+- [Understanding Git LFS with DeployHQ](https://www.deployhq.com/blog/understanding-and-implementing-git-lfs-with-deployhq): Large file storage implementation
+- [Troubleshooting Deployments](https://www.deployhq.com/blog/troubleshooting-deployments-on-deployhq): Common issues and solutions
+- [Building for a Greener Web](https://www.deployhq.com/blog/building-for-a-greener-web-why-deployhq-is-green-tech): Sustainable deployment practices
+- [DeployHQ vs Deployer Comparison](https://www.deployhq.com/blog/deployhq-vs-deployer-a-comparative-analysis-of-automated-deployment-tools): Tool comparison
+- [Deploy from Slack](https://www.deployhq.com/blog/deploy-web-applications-directly-from-slack-with-deployhq): Slack integration guide
+- [Git Pull Deployments Setup](https://www.deployhq.com/blog/how-to-set-up-git-pull-deployments-with-deployhq): Configure pull-based deployments
+- [Understanding Docker](https://www.deployhq.com/blog/what-is-docker): Docker basics explained
+- [What is Continuous Integration](https://www.deployhq.com/blog/what-is-continuous-integration): CI concepts explained
+- [What is a Headless CMS](https://www.deployhq.com/blog/what-is-a-headless-cms): Headless CMS overview
+- [Website Monitoring Guide](https://www.deployhq.com/blog/beyond-uptime-the-importance-of-comprehensive-website-monitoring): Comprehensive monitoring
+- [Build Pipeline Guide](https://www.deployhq.com/blog/streamline-your-workflow-with-deployhq-build-pipelines): Optimize your workflow
+- [Cloud Exit Movement Guide](https://www.deployhq.com/blog/the-cloud-exit-movement-a-guide-for-deployhq-users): Understanding cloud exit
+- [What is DevOps](https://www.deployhq.com/blog/what-is-devops): DevOps explanation
+- [DigitalOcean Integration](https://www.deployhq.com/blog/deployhq-meets-digitalocean-a-perfect-match-for-seamless-deployments): DO deployment guide
+- [What is CI/CD](https://www.deployhq.com/blog/what-is-ci-cd): CI/CD explained
+- [Modern WordPress Development](https://www.deployhq.com/blog/modern-wordpress-plugin-development): WordPress deployment
+- [Git Deployment Guide](https://www.deployhq.com/blog/git-deployment-made-easy-with-deployhq): Git deployment basics
+- [Deploying Behind Firewalls](https://www.deployhq.com/blog/deploying-behind-firewalls-made-easy-introducing-the-deployhq-agent): Network agent usage
+- [Mastering Deployment Strategies](https://www.deployhq.com/blog/deployhq-mastering-deployment-strategies): Advanced deployment tactics
+- [FTP Usage in Modern Deployment](https://www.deployhq.com/blog/is-ftp-dead-a-look-at-its-continued-use-in-deployment): FTP deployment considerations
+- [Deployment Artefacts Guide](https://www.deployhq.com/blog/introducing-deployment-artefacts-in-deployhq): Managing deployment artifacts
+- [Essential Steps for New Codebases](https://www.deployhq.com/blog/5-essential-steps-for-starting-a-new-codebase-with-deployhq-integration): New project setup
+
+## Technical Tutorials
+- [Deploying a WordPress Application on a VPS: A Beginner's Guide](https://www.deployhq.com/blog/deploying-a-wordpress-application-on-a-vps-a-beginners-guide): Step-by-step guide from server setup to streamlined deployment with DeployHQ (Posted May 2025)
+- [How to Install DeepSeek on Your Cloud Server with Ollama LLM](https://www.deployhq.com/blog/how-to-install-deepseek-on-your-cloud-server-with-ollama-llm): Run DeepSeek LLMs on Ubuntu 24.04 with Ollama and DeployHQ (Posted February 2025)
+- [PHP Site Deployment](https://www.deployhq.com/blog/deploying-your-php-site-with-deployhq): PHP deployment guide
+- [Using Private Repositories](https://www.deployhq.com/blog/building-your-site-using-dependencies-from-a-private-repository): Private repo setup
+- [Static Site Deployment](https://www.deployhq.com/blog/using-deployhq-to-build-your-static-site): Static site guide
+- [Database Changes During Deployment](https://www.deployhq.com/blog/how-do-you-handle-database-changes-during-a-deployment): Database management
+- [Shared Hosting Guide](https://www.deployhq.com/blog/using-deployhq-with-shared-hosting-providers): Shared hosting deployment

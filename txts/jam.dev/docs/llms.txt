@@ -1,0 +1,65 @@
+# Jam.dev
+
+## Documentation
+
+- [Welcome to Jam](/docs/get-started/welcome-to-jam.md)
+- [Getting started](/docs/get-started/getting-started.md): Understand Jam's features and how to use them
+- [Creating a Recording Link](/docs/get-started/creating-a-recording-link.md): Learn how to collect issues from others
+- [Creating a Jam](/docs/get-started/creating-a-jam.md): Learn how to capture issues by yourself
+- [Team Setup and Integrations](/docs/get-started/team-setup-and-integrations.md): Learn how to invite your team and connect your tools
+- [Recording Links](/docs/request-a-jam/recording-links.md): Recording Links eliminate the guesswork in bug reports. Send anyone a link; they click, record their issue, and you get a complete technical reproduction—no installations required.
+- [How to Use Recording Links](/docs/request-a-jam/recording-links/how-to-use-recording-links.md)
+- [Setting up Recording Links with console logs, network requests](/docs/request-a-jam/recording-links/setting-up-recording-links-with-console-logs-network-requests.md): Send a link to auto-capture console logs, network requests and more. Just connect your website to Jam. Here's how.
+- [Jam for Customer Support](/docs/request-a-jam/jam-for-customer-support.md): Jam for Customer Support helps your team solve customer issues faster.
+- [Getting started with Jam.js](/docs/request-a-jam/jam-for-customer-support/getting-started-with-jam.js.md): Install Jam.js to get console logs, network requests, and more, in every customer support ticket.
+- [Jam AI](/docs/record-a-jam/jam-ai.md)
+- [Incognito Sessions](/docs/record-a-jam/incognito-sessions.md)
+- [Instant Replay](/docs/record-a-jam/instant-replay.md)
+- [Performance](/docs/record-a-jam/instant-replay/performance.md)
+- [Privacy](/docs/record-a-jam/instant-replay/privacy.md)
+- [iFrame & canvas support](/docs/record-a-jam/instant-replay/iframe-and-canvas-support.md)
+- [Keyboard shortcuts](/docs/record-a-jam/keyboard-shortcuts.md)
+- [Mobile inspector](/docs/record-a-jam/mobile-inspector.md)
+- [Video Screen Recording](/docs/record-a-jam/video-screen-recording.md)
+- [Desktop Recording](/docs/record-a-jam/video-screen-recording/desktop-recording.md)
+- [Video blur](/docs/record-a-jam/video-screen-recording/video-blur.md)
+- [Video annotations](/docs/record-a-jam/video-screen-recording/video-annotations.md)
+- [Screenshot](/docs/record-a-jam/screenshot.md)
+- [Full screen screenshot](/docs/record-a-jam/screenshot/full-screen-screenshot.md)
+- [Screenshot hover states](/docs/record-a-jam/screenshot/screenshot-hover-states.md)
+- [AI Debugger](/docs/debug-a-jam/ai-debugger.md)
+- [DevTools](/docs/debug-a-jam/devtools.md)
+- [Security](/docs/debug-a-jam/devtools/security.md)
+- [Network req/resp bodies](/docs/debug-a-jam/devtools/network-req-resp-bodies.md)
+- [GraphQL](/docs/debug-a-jam/devtools/graphql.md)
+- [Jam.Metadata](/docs/debug-a-jam/devtools/jam.metadata.md): Include custom debug data in every bug report
+- [Asana](/docs/integrations/asana.md)
+- [Azure DevOps](/docs/integrations/azure-devops.md)
+- [ClickUp](/docs/integrations/clickup.md)
+- [Figma](/docs/integrations/figma.md)
+- [Fullstory](/docs/integrations/fullstory.md)
+- [GitHub](/docs/integrations/github.md)
+- [GitLab](/docs/integrations/gitlab.md)
+- [Jira](/docs/integrations/jira.md)
+- [Linear](/docs/integrations/linear.md)
+- [LogRocket](/docs/integrations/logrocket.md)
+- [Notion](/docs/integrations/notion.md)
+- [Sentry](/docs/integrations/sentry.md)
+- [Slack](/docs/integrations/slack.md)
+- [Team Workspaces](/docs/administration/team-workspaces.md)
+- [Workspace Discoverability](/docs/administration/workspace-discoverability.md)
+- [Members and Roles](/docs/administration/members-and-roles.md)
+- [Security](/docs/administration/security.md)
+- [SSO](/docs/administration/sso.md)
+- [Browser support](/docs/administration/browser-support.md)
+- [Mission and Values](/docs/company/mission-and-values.md): Why and how we're building Jam
+- [Security, Privacy and Compliance Policy](/docs/company/security-privacy-and-compliance-policy.md)
+- [AI Policy](/docs/company/ai-policy.md)
+
+## Guides
+
+- [Configure Jam in AI Apps](/docs/guides/tutorials/configure-jam-in-ai-apps.md)
+- [Deploy Jam Org-Wide](/docs/guides/tutorials/deploy-jam-org-wide.md)
+- [Limit Jam to Specific Sites](/docs/guides/tutorials/limit-jam-to-specific-sites.md)
+- [Run Jam on Local Files](/docs/guides/tutorials/run-jam-on-local-files.md)
+- [Suppress Jam Logs in DevTools](/docs/guides/tutorials/suppress-jam-logs-in-devtools.md)

@@ -1,0 +1,50 @@
+# Corgea Documentation
+
+## Docs
+
+- [Get All Issues](https://docs.corgea.app/api-reference/get-all-issues.md)
+- [Get Issue](https://docs.corgea.app/api-reference/get-issue.md)
+- [Get Issues Tree](https://docs.corgea.app/api-reference/get-issues-tree.md)
+- [Introduction](https://docs.corgea.app/api-reference/introduction.md): Corgea API Endpoints
+- [Upload CI Data](https://docs.corgea.app/api-reference/upload-ci-data.md)
+- [Upload Code](https://docs.corgea.app/api-reference/upload-code.md)
+- [Upload Git Config](https://docs.corgea.app/api-reference/upload-git-config.md)
+- [Upload Scan](https://docs.corgea.app/api-reference/upload-scan.md)
+- [Verify Token](https://docs.corgea.app/api-reference/verify-token.md)
+- [Azure DevOps](https://docs.corgea.app/azure_devops.md): Comprehensive Guide to Configuring Azure DevOps with Corgea
+- [Bitbucket](https://docs.corgea.app/bitbucket.md): Setting up Corgea with Bitbucket
+- [Business Logic Application Security Testing (Private Beta)](https://docs.corgea.app/blast.md): Comprehensive vulnerability coverage in Corgea
+- [Blocking Rules](https://docs.corgea.app/blocking_rules.md): Blocking rules help enforce security and quality standards by preventing non-compliant code from being merged.
+- [Changelog](https://docs.corgea.app/changelog.md): Latest updates from Corgea.
+- [CLI](https://docs.corgea.app/cli.md): Supercharge your security from the command line
+- [False Positive Detection](https://docs.corgea.app/false_positive.md): Corgea Auto-detects False Positives
+- [Applying Fixes](https://docs.corgea.app/fixes.md): Start fixing vulnerable code.
+- [GitHub](https://docs.corgea.app/github.md): Start generating fixes for your repository
+- [GitLab](https://docs.corgea.app/gitlab.md): Setting up a GitLab Integration in Corgea
+- [How Corgea Works](https://docs.corgea.app/how_it_works.md): Want to learn more about how Corgea works?
+- [Introduction](https://docs.corgea.app/introduction.md): Welcome to Corgea's documentation.
+- [Issue Assignment & Status Management](https://docs.corgea.app/issue_assignment.md): Assign and track security issues across your team
+- [JIRA](https://docs.corgea.app/jira.md): Setting up the JIRA Integration in Corgea
+- [Language & Framework Support](https://docs.corgea.app/language_support.md): Comprehensive coverage of programming languages and frameworks in Corgea
+- [Legal](https://docs.corgea.app/legal.md): Corgea's Legal Documents
+- [PolicyIQ](https://docs.corgea.app/policies.md): Enriching Corgea with Business Context through Policies
+- [Quickstart](https://docs.corgea.app/quickstart.md): Setup Corgea in less than 5 mins.
+- [Roadmap](https://docs.corgea.app/roadmap.md): See where we are going together
+- [Uploading Scans](https://docs.corgea.app/scanning.md): Start generating fixes for your repository
+- [Security](https://docs.corgea.app/security.md): Corgea's Security and Privacy Standards
+- [SLA Management](https://docs.corgea.app/sla_management.md): Configure and manage Service Level Agreements (SLAs) for security issues
+- [Slack](https://docs.corgea.app/slack.md): Setting up the Slack Integration with Corgea
+- [SSO](https://docs.corgea.app/sso.md): Enable seamless and secure access to multiple applications with Single Sign-On (SSO) using the SAML protocol, enhancing user experience and security.
+- [User Management](https://docs.corgea.app/user_management.md): Manage your users in Corgea
+- [Visual Studio 2022](https://docs.corgea.app/vs2022_extension.md): Bring Corgea to your Visual Studio Code
+- [Visual Studio Code](https://docs.corgea.app/vsc_extension.md): Bring Corgea to your Visual Studio Code
+- [Vulnerability Coverage](https://docs.corgea.app/vulnerability_support.md): Comprehensive vulnerability coverage in Corgea
+- [Webhooks](https://docs.corgea.app/webhooks.md): Setting up Webhook Integrations in Corgea
+- [Zapier](https://docs.corgea.app/zapier.md): Setting up the Zapier Integration in Corgea
+
+
+## Optional
+
+- [Roadmap](https://docs.corgea.app/roadmap)
+- [Service Status](https://status.corgea.app/)
+- [Blog](https://corgea.com/blog)

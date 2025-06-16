@@ -1,0 +1,16 @@
+# Prodege Performance Developer Documentation
+
+## Developer Documentation
+
+- [Advertiser Reporting API](https://docs.prodegeads.com/apis/advertiser-reporting-api)
+- [User Based API (v1)](https://docs.prodegeads.com/apis/user-based-api-v1)
+- [Get Offers](https://docs.prodegeads.com/apis/user-based-api-v1/get-offers): Main API endpoint to fetch available offers for a particular user. Use this to display offers in your offer wall.
+- [Get Offers By Ids](https://docs.prodegeads.com/apis/user-based-api-v1/get-offers-by-ids): Gets the available information for the provided offer IDs, including interaction history.
+- [Post Devices](https://docs.prodegeads.com/apis/user-based-api-v1/post-devices): If a user owns a mobile device, call this endpoint to store the devices. If provided, desktop users will be able to see available mobile offers.
+- [Get History](https://docs.prodegeads.com/apis/user-based-api-v1/get-history): API endpoint to fetch user history. It returns a list of all offers the user has interacted with, and how many points were earned for each one.
+- [Get Offer History - DEPRECATED](https://docs.prodegeads.com/apis/user-based-api-v1/get-offer-history-deprecated): API endpoint to fetch historical details for a specific offer. Use it to get the status of each offer event.
+- [Offers API (v3)](https://docs.prodegeads.com/apis/offers-api)
+- [Offers API (v2)](https://docs.prodegeads.com/apis/offers-api-1)
+- [Publisher Reporting API](https://docs.prodegeads.com/apis/publisher-reporting-api)
+- [Postback Information](https://docs.prodegeads.com/postbacks/postback-information): This page describes how a postback works.
+- [PHP Postback Examples](https://docs.prodegeads.com/postbacks/php-postback-examples): See some sample code for capturing postbacks on your server.

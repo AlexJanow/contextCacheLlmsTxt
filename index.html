@@ -1,0 +1,104 @@
+---
+layout: default
+---
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Search and Filter Controls -->
+    <div class="bg-white rounded-lg shadow mb-8 p-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div>
+                <label for="search" class="block text-sm font-medium text-gray-700 mb-2">Search</label>
+                <div class="relative">
+                    <input type="text" id="search" placeholder="Search by title or description..." 
+                           class="w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                           aria-describedby="search-help">
+                    <svg class="w-5 h-5 text-gray-400 absolute left-3 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m21 21-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                </div>
+                <span id="search-help" class="sr-only">Search through llms.txt files by title, description, or category</span>
+            </div>
+            <div>
+                <label for="category" class="block text-sm font-medium text-gray-700 mb-2">Category</label>
+                <select id="category" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        aria-describedby="category-help">
+                    <option value="">All categories</option>
+                </select>
+                <span id="category-help" class="sr-only">Filter files by category type</span>
+            </div>
+            <div>
+                <label for="sort" class="block text-sm font-medium text-gray-700 mb-2">Sort</label>
+                <select id="sort" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        aria-describedby="sort-help">
+                    <option value="default">Default sort</option>
+                    <option value="tokens-asc">Tokens (Low to High)</option>
+                    <option value="tokens-desc">Tokens (High to Low)</option>
+                    <option value="full-tokens-asc">Full Tokens (Low to High)</option>
+                    <option value="full-tokens-desc">Full Tokens (High to Low)</option>
+                    <option value="name-asc">Name (A to Z)</option>
+                    <option value="name-desc">Name (Z to A)</option>
+                </select>
+                <span id="sort-help" class="sr-only">Sort files by different criteria</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Table -->
+    <div class="bg-white rounded-lg shadow overflow-hidden">
+        <table class="min-w-full divide-y divide-gray-200" role="table" aria-label="llms.txt files directory">
+            <thead class="bg-gray-50">
+                <tr>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Title</th>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Category</th>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tokens</th>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Files</th>
+                    <th scope="col" class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
+                </tr>
+            </thead>
+            <tbody id="results-body" class="bg-white divide-y divide-gray-200">
+                <!-- Results will be populated by JavaScript -->
+            </tbody>
+        </table>
+                
+        <!-- No JavaScript Fallback -->
+        <noscript>
+            <div class="p-6">
+                <h2 class="text-lg font-medium text-gray-900 mb-4">Available llms.txt Files</h2>
+                <ul class="space-y-2">
+                    {% for txt in site.txts %}
+                    <li>
+                        <a href="{{ txt.url | relative_url }}llms.txt" class="text-blue-600 hover:text-blue-800">
+                            {{ txt.title }} - {{ txt.category }} ({{ txt.tokens }} tokens)
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </noscript>
+    </div>
+
+    <!-- Stats -->
+    <div class="mt-6 text-center text-sm text-gray-500">
+        <span id="stats">Loading files...</span>
+    </div>
+</div>
+
+<!-- Embedded Data -->
+<script type="application/json" id="txt-data">
+[
+    {% for txt in site.txts %}
+    {
+        "title": "{{ txt.title }}",
+        "category": "{{ txt.category }}",
+        "tokens": {{ txt.tokens }},
+        "description": "{{ txt.description | escape }}",
+        "path": "{{ txt.id }}",
+        "url": "{{ site.baseurl }}{{ txt.id | split: '/' | slice: 0, 2 | join: '/' }}/",
+        "hasFullText": {% if txt.has_full %}true{% else %}false{% endif %}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+]
+</script>
+
+<!-- Search and Filter JavaScript -->
+<script src="{{ '/assets/js/search.js' | relative_url }}"></script>

@@ -1,0 +1,123 @@
+# Agent.ai Documentation
+
+## Docs
+
+- [Action Availability](https://docs.agent.ai/actions-available.md): Agent.ai provides actions across the builder and SDKs.
+- [Add HubSpot CRM Object](https://docs.agent.ai/actions/add_hubspot_crm_object.md)
+- [Add to List](https://docs.agent.ai/actions/add_to_list.md)
+- [Click Go to Continue](https://docs.agent.ai/actions/click_go_to_continue.md)
+- [Continue or Exit Workflow](https://docs.agent.ai/actions/continue_or_exit_workflow.md)
+- [Convert File](https://docs.agent.ai/actions/convert_file.md)
+- [Create Blog Post](https://docs.agent.ai/actions/create_blog_post.md)
+- [End If/Else/For Statement](https://docs.agent.ai/actions/end_statement.md)
+- [Enrich with Breeze Intelligence](https://docs.agent.ai/actions/enrich_with_breeze_intelligence.md)
+- [For Loop](https://docs.agent.ai/actions/for_loop.md)
+- [Format Text](https://docs.agent.ai/actions/format_text.md)
+- [Generate Image](https://docs.agent.ai/actions/generate_image.md)
+- [Get Assigned Company](https://docs.agent.ai/actions/get_assigned_company.md)
+- [Get Bluesky Posts](https://docs.agent.ai/actions/get_bluesky_posts.md)
+- [Get Data from Builder's Knowledge Base](https://docs.agent.ai/actions/get_data_from_builders_knowledgebase.md)
+- [Get Data from User's Uploaded Files](https://docs.agent.ai/actions/get_data_from_users_uploaded_files.md)
+- [Get HubSpot CRM Object](https://docs.agent.ai/actions/get_hubspot_crm_object.md)
+- [Get HubSpot Object Properties](https://docs.agent.ai/actions/get_hubspot_object_properties.md)
+- [Get HubSpot Owners](https://docs.agent.ai/actions/get_hubspot_owners.md)
+- [Get Instagram Followers](https://docs.agent.ai/actions/get_instagram_followers.md)
+- [Get Instagram Profile](https://docs.agent.ai/actions/get_instagram_profile.md)
+- [Get LinkedIn Activity](https://docs.agent.ai/actions/get_linkedin_activity.md)
+- [Get LinkedIn Profile](https://docs.agent.ai/actions/get_linkedin_profile.md)
+- [Get Recent Tweets](https://docs.agent.ai/actions/get_recent_tweets.md)
+- [Get Twitter Users](https://docs.agent.ai/actions/get_twitter_users.md)
+- [Get User File](https://docs.agent.ai/actions/get_user_file.md)
+- [Get User Input](https://docs.agent.ai/actions/get_user_input.md)
+- [Get User KBs and Files](https://docs.agent.ai/actions/get_user_knowledge_base_and_files.md)
+- [Get User List](https://docs.agent.ai/actions/get_user_list.md)
+- [Get Variable from Database](https://docs.agent.ai/actions/get_variable_from_database.md)
+- [Google News Data](https://docs.agent.ai/actions/google_news_data.md)
+- [If/Else Statement](https://docs.agent.ai/actions/if_else.md)
+- [Invoke Other Agent](https://docs.agent.ai/actions/invoke_other_agent.md)
+- [Invoke Web API](https://docs.agent.ai/actions/invoke_web_api.md)
+- [Post to Bluesky](https://docs.agent.ai/actions/post_to_bluesky.md)
+- [Save To File](https://docs.agent.ai/actions/save_to_file.md)
+- [Save To Google Doc](https://docs.agent.ai/actions/save_to_google_doc.md)
+- [Search Bluesky Posts](https://docs.agent.ai/actions/search_bluesky_posts.md)
+- [Search Results](https://docs.agent.ai/actions/search_results.md)
+- [Send Message](https://docs.agent.ai/actions/send_message.md)
+- [Call Serverless Function](https://docs.agent.ai/actions/serverless_function.md)
+- [Set Variable](https://docs.agent.ai/actions/set_variable.md)
+- [Show User Output](https://docs.agent.ai/actions/show_user_output.md)
+- [Store Variable to Database](https://docs.agent.ai/actions/store_variable_to_database.md)
+- [Update HubSpot CRM Object](https://docs.agent.ai/actions/update_hubspot_crm_object.md)
+- [Use GenAI (LLM)](https://docs.agent.ai/actions/use_genai.md)
+- [Wait for User Confirmation](https://docs.agent.ai/actions/wait_for_user_confirmation.md)
+- [Web Page Content](https://docs.agent.ai/actions/web_page_content.md)
+- [Web Page Screenshot](https://docs.agent.ai/actions/web_page_screenshot.md)
+- [YouTube Channel Data](https://docs.agent.ai/actions/youtube_channel_data.md)
+- [YouTube Search Results](https://docs.agent.ai/actions/youtube_search_results.md)
+- [AI Agents Explained](https://docs.agent.ai/ai-agents-explained.md): Understanding the basics of AI agents for beginners
+- [Browser Operator Results](https://docs.agent.ai/api-reference/advanced/browser-operator-results.md): Get the browser operator session results.
+- [Convert file](https://docs.agent.ai/api-reference/advanced/convert-file.md): Convert a file to a different format.
+- [Convert file options](https://docs.agent.ai/api-reference/advanced/convert-file-options.md): Gets the full set of options that a file extension can be converted to.
+- [Invoke Agent](https://docs.agent.ai/api-reference/advanced/invoke-agent.md): Trigger another agent to perform additional processing or data handling within workflows.
+- [REST call](https://docs.agent.ai/api-reference/advanced/rest-call.md): Make a REST API call to a specified endpoint.
+- [Retrieve Variable](https://docs.agent.ai/api-reference/advanced/retrieve-variable.md): Retrieve a variable from the agent's database
+- [Start Browser Operator](https://docs.agent.ai/api-reference/advanced/start-browser-operator.md): Starts a browser operator to interact with web pages and perform actions.
+- [Store Variable](https://docs.agent.ai/api-reference/advanced/store-variable.md): Store a variable in the agent's database
+- [Find Agents](https://docs.agent.ai/api-reference/agent-discovery/find-agents.md): Search and discover agents based on various criteria including status, tags, and search terms.
+- [Save To File](https://docs.agent.ai/api-reference/create-output/save-to-file.md): Save text content as a downloadable file.
+- [Enrich Company Data](https://docs.agent.ai/api-reference/get-data/enrich-company-data.md): Gather enriched company data using Breeze Intelligence for deeper analysis and insights.
+- [Find LinkedIn Profile](https://docs.agent.ai/api-reference/get-data/find-linkedin-profile.md): Find the LinkedIn profile slug for a person.
+- [Get Bluesky Posts](https://docs.agent.ai/api-reference/get-data/get-bluesky-posts.md): Fetch recent posts from a specified Bluesky user handle, making it easy to monitor activity on the platform.
+- [Get Company Earnings Info](https://docs.agent.ai/api-reference/get-data/get-company-earnings-info.md): Retrieve company earnings information for a given stock symbol over time.
+- [Get Company Financial Profile](https://docs.agent.ai/api-reference/get-data/get-company-financial-profile.md): Retrieve detailed financial and company profile information for a given stock symbol, such as market cap and the last known stock price for any company.
+- [Get Domain Information](https://docs.agent.ai/api-reference/get-data/get-domain-information.md): Retrieve detailed information about a domain, including its registration details, DNS records, and more.
+- [Get Instagram Followers](https://docs.agent.ai/api-reference/get-data/get-instagram-followers.md): Retrieve a list of top followers from a specified Instagram account for social media analysis.
+- [Get Instagram Profile](https://docs.agent.ai/api-reference/get-data/get-instagram-profile.md): Fetch detailed profile information for a specified Instagram username.
+- [Get LinkedIn Activity](https://docs.agent.ai/api-reference/get-data/get-linkedin-activity.md): Retrieve recent LinkedIn posts from specified profiles to analyze professional activity and engagement.
+- [Get LinkedIn Profile](https://docs.agent.ai/api-reference/get-data/get-linkedin-profile.md): Retrieve detailed information from a specified LinkedIn profile for professional insights.
+- [Get Recent Tweets](https://docs.agent.ai/api-reference/get-data/get-recent-tweets.md): This action fetches recent tweets from a specified Twitter handle.
+- [Get Twitter Users](https://docs.agent.ai/api-reference/get-data/get-twitter-users.md): Search and retrieve Twitter user profiles based on specific keywords for targeted social media analysis.
+- [Google News Data](https://docs.agent.ai/api-reference/get-data/google-news-data.md): Fetch news articles based on queries and date ranges to stay updated on relevant topics or trends.
+- [Search Bluesky Posts](https://docs.agent.ai/api-reference/get-data/search-bluesky-posts.md): Search for Bluesky posts matching specific keywords or criteria to gather social media insights.
+- [Search Results](https://docs.agent.ai/api-reference/get-data/search-results.md): Fetch search results from Google or YouTube for specific queries, providing valuable insights and content.
+- [Web Page Content](https://docs.agent.ai/api-reference/get-data/web-page-content.md): Extract text content from a specified web page or domain.
+- [Web Page Screenshot](https://docs.agent.ai/api-reference/get-data/web-page-screenshot.md): Capture a visual screenshot of a specified web page for documentation or analysis.
+- [YouTube Channel Data](https://docs.agent.ai/api-reference/get-data/youtube-channel-data.md): Retrieve detailed information about a YouTube channel, including its videos and statistics.
+- [YouTube Search Results](https://docs.agent.ai/api-reference/get-data/youtube-search-results.md): Perform a YouTube search and retrieve results for specified queries.
+- [YouTube Video Transcript](https://docs.agent.ai/api-reference/get-data/youtube-video-transcript.md): Fetches the transcript of a YouTube video using the video URL.
+- [Get Hubspot Company Data](https://docs.agent.ai/api-reference/hubspot/get-hubspot-company-data.md): Retrieve company data from Hubspot based on a query or get the most recent company.
+- [Get Hubspot Contact Data](https://docs.agent.ai/api-reference/hubspot/get-hubspot-contact-data.md): Retrieve contact data from Hubspot based on a query or get the most recent contact.
+- [Get Hubspot Object Data](https://docs.agent.ai/api-reference/hubspot/get-hubspot-object-data.md): Retrieve data for any supported Hubspot object type based on a query or get the most recent object.
+- [Convert text to speech](https://docs.agent.ai/api-reference/use-ai/convert-text-to-speech.md): Convert text to a generated audio voice file.
+- [Generate Image](https://docs.agent.ai/api-reference/use-ai/generate-image.md): Create visually engaging images using AI models, with options for style, aspect ratio, and detailed prompts.
+- [Use GenAI (LLM)](https://docs.agent.ai/api-reference/use-ai/use-genai-llm.md): Invoke a language model (LLM) to generate text based on input instructions, enabling creative and dynamic text outputs.
+- [Knowledge Base & Files](https://docs.agent.ai/builder/kb-and-files.md)
+- [Builder Overview](https://docs.agent.ai/builder/overview.md)
+- [Policy for Public Agents](https://docs.agent.ai/builder/public-agent-policy.md): This is the Agent.ai policy for publishing public agents. Below you’ll find the criteria your agent needs to meet to be published. Published agents can show up in search so other users can find and use them. This document should be viewed alongside our Terms of Service and Privacy Policy.
+- [Using Secrets in Agent.ai](https://docs.agent.ai/builder/secrets.md)
+- [Managing Serverless Functions](https://docs.agent.ai/builder/serverless-functions.md)
+- [Using Snippets in Agent.ai](https://docs.agent.ai/builder/snippets.md)
+- [Explore and Clone Existing Agent Flows](https://docs.agent.ai/clone-agents.md): When builders allow others to view and clone their agents, it makes it easier for the community to explore how things work and build on top of them.
+- [How to Use Lists in For Loops](https://docs.agent.ai/lists-in-for-loops.md): How to transform multi-select values into a usable format in Agent.ai workflows
+- [LLM Models](https://docs.agent.ai/llm-models.md): Agent.ai provides a number of LLM models that are available for use.
+- [How Credits Work](https://docs.agent.ai/marketplace-credits.md): Agent.ai uses credits to enable usage and reward actions in the community.
+- [MCP Server](https://docs.agent.ai/mcp-server.md): Agent.ai provides an MCP server that is available for use.
+- [How to Format Output for Better Readability](https://docs.agent.ai/output-formatting.md)
+- [Rate Limits](https://docs.agent.ai/ratelimits.md): Agent.ai implements rate limit logic to ensure a consistent user experience.
+- [Company Research Agent](https://docs.agent.ai/recipes/company-research-agent.md): How to build a Company Research agent in Agent.ai
+- [Executive News Agent](https://docs.agent.ai/recipes/executive-news-agent.md): How to build an Executive News agent
+- [Executive Tweet Analyzer Agent](https://docs.agent.ai/recipes/executive-tweet-analyzer.md): How to build an Executive Tweet Analyzer agent
+- [LinkedIn Research Agent](https://docs.agent.ai/recipes/linkedin-research-agent.md): How to build a LinkedIn Research agent
+- [Community-Led Recipes](https://docs.agent.ai/recipes/overview.md)
+- [Calling Agents from Salesforce (SFDC)](https://docs.agent.ai/recipes/salesforce.md)
+- [Data Security & Privacy at Agent.ai](https://docs.agent.ai/security-privacy.md): Agent.ai prioritizes your data security and privacy with full encryption, no data reselling, and transparent handling practices. Find out how we protect your information while providing AI agent services and our current compliance status.
+- [Agent Run History](https://docs.agent.ai/user/agent-runs.md)
+- [Adding Agents to Your Team](https://docs.agent.ai/user/agent-team.md)
+- [Submit Agent Requests in Agent.ai](https://docs.agent.ai/user/request-an-agent.md)
+- [User Settings in Agent.ai](https://docs.agent.ai/user/settings.md)
+- [Welcome](https://docs.agent.ai/welcome.md)
+
+
+## Optional
+
+- [Documentation](https://docs.agent.ai)
+- [Community](https://community.agent.ai)

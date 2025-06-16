@@ -1,0 +1,169 @@
+# AgentQL
+
+> AgentQL is a powerful query language and SDK for web automation and data extraction. It combines natural language processing with web technologies to enable precise control over web browsers and efficient data collection.
+
+Important notes:
+
+- AgentQL uses natural language to identify web elements, making scripts more maintainable and resistant to site changes
+- The SDK is built on top of Playwright, providing robust browser automation capabilities
+- Queries can be tested and refined using the AgentQL Debugger browser extension
+
+# Quick Start
+
+- [Quick Start](https://docs.agentql.com/quick-start): Get started scraping data and automating interactions with web pages with AgentQL queries, CLI, debugger, and SDKs.
+
+# Learn AgentQL
+
+- [Learn AgentQL](https://docs.agentql.com/learn): Learn how to use AgentQL to automate web interactions and extract data from web pages in this full length tutorial.
+
+- [First Steps](https://docs.agentql.com/getting-started/first-steps)
+- [Example Script](https://docs.agentql.com/getting-started/example-script)
+
+# The AgentQL Query Language
+
+- [The AgentQL Query Language](https://docs.agentql.com/agentql-query): AgentQL queries are a powerful way to extract data from web pages and automate workflows. They are designed to be self-healing, reusable, and structured format you define.
+
+- [Query Introduction](https://docs.agentql.com/agentql-query/query-intro)
+- [Pass context to queries with prompts](https://docs.agentql.com/agentql-query/pass-context)
+- [Best Practices](https://docs.agentql.com/agentql-query/best-practices)
+- [Python SDK](https://docs.agentql.com/python-sdk): AgentQL's Python SDK allows for automation as well as data extraction with a JavaScript integration with Playwright.
+- [JavaScript SDK](https://docs.agentql.com/javascript-sdk): AgentQL's JavaScript SDK allows for automation as well as data extraction with a JavaScript integration with Playwright.
+- [REST API](https://docs.agentql.com/rest-api/api-reference)
+- [Release Notes](https://docs.agentql.com/release-notes)
+
+## Python SDK
+
+- [Installation](https://docs.agentql.com/python-sdk/installation)
+- [API Reference](https://docs.agentql.com/python-sdk/api-references): AgentQL's Python SDK API references for data extraction and web automation.
+
+### API Reference
+
+- [`agentql` module](https://docs.agentql.com/python-sdk/api-references/agentql)
+- [AgentQL `Page`](https://docs.agentql.com/python-sdk/api-references/agentql-page)
+- [`AQLResponseProxy` class](https://docs.agentql.com/python-sdk/api-references/aqlresponse)
+- [`agentql.tools` module](https://docs.agentql.com/python-sdk/api-references/agentql-tools)
+- [`PaginationInfo` class](https://docs.agentql.com/python-sdk/api-references/paginationinfo)
+
+## JavaScript SDK
+
+- [Installation](https://docs.agentql.com/javascript-sdk/installation)
+- [API Reference](https://docs.agentql.com/javascript-sdk/api-references): AgentQL's JavaScript SDK API references for data extraction and web automation.
+
+### API Reference
+
+- [`agentql` module](https://docs.agentql.com/javascript-sdk/api-references/agentql)
+- [AgentQL `Page`](https://docs.agentql.com/javascript-sdk/api-references/agentql-page)
+- [`AQLResponseProxy` class](https://docs.agentql.com/javascript-sdk/api-references/aqlresponse)
+
+# Integrations
+
+- [Integrations](https://docs.agentql.com/integrations): AgentQL integrates with a wide range of tools and services to help you extract data from web pages.
+
+- [AgentStack](https://docs.agentql.com/integrations/agentstack): AgentQL integrates with AgentStack, allowing you to scaffold agent projects with AgentQL and other tools. AgentStack is a developer tool that makes building agents efficient and fast with just a few CLI commands.
+- [Dify](https://docs.agentql.com/integrations/dify): Simplify AI deployment with Dify. Build and scale AI applications with no-code flexibility that can retrieve and manipulate data from the web with AgentQL.
+- [LangChain](https://docs.agentql.com/integrations/langchain): AgentQL integrates with LangChain, allowing you to both extract data and take actions on the web. LangChain helps to perform AI-powered research, workflow automation, and hands-free online interactions.
+- [Langflow](https://docs.agentql.com/integrations/langflow): Design intelligent workflows visually with Langflow. Integrate AgentQL’s data extraction capabilities to enrich your workflows with contextual, real-time insights.
+- [LlamaIndex](https://docs.agentql.com/integrations/llamaindex): AgentQL integrates with LlamaIndex, allowing you to build RAG (Retrieval-Augmented Generation) models and AI assistants for AI-powered search and decision making.
+- [MCP](https://docs.agentql.com/integrations/mcp): Use AgentQL with MCP to enable real-time, AI-powered web data extraction for your agents. Seamlessly collect real-time web data for use with Claude, Cursor, Windsurf, and more.
+- [Zapier](https://docs.agentql.com/integrations/zapier): Use data from any site with a single AgentQL Action. Collect and act on real-time data from the Web to update databases, send emails and more with your favorite integrations.
+
+# Examples
+
+- [Examples](https://docs.agentql.com/examples)
+
+- [Python Examples](https://docs.agentql.com/examples/python-examples)
+- [JavaScript Examples](https://docs.agentql.com/examples/javascript-examples)
+
+# Concepts
+
+- [Concepts](https://docs.agentql.com/concepts): AgentQL consists of a parser and its query language that use AI-powered natural language selectors for web scraping and automation. This section provides a conceptural overview of the main components and how they work together.
+
+- [A query language for the web](https://docs.agentql.com/concepts/query-language): AgentQL is an AI-powered query language and parser that use natural language selectors for web scraping and automation. It offers resilient, self-healing, cross-site compatible queries, and structured data output, so you can write your script once and execute anywhere.
+- [Main Concepts](https://docs.agentql.com/concepts/main-concepts)
+- [Under the Hood](https://docs.agentql.com/concepts/under-the-hood)
+
+# Guides
+
+- [Guides](https://docs.agentql.com/guides): Learn how to use AgentQL to automate interactions with web pages as well as parse, extract, and scrape data from web pages.
+
+- [Web Scraping and Data Extraction](https://docs.agentql.com/scraping): You can use AgentQL's SDKs and REST API endpoint to retrieve data from any web page.
+- [Automation with `query_element` and `get_by_prompt`](https://docs.agentql.com/automation): AgentQL's SDK is integrated with Playwright, which allows you to programmatically interact with web sites. This section shows how to use the `query_element` and `get_by_prompt` functions to return elements, fill out forms, and close cookie dialogs.
+- [Avoiding bot detection](https://docs.agentql.com/avoiding-bot-detection): Techniques to avoid being detected by anti-bot systems while using AgentQL to automate workflows.
+- [Improving speed](https://docs.agentql.com/speed): How to improve parsing speed when using AgentQL to query elements and data.
+- [Accuracy](https://docs.agentql.com/accuracy): How to improve parsing accuracy when using AgentQL to query elements and data.
+- [Using the browser with AgentQL](https://docs.agentql.com/browser)
+- [Logging into sites](https://docs.agentql.com/logging-into-sites)
+- [Navigating pagination](https://docs.agentql.com/navigating-pagination)
+- [Deploying AgentQL scripts](https://docs.agentql.com/deploying): How to deploy AgentQL scripts to cloud services.
+
+## Web Scraping and Data Extraction
+
+- [Scraping data with AgentQL's REST API](https://docs.agentql.com/scraping/scraping-data-api)
+- [Querying data from HTML with AgentQL's REST API](https://docs.agentql.com/scraping/getting-data-from-html-api)
+- [Scraping data with `query_data`](https://docs.agentql.com/scraping/scraping-data-sdk): Learn how to use the `query_data` method to scrape and extract structured data from a website using AgentQL's SDKs.
+- [Extracting data from PDFs and images](https://docs.agentql.com/scraping/pdfs-images-data-extraction): Learn how to use AgentQL to extract structured data from PDFs and image files
+- [Scheduling scraping jobs](https://docs.agentql.com/scraping/scheduling)
+
+## Automation with `query_element` and `get_by_prompt`
+
+- [Return a collection of elements with `query_elements`](https://docs.agentql.com/automation/elements): How to use AgentQL's `query_elements` method to locate more than one element from a web page and perform automations with them.
+- [Return a single element with `get_by_prompt`](https://docs.agentql.com/automation/single-element): How to use AgentQL's `get_by_prompt` method to locate one or more elements from a web page by passing a prompt describing the element you're looking for.
+- [How to fill out and submit a form](https://docs.agentql.com/automation/submit-form)
+- [How to close a modal or cookie dialog](https://docs.agentql.com/automation/close-modals)
+- [How to solve Playwright timeout errors when interacting with elements](https://docs.agentql.com/automation/actionability-check)
+
+## Avoiding bot detection
+
+- [Enabling proxies](https://docs.agentql.com/avoiding-bot-detection/enable-proxies)
+- [Rotating browser headers](https://docs.agentql.com/avoiding-bot-detection/rotating-headers)
+- [Enable "stealth mode" for a headless browser](https://docs.agentql.com/avoiding-bot-detection/stealth-mode-for-headless-browser)
+- [User-like behavior](https://docs.agentql.com/avoiding-bot-detection/user-like-behavior): Learn how to make your AgentQL scripts look more human-like and avoid bot detection strategies.
+
+## Improving speed
+
+- [Enable Fast Mode](https://docs.agentql.com/speed/fast-mode)
+
+## Accuracy
+
+- [Passing context to queries with prompts](https://docs.agentql.com/accuracy/contextual-queries)
+- [Single out elements by describing their surroundings](https://docs.agentql.com/accuracy/describing-context)
+- [Get the highest resolution image](https://docs.agentql.com/accuracy/highest-resolution-image)
+- [Type hinting for query terms](https://docs.agentql.com/accuracy/type-hinting)
+- [Enable Standard Mode](https://docs.agentql.com/accuracy/standard-mode)
+
+## Using the browser with AgentQL
+
+- [How to open a headless browser](https://docs.agentql.com/browser/headless-browser)
+- [Connect to an open tab in an existing browser](https://docs.agentql.com/browser/access-open-tab): This guide demonstrates how to connect to an open browser tab and execute AgentQL queries within it using WebSocket connections.
+
+## Logging into sites
+
+- [Log into sites](https://docs.agentql.com/logging-into-sites/log-into-sites)
+- [Caching user credentials](https://docs.agentql.com/logging-into-sites/caching-user-credentials)
+
+## Navigating pagination
+
+- [How to navigate infinite scrolling pages](https://docs.agentql.com/navigating-pagination/infinite-scroll)
+- [How to collect data across numerically paginated web pages](https://docs.agentql.com/navigating-pagination/collect-data-from-paginated-pages)
+- [How to step through paginated pages](https://docs.agentql.com/navigating-pagination/step-through-paginated-pages)
+
+## Deploying AgentQL scripts
+
+- [How to deploy AgentQL script](https://docs.agentql.com/deploying/how-to-deploy-agentql-script)
+
+# Tools
+
+- [Tools](https://docs.agentql.com/tools): AgentQL has a suite of tools for testing and debugging your queries.
+
+- [AgentQL CLI Command Reference](https://docs.agentql.com/cli-reference)
+- [AgentQL Debugger](https://docs.agentql.com/debugger-extension)
+- [Playground](https://playground.agentql.com/)
+
+# Support
+
+- [Support](https://docs.agentql.com/support)
+
+# FAQ
+
+- [FAQ](https://docs.agentql.com/faq)
+

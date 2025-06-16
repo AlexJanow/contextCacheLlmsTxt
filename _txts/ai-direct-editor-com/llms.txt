@@ -1,0 +1,1538 @@
+# AI Direct Editor
+
+> AIライティング/AIブログWordPressプラグイン【自動生成】
+
+---
+
+
+## 固定ページ
+
+- [特定商取引法に基づく表記](https://ai-direct-editor.com/law/): …
+- [AI Direct Editor のデモ環境（無料）](https://ai-direct-editor.com/demo/): …
+- [よくある質問](https://ai-direct-editor.com/faq/): …
+- [マニュアル](https://ai-direct-editor.com/manual/): …
+- [ホーム](https://ai-direct-editor.com/): 今すぐウェブで試す 今すぐダウンロード ...
+- [お問い合わせ](https://ai-direct-editor.com/contact/): …
+- [プライバシーポリシー](https://ai-direct-editor.com/privacy-policy/): …
+
+---
+
+
+## 投稿
+
+- [JIN:Rテーマに対応しました](https://ai-direct-editor.com/news/20250514/): …
+- [AIブラウザFellouとは？使い方まで5分でわかる完全ガイド](https://ai-direct-editor.com/column/ai-browser-fellou/): …
+- [AI Direct Editor バージョン1.1.0.0](https://ai-direct-editor.com/update/1-1-0-0/): …
+- [AI Direct Editorのプロモーション動画ができました](https://ai-direct-editor.com/news/20250428/): …
+- [オートコンプリート（自動補完）機能を追加しました](https://ai-direct-editor.com/news/20250420/): …
+- [SANGOテーマに対応しました](https://ai-direct-editor.com/news/20250413/): …
+- [AI Direct Editor バージョン1.0.9.0](https://ai-direct-editor.com/update/1-0-9-0/): …
+- [セールスライティング用のプロンプトを追加しました](https://ai-direct-editor.com/news/20250408/): …
+- [AI Direct Editor バージョン1.0.8.0](https://ai-direct-editor.com/update/1-0-8-0/): …
+- [IT PARKにてAI Direct Editorをご紹介いただきました](https://ai-direct-editor.com/media/20250402/): …
+- [AIライティング（記事作成）プロンプトの構文とカスタマイズ](https://ai-direct-editor.com/column/ai-writing-prompt/): …
+- [記事の図解機能を追加しました](https://ai-direct-editor.com/news/20250329/): …
+- [アドカルにてAI Direct Editorをご紹介いただきました](https://ai-direct-editor.com/media/20250325/): …
+- [Lightningテーマに対応しました](https://ai-direct-editor.com/news/20250323/): …
+- [AI Direct Editor バージョン1.0.7.0](https://ai-direct-editor.com/update/1-0-7-0/): …
+- [記事の複製機能を追加しました](https://ai-direct-editor.com/news/20250322/): …
+- [【重要なお知らせ】1ライセンスあたりのサイト数の変更について](https://ai-direct-editor.com/news/20250321/): …
+- [記事シェア機能が充実しました](https://ai-direct-editor.com/news/20250319/): …
+- [meta landにてAI Direct Editorをご紹介いただきました](https://ai-direct-editor.com/media/20250309/): …
+- [Affingerテーマに対応しました](https://ai-direct-editor.com/news/20250307/): …
+- [AI Direct Editor バージョン1.0.6.0](https://ai-direct-editor.com/update/1-0-6-0/): …
+- [LLMs.txt WordPressプラグイン「Website LLMs.txt」の使い方と設定方法](https://ai-direct-editor.com/column/llms-txt-wordpress-plugin/): …
+- [SEM PlusにてAI Direct Editorをご紹介いただきました](https://ai-direct-editor.com/media/20250222/): …
+- [AI Direct Editor バージョン1.0.5.0](https://ai-direct-editor.com/update/1-0-5-0/): …
+- [noteシェア機能を追加しました](https://ai-direct-editor.com/news/20250211/): …
+- [AIでWebライターの仕事はなくなる？AI時代に輝くライターの条件](https://ai-direct-editor.com/column/ai-writer-future/): …
+- [AIブログの落とし穴！成功させるための重要な注意点](https://ai-direct-editor.com/column/ai-blog-tips/): …
+- [インデックス・クロール状況チェック機能を追加しました](https://ai-direct-editor.com/news/20250202/): …
+- [AI Direct Editor バージョン1.0.4.0](https://ai-direct-editor.com/update/1-0-4-0/): …
+- [AI Direct Editorのロゴを刷新しました](https://ai-direct-editor.com/news/20250129/): …
+- [検索順位チェック機能を追加しました](https://ai-direct-editor.com/news/20250124/): …
+- [AI Direct Editor バージョン1.0.3.0](https://ai-direct-editor.com/update/1-0-3-0/): …
+- [AI Direct Editor バージョン1.0.2.0](https://ai-direct-editor.com/update/1-0-2-0/): …
+- [AI Direct Editor バージョン1.0.1.0](https://ai-direct-editor.com/update/1-0-1-0/): …
+- [AI Direct Editorをリリースしました](https://ai-direct-editor.com/news/20241213/): …
+- [AI Direct Editor バージョン1.0.0.0](https://ai-direct-editor.com/update/1-0-0-0/): …
+- [ツールバー操作](https://ai-direct-editor.com/manual/toolbar-action/): …
+- [オートコンプリート（入力補完）](https://ai-direct-editor.com/manual/auto-complete/): …
+- [テーブル図解](https://ai-direct-editor.com/manual/table-diagram/): …
+- [リスト図解](https://ai-direct-editor.com/manual/list-diagram/): …
+- [フリーチャット](https://ai-direct-editor.com/manual/free-chat/): …
+- [Googleマップ](https://ai-direct-editor.com/manual/map-generation/): …
+- [コード生成](https://ai-direct-editor.com/manual/code-generation/): …
+- [ボタン生成](https://ai-direct-editor.com/manual/button-generation/): …
+- [ふきだし生成](https://ai-direct-editor.com/manual/balloon-generation/): …
+- [テーブル生成](https://ai-direct-editor.com/manual/table-generation/): …
+- [リスト生成](https://ai-direct-editor.com/manual/list-generation/): …
+- [関連記事](https://ai-direct-editor.com/manual/related-post/): …
+- [HTMLアンカー](https://ai-direct-editor.com/manual/html-anchor/): …
+- [アメブロシェア（アメーバブログシェア）](https://ai-direct-editor.com/manual/ameba-share/): …
+- [はてなブログシェア](https://ai-direct-editor.com/manual/hatena-share/): …
+- [noteシェア](https://ai-direct-editor.com/manual/note-share/): …
+- [Instagramシェア](https://ai-direct-editor.com/manual/instagram-share/): …
+- [Facebookシェア](https://ai-direct-editor.com/manual/facebook-share/): …
+- [Xシェア（旧Twitterシェア）](https://ai-direct-editor.com/manual/x-share/): …
+- [記事マインドマップ](https://ai-direct-editor.com/manual/article-mindmap/): …
+- [記事図解](https://ai-direct-editor.com/manual/article-diagram/): …
+- [SEOチェック](https://ai-direct-editor.com/manual/seo-check/): …
+- [ファクトチェック](https://ai-direct-editor.com/manual/fact-check/): …
+- [誤字脱字チェック](https://ai-direct-editor.com/manual/typo-check/): …
+- [ふきだし変換](https://ai-direct-editor.com/manual/balloon-conversion/): …
+- [テーブル装飾](https://ai-direct-editor.com/manual/table-conversion/): …
+- [リスト装飾](https://ai-direct-editor.com/manual/list-conversion/): …
+- [句点操作](https://ai-direct-editor.com/manual/period-conversion/): …
+- [太字操作](https://ai-direct-editor.com/manual/bold-conversion/): …
+- [商品名リンク変換](https://ai-direct-editor.com/manual/conversion-conversion/): …
+- [外部リンク操作](https://ai-direct-editor.com/manual/link-conversion/): …
+- [ALTテキスト生成](https://ai-direct-editor.com/manual/alt-generation/): …
+- [タグ生成](https://ai-direct-editor.com/manual/tag-generation/): …
+- [カテゴリー生成](https://ai-direct-editor.com/manual/category-generation/): …
+- [ディスクリプション生成](https://ai-direct-editor.com/manual/description-generation/): …
+- [抜粋生成](https://ai-direct-editor.com/manual/excerpt-generation/): …
+- [スラッグ生成](https://ai-direct-editor.com/manual/slug-generation/): …
+- [画像テキスト](https://ai-direct-editor.com/manual/image-text/): …
+- [画像生成](https://ai-direct-editor.com/manual/image-generation/): …
+- [サマリー文生成](https://ai-direct-editor.com/manual/summarytext-generation/): …
+- [リード文生成](https://ai-direct-editor.com/manual/leadtext-generation/): …
+- [FAQ生成](https://ai-direct-editor.com/manual/faq-generation/): …
+- [見出しジャンプリンク](https://ai-direct-editor.com/manual/heading-list/): …
+- [見出しまとめテーブル](https://ai-direct-editor.com/manual/heading-table/): …
+- [テキスト生成](https://ai-direct-editor.com/manual/text-generation/): …
+- [見出し生成](https://ai-direct-editor.com/manual/heading-generation/): …
+- [タイトル生成](https://ai-direct-editor.com/manual/title-generation/): …
+- [記事構成生成](https://ai-direct-editor.com/manual/outline-generation/): …
+- [ペルソナ生成](https://ai-direct-editor.com/manual/persona-generation/): …
+- [検索意図生成](https://ai-direct-editor.com/manual/intent-generation/): …
+- [キーワード生成](https://ai-direct-editor.com/manual/keyword-generation/): …
+- [ソース要約](https://ai-direct-editor.com/manual/source-generation/): …
+- [リサーチ](https://ai-direct-editor.com/manual/research-generation/): …
+- [全自動記事生成・記事リライト](https://ai-direct-editor.com/manual/article-generation/): …
+- [メインブロック](https://ai-direct-editor.com/manual/main-block/): …
+- [設定リセット方法](https://ai-direct-editor.com/manual/reset-setting/): …
+- [インポート・エクスポート](https://ai-direct-editor.com/manual/import-export/): …
+- [SEOデータ](https://ai-direct-editor.com/manual/seo-data/): …
+- [図解スタイル設定](https://ai-direct-editor.com/manual/diagram-setting/): …
+- [描画スタイル設定](https://ai-direct-editor.com/manual/drawing-setting/): …
+- [装飾設定](https://ai-direct-editor.com/manual/decorate-setting/): …
+- [変数一覧](https://ai-direct-editor.com/manual/variable-list/): …
+- [プロンプト設定](https://ai-direct-editor.com/manual/prompt-setting/): …
+- [ライター設定](https://ai-direct-editor.com/manual/writer-setting/): …
+- [Search ConsoleのAPIキー設定方法](https://ai-direct-editor.com/manual/searchconsole-api/): …
+- [Hugging FaceのAPIキー設定方法](https://ai-direct-editor.com/manual/huggingface-api/): …
+- [ImagenのAPIキー設定方法](https://ai-direct-editor.com/manual/imagen-api/): …
+- [RecraftのAPIキー設定方法](https://ai-direct-editor.com/manual/recraft-api/): …
+- [FLUXのAPIキー設定方法](https://ai-direct-editor.com/manual/flux-api/): …
+- [DALL·EのAPIキー設定方法](https://ai-direct-editor.com/manual/dalle-api/): …
+- [OpenRouterのAPIキー設定方法](https://ai-direct-editor.com/manual/openrouter-api/): …
+- [PerplexityのAPIキー設定方法](https://ai-direct-editor.com/manual/perplexity-api/): …
+- [GrokのAPIキー設定方法](https://ai-direct-editor.com/manual/grok-api/): …
+- [DeepSeekのAPIキー設定方法](https://ai-direct-editor.com/manual/deepseek-api/): …
+- [GeminiのAPIキー設定方法](https://ai-direct-editor.com/manual/gemini-api/): …
+- [ClaudeのAPIキー設定方法](https://ai-direct-editor.com/manual/claude-api/): …
+- [ChatGPTのAPIキー設定方法](https://ai-direct-editor.com/manual/chatgpt-api/): …
+- [おすすめのAI](https://ai-direct-editor.com/manual/recommended-ai/): …
+- [一般設定](https://ai-direct-editor.com/manual/api-setting/): …
+- [ライセンス認証方法](https://ai-direct-editor.com/manual/activate-license/): …
+- [インストール方法](https://ai-direct-editor.com/manual/install-plugin/): …
+- [ユーザーフォーラムへの参加方法](https://ai-direct-editor.com/manual/user-forum/): …
+- [最初にやってほしいこと](https://ai-direct-editor.com/manual/first-step/): …
+
+---
+
+#
+# Detailed Content
+
+
+## 固定ページ
+
+### 特定商取引法に基づく表記
+
+- Published: 2025-02-02
+- Modified: 2025-03-10
+- URL: https://ai-direct-editor.com/law/
+
+会社名株式会社ドットマークス住所東京都港区北青山1丁目3番1号　アールキューブ青山3階お問い合わせhttps://ai-direct-editor. com/contact/販売価格各商品ページに記載の金額その他の費用商品価格のみ（税込表示）商品によっては別途費用が発生する場合があります。支払い方法クレジットカード引渡時期決済後、すぐに利用できます。決済期間ただちに処理されます。領収書決済サービスStripeからメールで発行されます。当社から領収書や請求書等の個別発行はできません。返金・返品デジ...
+
+---
+
+### AI Direct Editor のデモ環境（無料）
+
+- Published: 2025-02-02
+- Modified: 2025-03-31
+- URL: https://ai-direct-editor.com/demo/
+
+AIライティングができるWordPressプラグイン『AI Direct Editor』では、無料のデモ環境を提供しています。 以下のボタンからアクセスすると、自動的にWordPress環境が立ち上がり、エディター画面で操作可能です。 今すぐウェブで試す 1サイト2時間で自動的に終了します。 利用者が多い場合、サイトが立ち上がらなかったり、動作が重くなる場合があります。 Googleサーチコンソールと連携した順位チェック機能やインデックス・クロール状況のチェック機能は設定されていません。 最新バ...
+
+---
+
+### よくある質問
+
+- Published: 2024-11-14
+- Modified: 2025-06-10
+- URL: https://ai-direct-editor.com/faq/
+
+全般 アフィリエイトプログラムはありますか？ はい、購入者限定のクローズド案件があります。 販売サイトWP-Marketのアカウントページからご確認ください。 最初に何をすればいいですか？ 以下の記事をご覧ください。 >> 最初にやってほしいこと アダルト記事は作成できますか？ アダルト対応しているAIサービスを使えば、アダルト記事も生成可能です。 記事に外国語が混ざることがあるのはなぜですか？ AIサービスによっては動作が安定しないため、日本語に外国語が混ざる場合があります。 AIサービスのモ...
+
+---
+
+### マニュアル
+
+- Published: 2024-10-30
+- Modified: 2025-05-24
+- URL: https://ai-direct-editor.com/manual/
+
+はじめに 最初にやってほしいこと ユーザーフォーラムへの参加方法 初期設定 インストール方法 ライセンス認証方法 管理画面 一般設定 おすすめのAI ChatGPTのAPIキー設定方法 ClaudeのAPIキー設定方法 GeminiのAPIキー設定方法 DeepSeekのAPIキー設定方法 GrokのAPIキー設定方法 PerplexityのAPIキー設定方法 OpenRouterのAPIキー設定方法 DALL·EのAPIキー設定方法 FLUXのAPIキー設定方法 RecraftのAPIキー設定...
+
+---
+
+### ホーム
+
+- Published: 2024-10-24
+- Modified: 2025-05-24
+- URL: https://ai-direct-editor.com/
+
+今すぐウェブで試す 今すぐダウンロード WordPress内で完結するAIライティング 想像を超える勢いで進化し続ける『AI』。 その機能をWordPressブロックエディターに搭載することで、クリックで記事を書く、装飾する、SEO対策をするを実現しました。 従来のAI AIチャットWebサービス  → WordPressにコピペ  → 装飾作業SEO設定  AI Direct Editor クリック  → (自動)  → クリック  ぜひ手に取って『AIダイレクトエディター』をお試しください。...
+
+---
+
+### お問い合わせ
+
+- Published: 2024-10-23
+- Modified: 2025-06-06
+- URL: https://ai-direct-editor.com/contact/
+
+「AI Direct Editor」のサポートは、購入者限定のユーザーフォーラムでのみ受け付けています。 >> https://ai-direct-editor. com/manual/user-forum/ こちらにサポートについてお問い合わせいただいても、ご返信いたしません。
+
+---
+
+### プライバシーポリシー
+
+- Published: 2024-10-23
+- Modified: 2025-02-20
+- URL: https://ai-direct-editor.com/privacy-policy/
+
+基本方針 当サイトは、個人情報の重要性を認識し、個人情報を保護することが社会的責務であると考え、個人情報に関する法令を遵守し、当サイトで取扱う個人情報の取得、利用、管理を適正に行います。 適用範囲 本プライバシーポリシーは、お客様の個人情報もしくはそれに準ずる情報を取り扱う際に、当サイトが遵守する方針を示したものです。 個人情報の利用目的 当サイトは、お客様からご提供いただく情報を以下の目的の範囲内において利用します。 ご本人確認のため ソーシャルログイン機能の提供のため お問い合わせ、コメント...
+
+---
+
+
+---
+
+
+## 投稿
+
+### JIN:Rテーマに対応しました
+
+- Published: 2025-05-14
+- Modified: 2025-05-14
+- URL: https://ai-direct-editor.com/news/20250514/
+- カテゴリー: お知らせ
+
+AIダイレクトエディターは、JIN:Rテーマに対応しました。 段落（マーカー）・リスト・テーブルの「装飾設定」に対応し、記事生成時の自動装飾や既存記事の一括装飾が可能になりました。 JIN:Rの「ふきだし」ブロックの自動挿入に対応しました。 JIN:Rの「ボタン」ブロックの自動挿入に対応しました。 JIN:Rの「ディスクリプション反映」に対応しました。 今後もテーマ対応の拡充などを進めてまいります。
+
+---
+
+### AIブラウザFellouとは？使い方まで5分でわかる完全ガイド
+
+- Published: 2025-05-10
+- Modified: 2025-05-12
+- URL: https://ai-direct-editor.com/column/ai-browser-fellou/
+- カテゴリー: コラム
+
+情報収集や日々のブラウザ作業に、多くの時間を奪われていませんか。 AIブラウザ「Fellou（フェロー）」は、あなたが自然な言葉で指示するだけで、AIが面倒な調査や定型作業を自動で実行してくれる、まさに未来のブラウザです。 この記事では、Fellouが一体どのような製品で、「Search（調査）」機能と「Workflow（作業）」機能で何ができるのかを、具体的な使い方からアーリーアクセス版の入手方法、利用する上での注意点まで解説します。 AIブラウザ『Fellou』とは Fellouの「Sear...
+
+---
+
+### AI Direct Editor バージョン1.1.0.0
+
+- Published: 2025-04-30
+- Modified: 2025-06-06
+- URL: https://ai-direct-editor.com/update/1-1-0-0/
+- カテゴリー: アップデート情報
+
+1. 1. 0. 0 (2025/4/30) メインブロックに「全自動記事リライト」機能を追加しました。章ごとではなく、全体を一度にリライトできます。 メインブロックの「全自動記事複製」機能を廃止しました。 サイドバーに「記事をリライト」「大見出しジャンプリンク生成」「小見出しジャンプリンク一括生成」を追加しました。 見出しブロックに「章を一括生成」機能を追加しました。1つのH2見出しだけを再生成したり、追加したい場合などに便利です。 オートコンプリートで、Enter以外にブロックの選択が外れた...
+
+---
+
+### AI Direct Editorのプロモーション動画ができました
+
+- Published: 2025-04-28
+- Modified: 2025-04-28
+- URL: https://ai-direct-editor.com/news/20250428/
+- カテゴリー: お知らせ
+
+AIダイレクトエディターのプロモーション動画ができました。 ぜひ一度、動画をご覧ください。 https://youtu. be/8ENStP4kMK8
+
+---
+
+### オートコンプリート（自動補完）機能を追加しました
+
+- Published: 2025-04-20
+- Modified: 2025-04-20
+- URL: https://ai-direct-editor.com/news/20250420/
+- カテゴリー: お知らせ
+
+入力を自動補完してくれるオートコンプリート機能を追加しました。 詳しくは、以下の動画をご覧ください。 https://youtu. be/G6lTRMLYJWQ
+
+---
+
+### SANGOテーマに対応しました
+
+- Published: 2025-04-13
+- Modified: 2025-04-13
+- URL: https://ai-direct-editor.com/news/20250413/
+- カテゴリー: お知らせ
+
+AIダイレクトエディターは、SANGOテーマに対応しました。 段落（マーカー）・リスト・テーブルの「装飾設定」に対応し、記事生成時の自動装飾や既存記事の一括装飾が可能になりました。 SANGOの「ふきだし」ブロックの自動挿入に対応しました。 SANGOの「FAQ」ブロックの自動挿入に対応しました。 SANGOの「ボタン」ブロックの自動挿入に対応しました。 SANGOの「ディスクリプション反映」に対応しました。 今後もテーマ対応の拡充などを進めてまいります。
+
+---
+
+### AI Direct Editor バージョン1.0.9.0
+
+- Published: 2025-04-13
+- Modified: 2025-04-23
+- URL: https://ai-direct-editor.com/update/1-0-9-0/
+- カテゴリー: アップデート情報
+
+1. 0. 9. 0 (2025/4/13) SANGOテーマの段落（マーカー）・リスト・テーブルの「装飾設定」、「ふきだし」「ボタン」「FAQ」などの独自ブロック、「ディスクリプション反映」などに対応しました。 プロンプト設定の「句点操作」に、ツールバーの表示を切り替えられる設定を追加しました。（デフォルトOFF） エディター画面を更新せずに再度「全自動記事生成」できるように、パネルの完了状態を調整しました。 リストの装飾設定で、サマリー文のデフォルトを数字なしに変更しました。 「ALTテキス...
+
+---
+
+### セールスライティング用のプロンプトを追加しました
+
+- Published: 2025-04-08
+- Modified: 2025-04-08
+- URL: https://ai-direct-editor.com/news/20250408/
+- カテゴリー: お知らせ
+
+従来の「ブログ」用プロンプトに加えて、「セールス」用プロンプトを追加しました。 プロンプトを切り替えて記事生成にご利用いただけます。
+
+---
+
+### AI Direct Editor バージョン1.0.8.0
+
+- Published: 2025-04-02
+- Modified: 2025-04-08
+- URL: https://ai-direct-editor.com/update/1-0-8-0/
+- カテゴリー: アップデート情報
+
+1. 0. 8. 0 (2025/4/2) 装飾設定に「段落」タブを追加しました。強調に各テーマのマーカーなどを設定できるようになりました。対応テーマは、デフォルトでイエローマーカーが設定されています。 最後の句点（。）の後にカッコ（」）がある場合に句点操作しないように変更しました。 環境によってプロンプト設定が保存されない場合がある問題に対処するため、データ保存形式を変更しました。 1. 0. 8. 1 (2025/4/3) 図解スタイル設定がエラーになる問題を修正しました。 1. 0. 8....
+
+---
+
+### IT PARKにてAI Direct Editorをご紹介いただきました
+
+- Published: 2025-04-02
+- Modified: 2025-04-02
+- URL: https://ai-direct-editor.com/media/20250402/
+- カテゴリー: メディア掲載
+
+and media様の『IT PARK』の記事「AI記事作成ツールのおすすめ11選！活用のコツや注意点も紹介！無料ツールあり」にてAIダイレクトエディターをご紹介いただきました。
+
+---
+
+### AIライティング（記事作成）プロンプトの構文とカスタマイズ
+
+- Published: 2025-03-31
+- Modified: 2025-05-11
+- URL: https://ai-direct-editor.com/column/ai-writing-prompt/
+- カテゴリー: コラム
+
+ChatGPTなどのAIで思い通りの文章を作るには「プロンプト」が重要です。 この記事では、AIライティングを成功させるためのプロンプトの基本から、具体的な書き方の種類、便利なテクニック、有名な構文まで、初心者の方にもわかりやすく例文を豊富に用いて解説します。 この記事を読めば、AIに意図を正確に伝え、ブログ記事やメール作成などを効率化させるプロンプト作成スキルが身につきます。 AIライティング成功の鍵「プロンプト」とは AIライティング向けプロンプトの書き方と例文 プロンプトにおける「変数」の...
+
+---
+
+### 記事の図解機能を追加しました
+
+- Published: 2025-03-29
+- Modified: 2025-03-29
+- URL: https://ai-direct-editor.com/news/20250329/
+- カテゴリー: お知らせ
+
+記事シェアに「記事図解」機能を追加しました。 記事コンテンツ全体を読み込んで、自動的にpng形式で画像が生成されます。 SNSに記事を投稿する際の画像などにおすすめです。
+
+---
+
+### アドカルにてAI Direct Editorをご紹介いただきました
+
+- Published: 2025-03-25
+- Modified: 2025-04-02
+- URL: https://ai-direct-editor.com/media/20250325/
+- カテゴリー: メディア掲載
+
+『株式会社アドカル』様の記事「AI記事作成のおすすめツール10選！選び方や使い方、注意点を解説」にてAIダイレクトエディターをご紹介いただきました。
+
+---
+
+### Lightningテーマに対応しました
+
+- Published: 2025-03-23
+- Modified: 2025-03-23
+- URL: https://ai-direct-editor.com/news/20250323/
+- カテゴリー: お知らせ
+
+AIダイレクトエディターは、Lightningテーマに対応しました。 リストやテーブルの「装飾設定」に対応し、記事生成時の自動装飾や既存記事の一括装飾が可能になりました。 Lightning・VK Blocks「ふきだし」ブロックの自動挿入に対応しました。 Lightning・VK Blocks「FAQ」ブロックの自動挿入に対応しました。 Lightning・VK Blocks「ボタン」ブロックの自動挿入に対応しました。 Lightning・VK ExUnitの「ディスクリプション反映」に対応し...
+
+---
+
+### AI Direct Editor バージョン1.0.7.0
+
+- Published: 2025-03-23
+- Modified: 2025-04-01
+- URL: https://ai-direct-editor.com/update/1-0-7-0/
+- カテゴリー: アップデート情報
+
+1. 0. 7. 0 (2025/3/23) Lightningテーマ（VK Blocks・VK ExUnit）のリストやテーブルの「装飾設定」、「ふきだし」「ボタン」「FAQ」などの独自ブロック、「ディスクリプション反映」などに対応しました。 プロンプト設定画面が表示されない問題を修正しました。 1. 0. 7. 1 (2025/3/25) 一括装飾に「外部リンク操作」機能を追加しました。外部リンクの新規タブ（_blank）・nofollow・sponsoredを一括変換できます。 プロンプト...
+
+---
+
+### 記事の複製機能を追加しました
+
+- Published: 2025-03-22
+- Modified: 2025-03-22
+- URL: https://ai-direct-editor.com/news/20250322/
+- カテゴリー: お知らせ
+
+AIダイレクトエディターに、既存記事から別の記事に複製できる機能を追加しました。 たとえば、商標記事を別の商標に書き換えることができます。 記事の構成が決まっている場合に便利な機能です。
+
+---
+
+### 【重要なお知らせ】1ライセンスあたりのサイト数の変更について
+
+- Published: 2025-03-21
+- Modified: 2025-03-21
+- URL: https://ai-direct-editor.com/news/20250321/
+- カテゴリー: お知らせ
+
+AIダイレクトエディターは、3サイトまで利用可能なライセンスとしていましたが、2025年4月1日以降の購入分より、1サイトまで利用可能なライセンスに変更します。 この変更による価格の変更はございません。 もともと利用規約で、購入者以外の所有サイトへのライセンス認証を禁止しています。 たとえば、クライアントのサイトに導入する場合は、クライアントごとに購入していただく必要があります。 しかし、購入者以外の所有サイトにライセンス認証を行うことが散見されるため、このような処置を行うことになりました。
+
+---
+
+### 記事シェア機能が充実しました
+
+- Published: 2025-03-19
+- Modified: 2025-03-19
+- URL: https://ai-direct-editor.com/news/20250319/
+- カテゴリー: お知らせ
+
+AIダイレクトエディターに、記事を外部にシェアできる機能を追加しました。 以下のSNSやブログサービスに対応しています。 X（旧Twitter） Facebook Instagram note はてなブログ アメブロ（アメーバブログ） SNSでは、そのままコピペできる集客用の要約ポストを生成します。 ブログサービスでは、集客用の要約記事に加えて、記事本文をそのままコピペできる形式に変換できます。
+
+---
+
+### meta landにてAI Direct Editorをご紹介いただきました
+
+- Published: 2025-03-09
+- Modified: 2025-04-02
+- URL: https://ai-direct-editor.com/media/20250309/
+- カテゴリー: メディア掲載
+
+『meta land』様の記事「AIライティングに活用できる最新ツール14選を紹介」にてAIダイレクトエディターをご紹介いただきました。
+
+---
+
+### Affingerテーマに対応しました
+
+- Published: 2025-03-07
+- Modified: 2025-03-07
+- URL: https://ai-direct-editor.com/news/20250307/
+- カテゴリー: お知らせ
+
+AIダイレクトエディターは、Affingerテーマに対応しました。 リストやテーブルの「装飾設定」に対応し、記事生成時の自動装飾や既存記事の一括装飾が可能になりました。 Affinger「ふきだし」ブロックの自動挿入に対応しました。 Affinger「FAQ」ブロックの自動挿入に対応しました。 Affinger「ボタン」ブロックの自動挿入に対応しました。 Affingerの「ディスクリプション反映」に対応しました。 今後もテーマ対応の拡充などを進めてまいります。
+
+---
+
+### AI Direct Editor バージョン1.0.6.0
+
+- Published: 2025-03-04
+- Modified: 2025-03-22
+- URL: https://ai-direct-editor.com/update/1-0-6-0/
+- カテゴリー: アップデート情報
+
+1. 0. 6. 0 (2025/3/4) 記事シェアに「Instagramシェア」機能を追加しました。 「プロンプト設定」のInstagramシェアに「アカウント名」を設定できる項目を追加しました。 シェア用のアカウントを設定できる変数「%SHARE_ACCOUNT%」を追加しました。 1. 0. 6. 1 (2025/3/4) 「プロンプト設定」の「メイン」タブで、全自動記事生成時の実行有無を設定できるようになりました。 エラーメッセージにAIのモデルを表示するように変更しました。 「一括装...
+
+---
+
+### LLMs.txt WordPressプラグイン「Website LLMs.txt」の使い方と設定方法
+
+- Published: 2025-03-01
+- Modified: 2025-05-11
+- URL: https://ai-direct-editor.com/column/llms-txt-wordpress-plugin/
+- カテゴリー: コラム
+
+LLMs. txtは、AIがWebサイトの情報を効率的に理解するためのサイトマップのようなファイルです。 この記事では、LLMs. txtの基本からWordPressプラグインの比較、導入方法、ファイルの内容と記述方法までを解説します。 SEO対策だけでなく、GEO（Generative Engine Optimization）対策やLLMO（LLM最適化）を強化したい方は、ぜひ最後までお読みください。 この記事を読むと、以下のことがわかります。 LLMs. txtとは？AI対策に必須のファイル...
+
+---
+
+### SEM PlusにてAI Direct Editorをご紹介いただきました
+
+- Published: 2025-02-22
+- Modified: 2025-04-02
+- URL: https://ai-direct-editor.com/media/20250222/
+- カテゴリー: メディア掲載
+
+「WEBマーケティングをもっと身近に。」をテーマに発信されている『SEM Plus』様の記事「AIライティングツールおすすめ14選│比較表付きで紹介」にてAIダイレクトエディターをご紹介いただきました。
+
+---
+
+### AI Direct Editor バージョン1.0.5.0
+
+- Published: 2025-02-17
+- Modified: 2025-03-03
+- URL: https://ai-direct-editor.com/update/1-0-5-0/
+- カテゴリー: アップデート情報
+
+1. 0. 5. 0 (2025/2/17) パターンブロックでエラーが出る問題を修正しました。 1. 0. 5. 1 (2025/2/23) プロンプト設定で保存する際に「Request Entity Too Large」とエラーが表示される問題への対策で、プロンプトをAIごとではなく、全AI共通に変更しました。 カテゴリー生成やタグ生成で、カテゴリーやタグが多い場合に全件取得できない問題を修正しました。 ふきだしが入れ替わる問題を改善するため、ライターのふきだしを「」から〈〉に、ペルソナのふ...
+
+---
+
+### noteシェア機能を追加しました
+
+- Published: 2025-02-11
+- Modified: 2025-03-07
+- URL: https://ai-direct-editor.com/news/20250211/
+- カテゴリー: お知らせ
+
+AIダイレクトエディターに、記事をそのままnoteにコピペできる「noteシェア」機能を追加しました。 記事全文をコピペすることも、集客用の要約記事を生成してコピペすることもできます。 今後も、各種ブログやSNSサービスへのシェア機能を追加していく予定です。
+
+---
+
+### AIでWebライターの仕事はなくなる？AI時代に輝くライターの条件
+
+- Published: 2025-02-06
+- Modified: 2025-05-11
+- URL: https://ai-direct-editor.com/column/ai-writer-future/
+- カテゴリー: コラム
+
+AI技術の進化により、AIライターという言葉を耳にする機会が増えました。 「AIによってWebライターの仕事はなくなるのだろうか」と不安に感じている方もいるのではないでしょうか。 この記事では、AIと共存する未来のライター像について解説します。 AIの得意分野と不得意分野を理解し、人間の強みを活かすことで、AI時代でもAIライターとして活躍することが可能です。 AIでライターは「なくなる」のか？ AIライターの未来予想図 AI時代に輝くライターの条件 AIライターとして活躍するために AIでライ...
+
+---
+
+### AIブログの落とし穴！成功させるための重要な注意点
+
+- Published: 2025-02-04
+- Modified: 2025-05-11
+- URL: https://ai-direct-editor.com/column/ai-blog-tips/
+- カテゴリー: コラム
+
+AIを使ってブログを始めるのは簡単ですが、落とし穴も潜んでいます。 この記事では、AIブログで成功するために知っておくべき注意点をまとめました。 リスクを理解し対策を講じることで、SEOで損をせず、読者に価値を提供できるブログができます。 AIブログ、成功への道標 知っておくべき、AIブログのリスクと対策 AIブログ成功の鍵は「人間らしさ」 AIと二人三脚で、ブログの未来を切り拓く AIブログ、成功への道標 AI進化の今、ブログはどう変わる？ 記事作成AI、何に注意すべき？ AIブログを成功させ...
+
+---
+
+### インデックス・クロール状況チェック機能を追加しました
+
+- Published: 2025-02-02
+- Modified: 2025-02-02
+- URL: https://ai-direct-editor.com/news/20250202/
+- カテゴリー: お知らせ
+
+GoogleサーチコンソールのURL検査機能を利用したインデックス・クロール状況のチェック機能を追加しました。 記事一覧でインデックスの有無やクロール日時が表示されます。 マニュアルに沿って設定してご利用ください。 https://ai-direct-editor. com/manual/searchconsole-api/ https://ai-direct-editor. com/manual/seo-data/
+
+---
+
+### AI Direct Editor バージョン1.0.4.0
+
+- Published: 2025-01-29
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/update/1-0-4-0/
+- カテゴリー: アップデート情報
+
+1. 0. 4. 0 (2025/1/29) メインパネルの未完了に「GSC更新」と表示される問題を修正しました。 「章をリライト」で次の見出しが消えることがある問題を修正しました。 1. 0. 4. 1 (2025/2/2) 一般設定のSEOタブに、Search Consoleを自動更新する設定を追加しました。 Search ConsoleのURL検査を行い、インデックス状況とクロール日時を記事一覧に表示するように変更しました。 記事一覧ページのSearch Consoleグラフで、最終更新日...
+
+---
+
+### AI Direct Editorのロゴを刷新しました
+
+- Published: 2025-01-29
+- Modified: 2025-02-02
+- URL: https://ai-direct-editor.com/news/20250129/
+- カテゴリー: お知らせ
+
+サイトやプラグイン内のロゴを刷新しました。 今後ともAI Direct Editorをよろしくお願いします。
+
+---
+
+### 検索順位チェック機能を追加しました
+
+- Published: 2025-01-24
+- Modified: 2025-02-02
+- URL: https://ai-direct-editor.com/news/20250124/
+- カテゴリー: お知らせ
+
+Googleサーチコンソールと連携した順位チェック機能を追加しました。 マニュアルに沿って設定してご利用ください。 https://ai-direct-editor. com/manual/searchconsole-api/ https://ai-direct-editor. com/manual/seo-data/
+
+---
+
+### AI Direct Editor バージョン1.0.3.0
+
+- Published: 2025-01-15
+- Modified: 2025-01-28
+- URL: https://ai-direct-editor.com/update/1-0-3-0/
+- カテゴリー: アップデート情報
+
+1. 0. 3. 0 (2025/1/15) 管理画面に「装飾設定」を追加し、リスト・テーブルのデフォルト装飾を設定できるように変更しました。 チェック後のリライト反映で、子ブロック内のリライト対象も検出できるように変更しました。 メインブロックに「一括装飾」機能を追加しました。句点処理、リスト装飾、テーブル装飾、ふきだし変換が可能です。 プロンプト設定のFAQで、FAQの数（%FAQ_NUM%）を設定できるようにしました。 デフォルトプロンプトのFormatを構造化しました。 「gemini-...
+
+---
+
+### AI Direct Editor バージョン1.0.2.0
+
+- Published: 2024-12-31
+- Modified: 2025-01-15
+- URL: https://ai-direct-editor.com/update/1-0-2-0/
+- カテゴリー: アップデート情報
+
+1. 0. 2. 0 (2024/12/31) 「大見出しまとめテーブル」が生成されない問題を修正しました。 1. 0. 2. 1 (2024/12/31) デフォルトプロンプトを刷新しました。 Prerequisitesを廃止しました。 FAQ生成でキーワードが含まれやすいようにデフォルトプロンプトを変更しました。 記事内容がブレることがあるため、ペルソナ生成を1人に変更しました。 ライター設定の「サンプル文」と「その他」の最大文字数を500文字に制限しました。 「大見出しまとめテーブル」の実...
+
+---
+
+### AI Direct Editor バージョン1.0.1.0
+
+- Published: 2024-12-17
+- Modified: 2024-12-30
+- URL: https://ai-direct-editor.com/update/1-0-1-0/
+- カテゴリー: アップデート情報
+
+1. 0. 1. 0 (2024/12/17) テキスト生成の際に、AIによって挿入された（改行タグ）を削除するように変更しました。 変数「%PARAGRAPH_TEXT_LIST%」の処理を改善しました。 1. 0. 1. 1 (2024/12/18) （ベータ版）「ソース要約」がYouTube文字起こしに対応しました。（画像認識には対応していません。）「ソースURL」にYouTubeのURLを入力してください。（外部サービスを利用しているため、いきなり使用できなくなる場合があります。） 「画...
+
+---
+
+### AI Direct Editorをリリースしました
+
+- Published: 2024-12-13
+- Modified: 2025-02-02
+- URL: https://ai-direct-editor.com/news/20241213/
+- カテゴリー: お知らせ
+
+想像を超える勢いで進化し続けるAIをWordPressに取り込むため、ChatGPT、Claude、Gemini、Perplexity、DALL·E、FLUX、Recraftなどの生成AIが利用できるWordPressプラグインを開発しました。 このプラグインは、AIライティングができる日本国内初のWordPressプラグインです。 ※日本国内における「AIライティングができるWordPressプラグイン」として、2024年12月13日時点当社調べ
+
+---
+
+### AI Direct Editor バージョン1.0.0.0
+
+- Published: 2024-12-12
+- Modified: 2024-12-17
+- URL: https://ai-direct-editor.com/update/1-0-0-0/
+- カテゴリー: アップデート情報
+
+1. 0. 0. 0 (2024/12/12) プレリリース 1. 0. 0. 1 (2024/12/12) ライセンス認証の不具合を修正しました。 1. 0. 0. 2 (2024/12/12) 「gemini-2. 0-flash-exp」に対応しました。 1. 0. 0. 3 (2024/12/13) 「小見出しリンクリスト」の処理を改善しました。 「リライト」時のふきだしの処理を改善しました。 1. 0. 0. 4 (2024/12/13) 画像をドラッグ＆ドロップした際に一番上に挿入さ...
+
+---
+
+### ツールバー操作
+
+- Published: 2024-11-04
+- Modified: 2025-04-20
+- URL: https://ai-direct-editor.com/manual/toolbar-action/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、各ブロックの機能をツールバーから1クリックで実行する方法をご紹介します。 また、テキストを分割したり、結合したりできる便利機能もあります。 書式ツールバーとは 書式ツールバーとは、テキストエディタなどで文字の書式を設定するためのツール群のことです。 ツールバーに機能が少ないんだけど？ ツールバーには使用できる機能だけが表示されます。 例えば、画像生成AIの一般設定が完了していないと、画像生成機能は表示されません。 設定はパネルと...
+
+---
+
+### オートコンプリート（入力補完）
+
+- Published: 2024-11-04
+- Modified: 2025-04-20
+- URL: https://ai-direct-editor.com/manual/auto-complete/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、入力を自動補完するオートコンプリートの方法をご紹介します。 オートコンプリートとは オートコンプリートとは、ユーザーの入力を予測し、残りの部分を自動的に補完する機能のことです。 オートコンプリートのやり方 対応ブロックを選択して、テキストからAIが補完テキストを操作なしで生成します。 キーで採用、キーでキャンセルになります。 対応ブロック: 段落ブロック、見出しブロック、リストブロック、テーブルブロック、コードブロック http...
+
+---
+
+### テーブル図解
+
+- Published: 2024-11-04
+- Modified: 2025-03-29
+- URL: https://ai-direct-editor.com/manual/table-diagram/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、テーブルブロックからテーブル図解を生成する方法をご紹介します。 テーブル図解とは テーブル図解とは、情報を表形式で整理した図に変換して、画像として表現する方法です。 テーブル図解のやり方 対応ブロックを選択して、テーブルからAIが図解を1クリックで生成します。 対応ブロック: テーブルブロック を選択して、ツールバーのアイコンからをクリックします。 ブロックパネルから操作することもできます。 を選択して、のブロックパネルからパネ...
+
+---
+
+### リスト図解
+
+- Published: 2024-11-04
+- Modified: 2025-03-29
+- URL: https://ai-direct-editor.com/manual/list-diagram/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、リストブロックからリスト図解を生成する方法をご紹介します。 リスト図解とは リスト図解とは、リストを情報が整理された図に変換して、画像として表現する手法です。 リスト図解のやり方 対応ブロックを選択して、リストからAIが図解を1クリックで生成します。 対応ブロック: リストブロック を選択して、ツールバーのアイコンからをクリックします。 ブロックパネルから操作することもできます。 を選択して、のブロックパネルからパネルを開き、を...
+
+---
+
+### フリーチャット
+
+- Published: 2024-10-30
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/free-chat/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、自由記述でテキストを生成するフリーチャットの方法をご紹介します。 フリーチャットとは フリーチャットとは、決められた形式を持たずに、自由に会話できるチャット形式のことです。 フリーチャットのやり方 対応ブロックを選択して、テキストからAIが回答テキストを1クリックで生成します。 対応ブロック: 段落ブロック を選択して、ツールバーのアイコンをクリックします。 ブロックパネルから操作することもできます。 を選択して、のブロックパネ...
+
+---
+
+### Googleマップ
+
+- Published: 2024-10-30
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/map-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、テキストやリスト・テーブルからGoogleマップを生成する方法をご紹介します。 Googleマップとは Googleマップとは、Googleが提供する無料の地図サービスで、Webサイトに埋め込むことができます。 Googleマップのやり方 インプット テキスト等%PARAGRAPH_TEXT% 　 → AI 場所・住所抽出(プロンプト) 　 → アウトプット Googleマップコード(ブロック挿入) 対応ブロックを選択して、テキ...
+
+---
+
+### コード生成
+
+- Published: 2024-10-30
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/code-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、テキストからコードブロックを生成する方法をご紹介します。 コード生成とは コードとは、コンピュータに指示を与えるためのプログラミング言語で書かれたテキスト形式の命令です。 コード生成のやり方 コード挿入の場合 インプット テキスト等%PARAGRAPH_TEXT% 　 → AI コード生成(プロンプト) 　 → アウトプット コード(ブロック挿入) 対応ブロックを選択して、テキストからAIがコードを1クリックで生成します。 対応...
+
+---
+
+### ボタン生成
+
+- Published: 2024-10-30
+- Modified: 2025-04-13
+- URL: https://ai-direct-editor.com/manual/button-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、テキストやリンクからボタンブロックを生成する方法をご紹介します。 ボタン生成とは ボタンとは、サイト・ブログにおいて、ユーザーのアクションを促すために使用される重要な要素です。 私がボタンだよ ボタン生成のやり方 ボタン挿入の場合 インプット テキスト等%PARAGRAPH_TEXT% 　 → AI ボタンテキスト生成(プロンプト) 　 → アウトプット ボタン(ブロック挿入) ※ テキスト中にリンクがある場合は、リンクも設定さ...
+
+---
+
+### ふきだし生成
+
+- Published: 2024-10-30
+- Modified: 2025-04-13
+- URL: https://ai-direct-editor.com/manual/balloon-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、ライターごとのふきだしブロックを生成する方法をご紹介します。 ふきだし生成とは ふきだしとは、キャラクターのセリフや考えを表す表現方法です。サイト・ブログでも、メッセージを効果的に伝えるために用いられます。 SWELLふきだしブロック Cocoon吹き出しブロック ふきだし挿入が見当たらないんだけど？ でふきだしIDを設定してください。（設定方法は後述） なお、ふきだし挿入は現在SWELL・Cocoon・Affinger・SAN...
+
+---
+
+### テーブル生成
+
+- Published: 2024-10-29
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/table-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、テキストからテーブルブロックを生成する方法をご紹介します。 テーブル生成とは テーブルとは、データを行と列で整理し、視覚的にわかりやすく表示するための形式です。 ヘッダーですヘッダーですセルですセルですセルですセルですキャプションです テーブル生成のやり方 テーブル挿入の場合 インプット テキスト等%PARAGRAPH_TEXT% 　 → AI テーブル生成(プロンプト) 　 → アウトプット テーブル(ブロック挿入) 対応ブロ...
+
+---
+
+### リスト生成
+
+- Published: 2024-10-29
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/list-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、テキストからリストブロックを生成する方法をご紹介します。 リスト生成とは リストとは、箇条書きリストと番号付きリストの2種類があり、複数の項目を整理して表示する際に便利な機能です。 箇条書きリスト テキスト テキスト テキスト 番号付きリスト テキスト テキスト テキスト リスト生成のやり方 リスト挿入の場合 インプット テキスト等%PARAGRAPH_TEXT% 　 → AI リスト生成(プロンプト) 　 → アウトプット リ...
+
+---
+
+### 関連記事
+
+- Published: 2024-10-29
+- Modified: 2025-03-26
+- URL: https://ai-direct-editor.com/manual/related-post/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、見出しごとに関連記事への内部リンクを生成する方法をご紹介します。 関連記事とは 関連記事とは、記事コンテンツに関連する他の記事のことです。サイト・ブログでは内部リンクとなります。 関連記事のやり方 インプット 見出し配下テキスト等%PARAGRAPH_TEXT_LIST% 　 → AI 関連記事生成(プロンプト)※ タイトル出力 　 → アウトプット リンク付きテキスト(ブロック挿入)※ 1つ 対応ブロックを選択して、見出しテキ...
+
+---
+
+### HTMLアンカー
+
+- Published: 2024-10-29
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/html-anchor/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、見出しのHTMLアンカーを生成する方法をご紹介します。 HTMLアンカーとは HTMLアンカーとは、同じページ内の特定の場所へリンクを設定するための仕組みです。idを設定して使用します。 HTMLアンカーが見当たらないんだけど？ HTMLアンカーはデフォルトでOFFになっています。 使用したい場合は、のタブからを「有効」に変更してください。 HTMLアンカーのやり方 インプット 見出し等%HEADING_TEXT% 　 → AI...
+
+---
+
+### アメブロシェア（アメーバブログシェア）
+
+- Published: 2024-10-29
+- Modified: 2025-03-19
+- URL: https://ai-direct-editor.com/manual/ameba-share/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事をアメブロ（アメーバブログ）にコピペしてシェアする方法をご紹介します。 アメブロシェアとは アメブロシェアとは、要約した集客記事や記事全文をアメブロ（アメーバブログ）にコピペするための機能です。 見出しやリスト、テーブルやリンクも対応してるの？ アメブロ（アメーバブログ）は、以下の貼り付けに対応していません。 ふきだし アメブロシェアのやり方 インプット 記事コンテンツ等%POST_CONTENT% 　 → AI 記事要約ま...
+
+---
+
+### はてなブログシェア
+
+- Published: 2024-10-29
+- Modified: 2025-03-19
+- URL: https://ai-direct-editor.com/manual/hatena-share/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事をはてなブログにコピペしてシェアする方法をご紹介します。 はてなブログシェアとは はてなブログシェアとは、要約した集客記事や記事全文をはてなブログにコピペするための機能です。 見出しやリスト、テーブルやリンクも対応してるの？ はてなブログの以下の機能に対応しています。 テキスト 見出し リスト（箇条書き） テーブル（表） 引用 コード リンク 画像 はてなブログは、以下の貼り付けに対応していません。 ふきだし はてなブログシ...
+
+---
+
+### noteシェア
+
+- Published: 2024-10-29
+- Modified: 2025-03-19
+- URL: https://ai-direct-editor.com/manual/note-share/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事をnoteにコピペしてシェアする方法をご紹介します。 noteシェアとは noteシェアとは、要約した集客記事や記事全文をnoteにコピペするための機能です。 見出しやリスト、テーブルやリンクも対応してるの？ noteの以下の機能に対応しています。 テキスト 見出し リスト（箇条書き） テーブル（表） 引用 コード リンク noteは、以下の貼り付けに対応していません。 ふきだし 画像 noteシェアのやり方 インプット 記...
+
+---
+
+### Instagramシェア
+
+- Published: 2024-10-29
+- Modified: 2025-03-19
+- URL: https://ai-direct-editor.com/manual/instagram-share/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事をInstagram（インスタグラム）にコピペしてシェアする方法をご紹介します。 Instagramシェアとは Instagramシェアとは、要約した集客用ポストをInstagram（インスタグラム）にコピペするための機能です。 Instagramシェアのやり方 インプット 記事コンテンツ等%POST_CONTENT% 　 → AI 記事要約 　 → アウトプット Instagram用ポスト(コピペ用) メインブロックを開始...
+
+---
+
+### Facebookシェア
+
+- Published: 2024-10-29
+- Modified: 2025-03-19
+- URL: https://ai-direct-editor.com/manual/facebook-share/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事をFacebookにコピペしてシェアする方法をご紹介します。 Facebookシェアとは Facebookシェアとは、要約した集客用ポストをFacebookにコピペするための機能です。 Facebookシェアのやり方 インプット 記事コンテンツ等%POST_CONTENT% 　 → AI 記事要約 　 → アウトプット Facebook用ポスト(コピペ用) メインブロックを開始して、Facebookにコピペできる要約した集客...
+
+---
+
+### Xシェア（旧Twitterシェア）
+
+- Published: 2024-10-29
+- Modified: 2025-03-19
+- URL: https://ai-direct-editor.com/manual/x-share/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事をX（旧Twitter）にコピペしてシェアする方法をご紹介します。 Xシェアとは Xシェアとは、要約した集客用ポストをXにコピペするための機能です。 Xシェアのやり方 インプット 記事コンテンツ等%POST_CONTENT% 　 → AI 記事要約 　 → アウトプット X用ポスト(コピペ用) メインブロックを開始して、Xにコピペできる要約した集客用ポストを1クリックで生成します。 対応ブロック: メインブロック から→パネ...
+
+---
+
+### 記事マインドマップ
+
+- Published: 2024-10-29
+- Modified: 2025-04-05
+- URL: https://ai-direct-editor.com/manual/article-mindmap/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事コンテンツからマインドマップを生成する方法をご紹介します。 記事マインドマップとは 記事マインドマップとは、記事コンテンツを情報が整理されたマインドマップに変換して、画像として表現する手法です。 記事マインドマップのやり方 インプット 記事コンテンツ等%POST_CONTENT% 　 → AI マインドマップ画像生成(プロンプト) 　 → アウトプット マインドマップ画像(ダウンロード) メインブロックを開始して、記事タイト...
+
+---
+
+### 記事図解
+
+- Published: 2024-10-29
+- Modified: 2025-04-05
+- URL: https://ai-direct-editor.com/manual/article-diagram/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事コンテンツから図解を生成する方法をご紹介します。 記事図解とは 記事図解とは、記事コンテンツを情報が整理された図に変換して、画像として表現する手法です。 記事図解のやり方 インプット 記事コンテンツ等%POST_CONTENT% 　 → AI 図解画像生成(プロンプト) 　 → アウトプット 図解画像(ダウンロード) メインブロックを開始して、記事タイトルなどからAIが図解画像を1クリックで生成します。 対応ブロック: メイ...
+
+---
+
+### SEOチェック
+
+- Published: 2024-10-29
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/seo-check/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事コンテンツのSEOチェックをする方法をご紹介します。 SEOチェックとは SEOチェックとは、WebサイトやWebページが検索エンジンのランキング要素を満たしているかを調査することです。 SEOチェックのやり方 インプット 記事コンテンツ等%POST_CONTENT% 　 → AI チェック結果生成(プロンプト) 　 → アウトプット チェック結果(読む用) メインブロックを開始して、記事コンテンツのSEOチェックの結果を1...
+
+---
+
+### ファクトチェック
+
+- Published: 2024-10-29
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/fact-check/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事コンテンツのファクトチェック（事実確認）をする方法をご紹介します。 ファクトチェックとは ファクトチェックとは、文章などの中に含まれる情報が、事実と一致しているかどうかを検証することです。 ファクトチェックのやり方 インプット 記事コンテンツ等%POST_CONTENT% 　 → AI チェック結果生成(プロンプト) 　 → アウトプット チェック結果(リライト反映) メインブロックを開始して、記事コンテンツのファクトチェッ...
+
+---
+
+### 誤字脱字チェック
+
+- Published: 2024-10-29
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/typo-check/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事コンテンツの誤字脱字チェックをする方法をご紹介します。 誤字脱字チェックとは 誤字脱字チェックとは、文章中の誤字や脱字を見つけ出して修正する作業です。文章校正とも言います。 インプット 記事コンテンツ等%POST_CONTENT% 　 → AI チェック結果生成(プロンプト) 　 → アウトプット チェック結果(リライト反映) 誤字脱字チェックのやり方 記事全体の場合 メインブロックを開始して、記事コンテンツの誤字脱字チェッ...
+
+---
+
+### ふきだし変換
+
+- Published: 2024-10-29
+- Modified: 2025-02-23
+- URL: https://ai-direct-editor.com/manual/balloon-conversion/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、ふきだしブロックに一括変換する方法をご紹介します。 ふきだし変換とは ふきだし変換とは、〈〉や【】などの発言内容をふきだしブロックに変換する処理のことです。 AIに任せればいいんじゃないの？ AIに複雑なHTML化をさせると失敗しやすくなります。 そのため、エディター側でふきだし変換を行います。 ふきだし変換のやり方 メインブロックを開始して、記事コンテンツ内のすべての段落ブロックに対して、1クリックで操作します。 対応ブロック...
+
+---
+
+### テーブル装飾
+
+- Published: 2024-10-29
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/table-conversion/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、テーブルブロックを一括装飾する方法をご紹介します。 テーブル装飾とは テーブル装飾とは、テーブルをより見やすく、美しく、そして効果的に情報を伝えるための処理です。 AIに任せればいいんじゃないの？ AIに複雑なHTML化をさせると失敗しやすくなります。 そのため、エディター側でテーブル装飾を行います。 テーブル装飾のやり方 テーブル装飾の設定を変更する テーブルをどのように装飾するか設定を変更したい場合は、管理画面の装飾設定から...
+
+---
+
+### リスト装飾
+
+- Published: 2024-10-29
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/list-conversion/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、リストブロックを一括装飾する方法をご紹介します。 リスト装飾とは リスト装飾とは、箇条書きにアイコンや記号を追加して、見た目を華やかにしたり、内容を強調したりする処理です。 AIに任せればいいんじゃないの？ AIに複雑なHTML化をさせると失敗しやすくなります。 そのため、エディター側でリスト装飾を行います。 リスト装飾のやり方 リスト装飾の設定を変更する リストをどのように装飾するか設定を変更したい場合は、管理画面の装飾設定か...
+
+---
+
+### 句点操作
+
+- Published: 2024-10-29
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/period-conversion/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、段落ブロックの句点（。）でブロック分割やブロック内改行する方法をご紹介します。 句点操作とは 句点操作とは、文章の最後につける「。」で段落ブロックを分割したり、ブロック内で改行したりする操作です。 AIに任せればいいんじゃないの？ AIには出力のばらつきがあるため、100%必ず同じ操作を行うことが苦手です。 そのため、エディター側で句点操作を行います。 句点操作のやり方 メインブロックを開始して、記事コンテンツ内のすべての段落ブ...
+
+---
+
+### 太字操作
+
+- Published: 2024-10-29
+- Modified: 2025-03-25
+- URL: https://ai-direct-editor.com/manual/bold-conversion/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、段落ブロックの太字・強調タグを変換する方法をご紹介します。 太字操作とは 太字操作とは、タグをタグに変換する操作です。 AIに任せればいいんじゃないの？ AIには出力のばらつきがあるため、100%必ず同じ操作を行うことが苦手です。 そのため、エディター側で太字操作を行います。 太字操作のやり方 メインブロックを開始して、記事コンテンツ内のすべての段落ブロックに対して、1クリックで操作します。 対応ブロック: メインブロック から...
+
+---
+
+### 商品名リンク変換
+
+- Published: 2024-10-29
+- Modified: 2025-04-03
+- URL: https://ai-direct-editor.com/manual/conversion-conversion/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、段落ブロックの商品名をリンクに変換する方法をご紹介します。 商品名リンク変換とは 商品名リンク変換とは、商品名をWebサイトから別のWebサイトへ移動するためのハイパーリンクに変換する操作です。 AIに任せればいいんじゃないの？ AIには出力のばらつきがあるため、100%必ず同じ操作を行うことが苦手です。 そのため、エディター側で商品名リンク変換を行います。 商品名リンク変換のやり方 メインブロックを開始して、記事コンテンツ内の...
+
+---
+
+### 外部リンク操作
+
+- Published: 2024-10-29
+- Modified: 2025-03-25
+- URL: https://ai-direct-editor.com/manual/link-conversion/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、段落ブロックの外部リンクを変換する方法をご紹介します。 外部リンク操作とは 外部リンク操作とは、Webサイトから別のWebサイトへ移動するためのハイパーリンクを変換する操作です。 AIに任せればいいんじゃないの？ AIには出力のばらつきがあるため、100%必ず同じ操作を行うことが苦手です。 そのため、エディター側で外部リンク操作を行います。 外部リンク操作のやり方 メインブロックを開始して、記事コンテンツ内のすべての段落ブロック...
+
+---
+
+### ALTテキスト生成
+
+- Published: 2024-10-28
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/alt-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、画像のALTテキスト（代替テキスト）を生成する方法をご紹介します。 ALTテキスト生成とは ALTテキストとは、画像が表示されない場合に代替として表示されるテキストのことです。 なんでALTテキストを設定するの？ アクセシビリティの観点では、音声読み上げソフト（スクリーンリーダー）を使用する際に、画像の代わりにALTテキストが読み上げられます。 SEO対策の観点では、画像の意味を検索エンジンに伝えることができます。 ALTテキス...
+
+---
+
+### タグ生成
+
+- Published: 2024-10-28
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/tag-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事のタグを生成する方法をご紹介します。 タグ生成とは タグ生成とは、記事からをグループ化し、名前をつける作業のことです。 タグ生成のやり方 インプット 記事タイトル等%TITLE% 　 → AI タグ生成(プロンプト) 　 → アウトプット タグ(設定反映) メインブロックを開始して、記事タイトルなどからAIがタグを1クリックで生成します。 対応ブロック: メインブロック から→パネルを開き、をクリックします。 アウトプットは...
+
+---
+
+### カテゴリー生成
+
+- Published: 2024-10-28
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/category-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事のカテゴリーを生成する方法をご紹介します。 カテゴリー生成とは カテゴリー生成とは、記事からをグループ化し、名前をつける作業のことです。 カテゴリー生成のやり方 インプット 記事タイトル等%TITLE% 　 → AI カテゴリー生成(プロンプト) 　 → アウトプット カテゴリー(設定反映) メインブロックを開始して、記事タイトルなどからAIがカテゴリーを1クリックで生成します。 対応ブロック: メインブロック から→パネル...
+
+---
+
+### ディスクリプション生成
+
+- Published: 2024-10-28
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/description-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事のメタディスクリプションを生成する方法をご紹介します。 ディスクリプション生成とは メタディスクリプションとは、検索エンジンに伝えるためにWebページの内容を簡潔にまとめたHTMLのメタタグです。 Googleなどの検索結果画面（SERPs）に表示されないんだけど？ 検索エンジンがメタディスクリプションをそのまま表示するとは限りません。 何を表示するかは検索エンジン次第のため、こちらから指定することはできません。 ディスクリ...
+
+---
+
+### 抜粋生成
+
+- Published: 2024-10-28
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/excerpt-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事の抜粋を生成する方法をご紹介します。 抜粋生成とは WordPressの抜粋とは、記事一覧を表示する際に各記事の見出しの下に表示され、読者に記事の概要を伝える紹介文のことです。 抜粋生成のやり方 インプット 記事コンテンツ等%POST_CONTENT% 　 → AI 抜粋生成(プロンプト) 　 → アウトプット 抜粋(設定反映) メインブロックを開始して、記事コンテンツ全体などからAIが抜粋文を1クリックで生成します。 対応...
+
+---
+
+### スラッグ生成
+
+- Published: 2024-10-28
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/slug-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事のスラッグ（URLの一部）を生成する方法をご紹介します。 スラッグ生成とは スラッグとは、記事のURLに含まれる、記事の内容を表す短いテキストのことです。 https://example. com/slug/https://example. com/category/slug/ パーマリンク設定はどうしたらいいの？ 本機能は、で「投稿名」などに設定した場合に使用します。 スラッグは英語がいいの？ 日本語URLはコピーしたとき...
+
+---
+
+### 画像テキスト
+
+- Published: 2024-10-28
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/image-text/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、アイキャッチ画像や挿入画像にテキストをオーバーレイさせる方法をご紹介します。 画像テキストとは 画像テキストとは、画像に記事タイトルや見出しなどのテキストを表示する機能です。 画像テキストのやり方 アイキャッチ画像テキストの場合 インプット インプットテキスト(自由記述) 　 → AI不使用 画像テキスト追加(プロンプト) 　 → アウトプット 画像(ブロック更新) メインブロックを開始して、記事タイトルなどがオーバーレイしたア...
+
+---
+
+### 画像生成
+
+- Published: 2024-10-28
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/image-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、アイキャッチ画像や挿入画像を生成する方法をご紹介します。 画像生成とは 画像生成とは、テキストなどのデータをもとに人工知能（AI）が自動で画像を生成する技術のことです。 画像生成のやり方 アイキャッチ画像生成の場合 インプット タイトル等%TITLE% 　 → AI アイキャッチ画像生成(プロンプト) 　 → アウトプット アイキャッチ画像(設定反映) メインブロックを開始して、記事タイトルなどからAIがアイキャッチ画像を1クリ...
+
+---
+
+### サマリー文生成
+
+- Published: 2024-10-28
+- Modified: 2025-04-13
+- URL: https://ai-direct-editor.com/manual/summarytext-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事のサマリー文（まとめ文）を生成する方法をご紹介します。 サマリー文生成とは サマリー文とは、文章の内容を要約した短い文章のことです。 サマリー文生成のやり方 インプット 記事コンテンツ等%POST_CONTENT% 　 → AI サマリー文生成(プロンプト) 　 → アウトプット テキスト、リストふきだし等 ※ ふきだしブロックは、現在SWELL・Cocoon・Affinger・SANGO・Lightning（VK Bloc...
+
+---
+
+### リード文生成
+
+- Published: 2024-10-28
+- Modified: 2025-04-13
+- URL: https://ai-direct-editor.com/manual/leadtext-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事のリード文（導入文）を生成する方法をご紹介します。 リード文生成とは リード文とは、記事の冒頭に配置される、読者の興味関心を引きつけ、本文へと誘導する役割を担う文章のことです。 リード文生成のやり方 インプット 記事コンテンツ等%POST_CONTENT% 　 → AI リード文生成(プロンプト) 　 → アウトプット テキスト、リストふきだし等 ※ ふきだしブロックは、現在SWELL・Cocoon・Affinger・SAN...
+
+---
+
+### FAQ生成
+
+- Published: 2024-10-28
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/faq-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事のFAQ（よくある質問）を生成する方法をご紹介します。 FAQ生成とは FAQとは「Frequently Asked Questions」の略であり、「よくある質問」のことです。 FAQ生成のやり方 インプット 記事コンテンツ等%POST_CONTENT% 　 → AI FAQ生成(プロンプト) 　 → アウトプット FAQブロック見出し+段落 ※ FAQブロックはSWELL・Cocoon・Affinger・SANGO・Li...
+
+---
+
+### 見出しジャンプリンク
+
+- Published: 2024-10-28
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/heading-list/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、見出しジャンプリンクを生成する方法をご紹介します。 見出しジャンプリンクとは 見出しジャンプリンクとは、各見出しへのページ内リンクをまとめたリストブロックです。 見出しジャンプリンクのやり方 大見出しジャンプリンク生成の場合（メインブロック） インプット H2見出し等%MAJORHEADING_TEXT_LIST% 　 → AI HTMLアンカー生成(プロンプト) 　 → アウトプット 大見出しジャンプリンク(ブロック挿入) メ...
+
+---
+
+### 見出しまとめテーブル
+
+- Published: 2024-10-28
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/heading-table/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、見出しまとめテーブルを生成する方法をご紹介します。 見出しまとめテーブルとは 見出しまとめテーブルとは、各見出しへのページ内リンクと内容をまとめたテーブルブロックです。 見出しまとめテーブルのやり方 大見出しまとめテーブル生成の場合（メインブロック） インプット H2見出しコンテンツ等%MAJORHEADING_CONTENT% 　 → AI テーブル生成(プロンプト) 　 → アウトプット 大見出しまとめテーブル(ブロック挿入...
+
+---
+
+### テキスト生成
+
+- Published: 2024-10-28
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/text-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事のテキスト（文章）を生成する方法をご紹介します。 テキスト生成とは テキスト生成とは、コンピュータが自動的に文章を作成する技術のことで、AI技術の進歩で高品質な文章を生成できるようになってきています。 テキスト生成のやり方 テキスト一括生成の場合（メインブロック） インプット H2見出し等%HEADING_TEXT_LIST_HERE% 　 → AI テキスト生成(プロンプト)※ H2見出しごと 　 → アウトプット テキス...
+
+---
+
+### 見出し生成
+
+- Published: 2024-10-28
+- Modified: 2025-03-22
+- URL: https://ai-direct-editor.com/manual/heading-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事の見出しを生成する方法をご紹介します。 見出し生成とは 見出しとは、文章の区切りを示し、内容を分かりやすく整理するためのものです。 見出し生成のやり方 見出し一括生成の場合（メインブロック） インプット タイトル等%TITLE% 　 → AI 見出し一覧生成(プロンプト) 　 → アウトプット 見出し(ブロック挿入) メインブロックを開始して、記事構成などからAIがすべての見出しを1クリックで生成します。 対応ブロック: メ...
+
+---
+
+### タイトル生成
+
+- Published: 2024-10-28
+- Modified: 2025-03-22
+- URL: https://ai-direct-editor.com/manual/title-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事のタイトルを生成する方法をご紹介します。 タイトル生成とは タイトル（題名）とは、読者の興味を引き、クリック率やアクセス数を向上させるために非常に重要なものです。 タイトル生成のやり方 インプット 記事構成等%OUTLINE% 　 → AI タイトル生成(プロンプト) 　 → アウトプット タイトル%TITLE% メインブロックを開始して、狙いたいクエリ（検索キーワード）などからAIが記事タイトルを1クリックで生成します。 ...
+
+---
+
+### 記事構成生成
+
+- Published: 2024-10-28
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/outline-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、テキスト生成などに使用する記事の記事構成を生成する方法をご紹介します。 記事構成生成とは 記事構成とは、文章全体の設計図となるものです。 記事構成生成のやり方 インプット ペルソナ等%PERSONA% 　 → AI 記事構成生成(プロンプト) 　 → アウトプット 記事構成%OUTLINE% メインブロックを開始して、狙いたいクエリ（検索キーワード）などからAIが記事構成を1クリックで生成します。 対応ブロック: メインブロック...
+
+---
+
+### ペルソナ生成
+
+- Published: 2024-10-28
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/persona-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、テキスト生成などに使用するペルソナ（読者像）を生成する方法をご紹介します。 ペルソナ生成とは ペルソナとは、あなたのサイト・ブログの理想的な顧客像を具体的に表現した架空の人物像のことです。 ペルソナ生成のやり方 インプット 検索意図等%INTENT% 　 → AI ペルソナ生成(プロンプト) 　 → アウトプット ペルソナ%PERSONA% メインブロックを開始して、狙いたいクエリ（検索キーワード）などからAIがペルソナを1クリ...
+
+---
+
+### 検索意図生成
+
+- Published: 2024-10-27
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/intent-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、テキスト生成などに使用する検索意図を生成する方法をご紹介します。 検索意図生成とは 検索意図とは、ユーザーが検索クエリを入力した際に、実際に達成したい目的や知りたい情報のことを指します。 検索意図生成のやり方 インプット クエリ等%QUERY% 　 → AI 検索意図生成(プロンプト) 　 → アウトプット 検索意図%INTENT% メインブロックを開始して、狙いたいクエリ（検索キーワード）などからAIが検索意図を1クリックで生...
+
+---
+
+### キーワード生成
+
+- Published: 2024-10-27
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/keyword-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、テキスト生成などに使用するキーワードを生成する方法をご紹介します。 キーワード生成とは キーワード生成とは、SEO対策に必要なキーワードを生成することです。 キーワード生成のやり方 インプット クエリ等%QUERY% 　 → AI キーワード生成(プロンプト) 　 → アウトプット キーワード%KEYWORD% ※ AIを使用せずに、キーワードツールから取得したキーワードをアウトプットにコピペしてもいいです。 メインブロックを開...
+
+---
+
+### ソース要約
+
+- Published: 2024-10-27
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/source-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、テキスト生成などに使用するソースの要約を生成する方法をご紹介します。 ソース要約とは ソースとは、情報の出典や根拠となる情報源のことです。AIに読み込ませるために、ソースを要約して使用します。 ソース要約のやり方 インプット ソースURL(5個まで) 　 → AI ソース要約(プロンプト) 　 → アウトプット ソース%SOURCE% メインブロックを開始して、ソースURLからAIが要約を1クリックで生成します。 対応ブロック:...
+
+---
+
+### リサーチ
+
+- Published: 2024-10-27
+- Modified: 2025-05-24
+- URL: https://ai-direct-editor.com/manual/research-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、テキスト生成などに使用する情報をリサーチする方法をご紹介します。 リサーチとは リサーチとは、特定のテーマや課題について、最新情報などを収集・分析する機能です。 対応AIは？ 現在は、主にX（Twitter）のAI「Grok」用の機能で、Xの最新情報などをリサーチします。 リサーチのやり方 インプット クエリ等%QUERY% 　 → AI リサーチ(プロンプト) 　 → アウトプット ソース%RESEARCH% メインブロックを...
+
+---
+
+### 全自動記事生成・記事リライト
+
+- Published: 2024-10-27
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/article-generation/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、全自動記事生成・記事リライトする方法をご紹介します。 全自動記事生成・記事リライトとは 全自動記事生成は、AIが自動で記事を作成する機能のことです。 全自動記事リライトは、AIが自動で記事をリライトする機能のことです。 全自動記事生成のやり方 メインブロックに入力する 、、、などを設定します。 記事の方針とソースURLが大事 単純にAIに記事を生成させると、独自性のない記事やハルシネーション（嘘）を含んだ記事が出来上がります。 ...
+
+---
+
+### メインブロック
+
+- Published: 2024-10-27
+- Modified: 2025-04-30
+- URL: https://ai-direct-editor.com/manual/main-block/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』のメインブロックをご紹介します。 メインブロックとは メインブロックとは、記事全体に関わる機能を使用するためのブロックです。 公開はされないブロックで、エディター画面でだけ表示されます。 メインブロックに入力する 、、、、、などを設定します。 メインブロックの設定項目 メインブロックでは、クエリ（検索キーワード）、ライター、記事の方針、ソースURLなどを設定できます。 項目説明クエリ狙いたい検索キーワードを設定します。ライターライテ...
+
+---
+
+### 設定リセット方法
+
+- Published: 2024-10-27
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/reset-setting/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、設定をリセットしてデフォルトに戻す方法をご紹介します。 設定リセットとは 設定リセットとは、プラグインの設定を初期状態に戻す操作です。 ライター設定のリセット ライター設定は、ライターごとに設定をリセットすることができます。 左メニューからを開き、リセットしたいを選択してをクリックします。 プロンプト設定のリセット プロンプト設定は、すべて一括で設定をリセットすることもできます。 左メニューからを開き、を選択してをクリックします...
+
+---
+
+### インポート・エクスポート
+
+- Published: 2024-10-27
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/import-export/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、プロンプトや描画スタイルをインポート・エクスポートする方法をご紹介します。 インポート・エクスポートとは インポートとは、外部のファイルからデータを読み込んで、現在のサイト・ブログに反映させることです。 エクスポートとは、現在のサイト・ブログで作成したデータを、他のサイト・ブログでも利用可能な形式のファイルとして出力することです。 インポート・エクスポート可能な項目 インポート・エクスポート可能な項目は、以下のとおりです。 項目...
+
+---
+
+### SEOデータ
+
+- Published: 2024-10-27
+- Modified: 2025-03-28
+- URL: https://ai-direct-editor.com/manual/seo-data/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、Google Search Consoleのデータを分析する方法をご紹介します。 SEOデータとは Search ConsoleなどのSEOツールのデータ群で、クリック数・表示回数・平均CTR・平均順位などです。 事前準備 事前にGoogle Search ConsoleのAPIキーを設定してください。 >> Search ConsoleのAPIキー設定方法 データを更新する方法 WordPressの管理画面上部にあるアドミンバ...
+
+---
+
+### 図解スタイル設定
+
+- Published: 2024-10-27
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/diagram-setting/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、図解生成のスタイルを設定する方法をご紹介します。 図解スタイル設定とは 図解スタイルとは、図解の見た目や印象を決定づける要素の組み合わせです。 図解スタイルを設定すれば、さまざまな図解を生成できます。 図解スタイル設定の項目 各図解スタイルに対して、以下のような設定を行います。 項目説明図解スタイル名表示される図解スタイルの名前を設定します。図解スタイルプロンプトに使用する変数「%DIAGRAM_STYLE%」の中身を設定します...
+
+---
+
+### 描画スタイル設定
+
+- Published: 2024-10-27
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/drawing-setting/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、画像生成の描画スタイルを設定する方法をご紹介します。 描画スタイル設定とは 描画スタイル設定とは、「マンガ」や「アニメ」などのように画像の見た目を決める設定のことです。 サイト・ブログごとに描画スタイルを設定すれば、統一的な画像を生成しやすくなります。 描画スタイル設定の項目 各描画スタイルに対して、以下のような設定を行います。 項目説明描画スタイル名表示される描画スタイルの名前を設定します。描画スタイルプロンプトに使用する変数...
+
+---
+
+### 装飾設定
+
+- Published: 2024-10-27
+- Modified: 2025-04-13
+- URL: https://ai-direct-editor.com/manual/decorate-setting/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、ブロックの装飾を設定する方法をご紹介します。 装飾設定とは 装飾設定とは、生成されるブロックのスタイルや雰囲気を調整するための機能です。 装飾設定では、リストやテーブルの装飾スタイルの設定が可能です。 装飾設定の項目 各ブロックに対して、以下のような設定を行います。 リストの場合 項目説明WordPress - テキスト色テキストの色を設定します。WordPress - 背景色背景の色を設定します。SWELL - スタイルリスト...
+
+---
+
+### 変数一覧
+
+- Published: 2024-10-27
+- Modified: 2025-05-24
+- URL: https://ai-direct-editor.com/manual/variable-list/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で使用できる変数を一覧でご紹介します。 どの機能でどの変数が使用できるかは、「プロンプト設定」画面をご覧ください。 通常プロンプト（user） サイト関連 変数説明%SITE_TITLE%サイトのタイトル%SITE_URL%サイトのURL API関連 変数説明%MAX_TOKENS%使用AIに応じた最大トークン数(max_tokens)※ 一般設定で変更できるものです。 ライター関連 変数説明%WRITER_PROFILE%ライター...
+
+---
+
+### プロンプト設定
+
+- Published: 2024-10-27
+- Modified: 2025-04-08
+- URL: https://ai-direct-editor.com/manual/prompt-setting/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、デフォルトのプロンプトを設定する方法をご紹介します。 プロンプト設定とは プロンプトとは、AIモデルに対してどのようなアウトプットを生成してほしいかを指示するためのテキストのことです。 プロンプト設定では、AIごとにさまざまな設定が可能です。 プロンプトタイプを切り替える方法 表示されている・編集できるプロンプトは、切り替えることができます。 タブからを変更してしてください。 プロンプト設定の項目 各プロンプトに対して、以下のよ...
+
+---
+
+### ライター設定
+
+- Published: 2024-10-27
+- Modified: 2025-03-26
+- URL: https://ai-direct-editor.com/manual/writer-setting/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、記事ごとに選択できるライターのプロフィールを設定する方法をご紹介します。 ライター設定とは ライター設定とは、文章生成時に使用するライターのプロフィール情報の設定です。 自分で書いた記事をAIに解析させて、自分に似たライターを作成することもできます。 ライター設定の項目 各ライターに対して、以下のような設定を行います。 項目説明ライター名表示されるライターの名前を設定します。職業ライターの職業を設定します。年齢ライターの年齢を設...
+
+---
+
+### Search ConsoleのAPIキー設定方法
+
+- Published: 2024-10-26
+- Modified: 2025-03-20
+- URL: https://ai-direct-editor.com/manual/searchconsole-api/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、Google Search Consoleを利用するためのAPI設定の方法をご紹介します。 Google Search ConsoleのAPIキー設定 サービスアカウントの作成URLから、Google Cloudの管理画面にアクセスします。 >> https://console. cloud. google. com/iam-admin/serviceaccounts （アカウントがない場合は作成し、ログインしていない場合はログ...
+
+---
+
+### Hugging FaceのAPIキー設定方法
+
+- Published: 2024-10-26
+- Modified: 2025-03-20
+- URL: https://ai-direct-editor.com/manual/huggingface-api/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、Hugging Faceを利用するためのAPI設定の方法をご紹介します。 Hugging FaceのAPIキー設定 APIキーの取得URLから、Hugging Faceの管理画面にアクセスします。 >> https://huggingface. co/settings/tokens （アカウントがない場合は作成し、ログインしていない場合はログインしてから再度アクセスしてください。） をクリックします。 をクリックできないんだけど...
+
+---
+
+### ImagenのAPIキー設定方法
+
+- Published: 2024-10-26
+- Modified: 2025-03-20
+- URL: https://ai-direct-editor.com/manual/imagen-api/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、Imagen 3（ImageFX）を利用するためのAPI設定の方法をご紹介します。 ImagenのAPIキー設定 Geminiと同じGoogleのサービスなので、同じAPIキーを設定できます。 同じAPIキーを設定する場合、新たにAPIキーを設定する必要はありません。 APIキーの取得URLから、Imagenの管理画面にアクセスします。 >> https://aistudio. google. com/app/apikey （ア...
+
+---
+
+### RecraftのAPIキー設定方法
+
+- Published: 2024-10-26
+- Modified: 2025-01-21
+- URL: https://ai-direct-editor.com/manual/recraft-api/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、Recraftを利用するためのAPI設定の方法をご紹介します。 Recraftの課金設定 Generate new keyが押せないんだけど？ RecraftはAPIキー取得の前に課金が必要になります。 APIキーの課金URLから、Recraftの管理画面にアクセスします。 >> https://www. recraft. ai/profile/api （アカウントがない場合は作成し、ログインしていない場合はログインしてから再度...
+
+---
+
+### FLUXのAPIキー設定方法
+
+- Published: 2024-10-26
+- Modified: 2025-03-26
+- URL: https://ai-direct-editor.com/manual/flux-api/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、FLUXを利用するためのAPI設定の方法をご紹介します。 FLUXのAPIキー設定 APIキーの取得URLから、FLUXの管理画面にアクセスします。 >> https://dashboard. bfl. ai/keys （アカウントがない場合は作成し、ログインしていない場合はログインしてから再度アクセスしてください。） をクリックします。 を「AI Direct Editor」などと設定してをクリックします。 APIキーをして、...
+
+---
+
+### DALL·EのAPIキー設定方法
+
+- Published: 2024-10-26
+- Modified: 2025-04-17
+- URL: https://ai-direct-editor.com/manual/dalle-api/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、DALL·Eを利用するためのAPI設定の方法をご紹介します。 DALL·EのAPIキー設定 ChatGPTと同じOpenAIのサービスなので、同じAPIキーを設定できます。 同じAPIキーを設定する場合、新たにAPIキーを設定する必要はありません。 APIキーの取得URLから、ChatGPTの管理画面にアクセスします。 >> https://platform. openai. com/api-keys （アカウントがない場合は作...
+
+---
+
+### OpenRouterのAPIキー設定方法
+
+- Published: 2024-10-26
+- Modified: 2025-03-25
+- URL: https://ai-direct-editor.com/manual/openrouter-api/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、OpenRouterを利用するためのAPI設定の方法をご紹介します。 OpenRouterのAPIキー設定 APIキーの取得URLから、OpenRouterの管理画面にアクセスします。 >> https://openrouter. ai/settings/keys （アカウントがない場合は作成し、ログインしていない場合はログインしてから再度アクセスしてください。） をクリックします。 を「AI Direct Editor」などと...
+
+---
+
+### PerplexityのAPIキー設定方法
+
+- Published: 2024-10-26
+- Modified: 2025-04-18
+- URL: https://ai-direct-editor.com/manual/perplexity-api/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、Perplexityを利用するためのAPI設定の方法をご紹介します。 Perplexityの課金設定 +生成ボタンがないんだけど？ PerplexityはAPIキー取得の前に課金が必要になります。 Perplexity ProユーザーにはAPI無料クレジットがあるかも Perplexity Pro（有料プラン）を契約しているユーザーは、APIの無料クレジットが付与されている場合があります。 APIキーの課金URLから、Perpl...
+
+---
+
+### GrokのAPIキー設定方法
+
+- Published: 2024-10-26
+- Modified: 2025-05-07
+- URL: https://ai-direct-editor.com/manual/grok-api/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、Grokを利用するためのAPI設定の方法をご紹介します。 GrokのAPIキー設定 APIキーの取得URLから、Grokの管理画面にアクセスします。 >> https://console. x. ai/team/default/api-keys （アカウントがない場合は作成し、ログインしていない場合はログインしてから再度アクセスしてください。） をクリックします。 を「AI Direct Editor」などと設定してをクリックし...
+
+---
+
+### DeepSeekのAPIキー設定方法
+
+- Published: 2024-10-26
+- Modified: 2024-12-30
+- URL: https://ai-direct-editor.com/manual/deepseek-api/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、DeepSeekを利用するためのAPI設定の方法をご紹介します。 DeepSeekのAPIキー設定 APIキーの取得URLから、DeepSeekの管理画面にアクセスします。 >> https://platform. deepseek. com/api_keys （アカウントがない場合は作成し、ログインしていない場合はログインしてから再度アクセスしてください。） をクリックします。 を「AI Direct Editor」などに設定...
+
+---
+
+### GeminiのAPIキー設定方法
+
+- Published: 2024-10-26
+- Modified: 2025-03-31
+- URL: https://ai-direct-editor.com/manual/gemini-api/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、Geminiを利用するためのAPI設定の方法をご紹介します。 GeminiのAPIキー設定 Geminiの画像生成にも、同じAPIキーを設定できます。 同じAPIキーを設定する場合、新たにAPIキーを設定する必要はありません。 Imagenと同じGoogleのサービスなので、同じAPIキーを設定できます。 同じAPIキーを設定する場合、新たにAPIキーを設定する必要はありません。 APIキーの取得URLから、Geminiの管理画...
+
+---
+
+### ClaudeのAPIキー設定方法
+
+- Published: 2024-10-26
+- Modified: 2024-12-30
+- URL: https://ai-direct-editor.com/manual/claude-api/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、Claudeを利用するためのAPI設定の方法をご紹介します。 ClaudeのAPIキー設定 APIキーの取得URLから、Claudeの管理画面にアクセスします。 >> https://console. anthropic. com/settings/keys （アカウントがない場合は作成し、ログインしていない場合はログインしてから再度アクセスしてください。） をクリックします。 を「AI Direct Editor」などに、を「...
+
+---
+
+### ChatGPTのAPIキー設定方法
+
+- Published: 2024-10-26
+- Modified: 2025-04-17
+- URL: https://ai-direct-editor.com/manual/chatgpt-api/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、ChatGPTを利用するためのAPI設定の方法をご紹介します。 ChatGPTのAPIキー設定 DALL·Eと同じOpenAIのサービスなので、同じAPIキーを設定できます。 同じAPIキーを設定する場合、新たにAPIキーを設定する必要はありません。 APIキーの取得URLから、ChatGPTの管理画面にアクセスします。 >> https://platform. openai. com/api-keys （アカウントがない場合は...
+
+---
+
+### おすすめのAI
+
+- Published: 2024-10-26
+- Modified: 2025-05-15
+- URL: https://ai-direct-editor.com/manual/recommended-ai/
+- カテゴリー: マニュアル
+
+機能ごとのおすすめAIをご紹介します。 おすすめのテキスト生成AI AIには、それぞれ得意不得意があります。 項目ChatGPTClaudeGeminiDeepSeekGrokPerplexityOpenRouter無料枠××◯×××◯ライター解析◯◯◯◯◯×◯ソース要約△△◎◯◯△◯テキスト生成△◯◎◯◯◯(pro)◯誤字脱字チェック◯◯△◯◯×◯ファクトチェック××◯×◯◎×SEOチェック◯◯◯◯◯◯◯画像プロンプト△◎×△△×△図解生成×◎◯◯△×◯ おすすめの画像生成AI AIには、それ...
+
+---
+
+### 一般設定
+
+- Published: 2024-10-26
+- Modified: 2025-05-07
+- URL: https://ai-direct-editor.com/manual/api-setting/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』で、AIを利用するための一般設定の方法をご紹介します。 一般設定とは WordPress管理画面で最初に設定する設定です。 一般設定の項目 各AIに対して、以下のような設定を行います。 AIの場合 項目説明有効AIを利用するかどうかのON/OFFを設定します。APIキーAIを利用するためのAPIキーを設定します。バージョン利用するAIのバージョン（モデル）を設定します。ばらつきAIの出力のばらつき（temperature）を設定しま...
+
+---
+
+### ライセンス認証方法
+
+- Published: 2024-10-26
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/activate-license/
+- カテゴリー: マニュアル
+
+WP-Market公式プラグイン『WP-Market Plugin』を使用したライセンス認証方法をご紹介します。 ライセンス認証とは ライセンス認証とは、購入したソフトウェアが正規のものであることを証明し、利用権限を確認する仕組みです。 ライセンス認証（アクティベーション）が完了すると、アップデートなどが正常に実行できるようになります。 WP-Market Pluginのダウンロード方法 以下のURLから、zipファイルをダウンロードしてください。 >> https://wp-market. o...
+
+---
+
+### インストール方法
+
+- Published: 2024-10-26
+- Modified: 2025-02-17
+- URL: https://ai-direct-editor.com/manual/install-plugin/
+- カテゴリー: マニュアル
+
+WordPressプラグイン『AI Direct Editor』のインストール方法をご紹介します。 WordPressプラグインとは WordPressプラグインとは、WordPressの機能を拡張するためのプログラムのことです。 プラグインをインストールすることで、まるでスマートフォンにアプリを入れるように、簡単にウェブサイトに新しい機能を追加できます。 AI Direct Editorプラグインのインストール方法 左メニューからのをクリックします。 上部のを開いて、からzipファイルを選択し...
+
+---
+
+### ユーザーフォーラムへの参加方法
+
+- Published: 2024-10-26
+- Modified: 2025-03-20
+- URL: https://ai-direct-editor.com/manual/user-forum/
+- カテゴリー: マニュアル
+
+購入者限定のユーザーフォーラム（Discord）への参加方法をご紹介します。 販売サイト「WP-Market」にログインします。 >> https://wp-market. org/account/ 商品ページにアクセスします。 >> https://wp-market. org/product/ai-direct-editor/ タブを開いて、URLからDiscordに参加します。 ユーザーフォーラムのURLが表示されないのはなぜ？ 購入後にログインした状態でないと表示されません。 購入後にロ...
+
+---
+
+### 最初にやってほしいこと
+
+- Published: 2024-10-25
+- Modified: 2025-05-14
+- URL: https://ai-direct-editor.com/manual/first-step/
+- カテゴリー: マニュアル
+
+『AI Direct Editor』を使うために最初にやってほしいことをご紹介します。 ユーザーフォーラムへ参加 購入後に商品ページのタブからDiscordにご参加ください。 >> https://wp-market. org/product/ai-direct-editor/ >> ユーザーフォーラムへの参加方法 インストール まずはプラグインをWordPressにインストールする必要があります。 >> インストール方法 ライセンス認証 ライセンスキーは、WP-Marketのページのタブから確...
+
+---
+
+
+---
+

@@ -1,0 +1,41 @@
+# Awesome Tool
+
+A powerful CLI tool for automating development workflows.
+
+## Installation
+
+```bash
+npm install -g awesome-tool
+```
+
+## Commands
+
+- `awesome init` - Initialize a new project
+- `awesome build` - Build the project
+- `awesome deploy` - Deploy to production
+- `awesome test` - Run tests
+
+## Configuration
+
+Create `.awesomerc` in your project root:
+
+```json
+{
+  "target": "production",
+  "minify": true,
+  "sourceMaps": false
+}
+```
+
+## Examples
+
+```bash
+# Initialize new project
+awesome init my-project
+
+# Build for production
+awesome build --prod
+
+# Deploy with custom config
+awesome deploy --config custom.json
+```

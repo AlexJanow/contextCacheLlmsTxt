@@ -1,0 +1,26 @@
+# AlphaFi Docs
+
+## AlphaFi Docs
+
+- [What is AlphaFi](https://docs.alphafi.xyz/introduction/what-is-alphafi): The Premium Smart Yield Aggregator on SUI
+- [How It Works](https://docs.alphafi.xyz/introduction/how-it-works)
+- [Roadmap](https://docs.alphafi.xyz/introduction/roadmap)
+- [Yield Farming Pools](https://docs.alphafi.xyz/strategies/yield-farming-pools): Auto compounding, Auto rebalancing concentrated liquidity pools
+- [Tokenomics](https://docs.alphafi.xyz/alpha-token/tokenomics): Max supply: 10,000,000 ALPHA tokens.
+- [ALPHA Airdrops](https://docs.alphafi.xyz/alpha-token/alpha-airdrops)
+- [stSUI](https://docs.alphafi.xyz/alphafi-stsui-standard/stsui)
+- [stSUI Audit](https://docs.alphafi.xyz/alphafi-stsui-standard/stsui-audit)
+- [stSUI Integration](https://docs.alphafi.xyz/alphafi-stsui-standard/stsui-integration)
+- [Bringing Assets to AlphaFi](https://docs.alphafi.xyz/getting-started/bringing-assets-to-alphafi): Bridging assets from other blockchains
+- [Supported Assets](https://docs.alphafi.xyz/getting-started/bringing-assets-to-alphafi/supported-assets)
+- [Community Links](https://docs.alphafi.xyz/info/community-links)
+- [Introduction](https://docs.alphafi.xyz/alphalend/introduction)
+- [What is AlphaLend?](https://docs.alphafi.xyz/alphalend/introduction/what-is-alphalend)
+- [How it works](https://docs.alphafi.xyz/alphalend/introduction/how-it-works)
+- [Concepts](https://docs.alphafi.xyz/alphalend/introduction/concepts)
+- [Security](https://docs.alphafi.xyz/alphalend/security)
+- [Audit Report](https://docs.alphafi.xyz/alphalend/security/audit-report)
+- [Risks](https://docs.alphafi.xyz/alphalend/security/risks)
+- [Liquidation](https://docs.alphafi.xyz/alphalend/security/liquidation)
+- [Developers](https://docs.alphafi.xyz/alphalend/developers)
+- [Contract & Object IDs](https://docs.alphafi.xyz/alphalend/developers/contract-and-object-ids)

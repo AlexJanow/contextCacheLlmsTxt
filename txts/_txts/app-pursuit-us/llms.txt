@@ -1,0 +1,34 @@
+# Pursuit
+
+> Pursuit transforms raw public‑sector data into actionable sales intelligence, helping software vendors find and win government contracts sooner. Its AI‑driven products—Radar, Intel, and Pipeline—scan 30 M+ documents across 90 k entities and surface early buying signals, clean CRM data, and high‑ROI outreach services.
+
+Pursuit Markets Inc.
+Headquarters: 112 S Main St Suite B, Ann Arbor, MI 48104, USA
+Founded: 2024
+Contact: support@pursuit.us
+
+## Docs
+
+- [Homepage](https://www.pursuit.us/): High‑level overview of value proposition and product suite.
+- [Radar](https://www.pursuit.us/radar): Daily opportunity detection before RFPs are issued.
+- [Intel](https://www.pursuit.us/intel): Public‑sector entity & contact database with CRM sync.
+- [Pipeline](https://www.pursuit.us/pipeline): Managed BDR service powered by Pursuit data & AI.
+- [About](https://www.pursuit.us/about): Company mission, founders, vision, and core values.
+- [Security](https://www.pursuit.us/security): SOC 2‑aligned security controls and data protection.
+- [Product Releases](https://www.pursuit.us/releases): Latest release notes and new features.
+
+## Policies
+
+- [Master Services Agreement](https://www.pursuit.us/master-services-agreement): Contract terms for all subscriptions and services.
+- [Privacy Policy](https://www.pursuit.us/privacy-policy): How Pursuit collects, uses, and protects personal data.
+- [Privacy Law Addendum](https://www.pursuit.us/privacy-law-addendum): State‑specific privacy disclosures and rights.
+
+## Resources
+
+- [Blog](https://www.pursuit.us/blog): Articles, tutorials, and customer stories on public‑sector sales.
+- [Case Studies](https://www.pursuit.us/case-studies): Success stories and quantified outcomes from Pursuit users.
+- [System Status](https://status.pursuit.us): Real‑time uptime and incident history.
+
+## Optional
+
+- [Careers](https://www.pursuit.us/careers): Open roles, values, and hiring philosophy.

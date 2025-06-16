@@ -1,0 +1,29 @@
+# AI Scribbles  
+
+> AI Scribbles is a free AI-generated stock image site, all created and curated manually by us before publishing.
+
+Important notes:
+
+- AI Scribbles is completely free to use, with no accounts required.
+- All images are free to use under the Creative Commons Attribution-ShareAlike (CC BY-SA) license.
+- We add new images daily to keep the content fresh.
+- Our team reviews every image before publishing to maintain high quality.
+- The site offers a wide variety of AI-generated content, including photos, illustrations, clipart, and more—not just photos. 
+- Use our AI-powered search to quickly find the perfect image.
+
+## Popular Images  
+
+- [Daily](https://aiscribbles.com/popular/daily/): Most popular images of the day  
+- [Weekly](https://aiscribbles.com/popular/weekly/): Most popular images of the week  
+- [Monthly](https://aiscribbles.com/popular/monthly/): Most popular images of the month  
+- [Yearly](https://aiscribbles.com/popular/yearly/): Most popular images of the year  
+
+## Pages  
+
+- [Home](https://aiscribbles.com/): Browse AI-generated images  
+- [Categories](https://aiscribbles.com/categories/): Explore images by category  
+- [Generate](https://aiscribbles.com/generate/): Create AI-generated images  
+- [How It Works](https://aiscribbles.com/how-it-works/): Learn about AI Scribbles  
+- [Image License](https://aiscribbles.com/license/): Licensing information for using images  
+- [Terms of Service](https://aiscribbles.com/terms/): Details on usage rights and restrictions  
+- [Privacy Policy](https://aiscribbles.com/privacy/): Information on data privacy

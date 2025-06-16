@@ -1,0 +1,44 @@
+# Liam ERD
+
+## Docs
+
+- [Welcome to Liam ERD](https://liam-docs-sigma.vercel.app/docs/): Liam ERD is a tool that effortlessly generates beautiful and easy-to-read ER diagrams.
+- [Liam ERD CLI](https://liam-docs-sigma.vercel.app/docs/cli)
+    - [CI/CD Integration](https://liam-docs-sigma.vercel.app/docs/cli/ci-cd)
+- [Community Resources](https://liam-docs-sigma.vercel.app/docs/community-resources): A collection of community-created resources and articles about Liam ERD
+- [Contributing](https://liam-docs-sigma.vercel.app/docs/contributing): Learn how to contribute to Liam ERD
+    - [Architecture Decision Records](https://liam-docs-sigma.vercel.app/docs/contributing/adr): Documented architecture decisions for the Liam project
+        - [20241003 - Use CSS Modules for Styling](https://liam-docs-sigma.vercel.app/docs/contributing/adr/20241003-use-css-modules-for-styling)
+        - [20241112 - Use React Flow for ERD Visualization](https://liam-docs-sigma.vercel.app/docs/contributing/adr/20241112-use-react-flow-for-erd-visualization)
+        - [20241128 - Use Fumadocs for Documentation Site](https://liam-docs-sigma.vercel.app/docs/contributing/adr/20241128-use-fumadocs-for-documentation-site)
+        - [20241128 - Use libpg-query for PostgreSQL SQL Parsing](https://liam-docs-sigma.vercel.app/docs/contributing/adr/20241128-use-libpg-query-for-postgresql-sql-parsing)
+        - [20241203 - Use Prism for schema.rb Parsing](https://liam-docs-sigma.vercel.app/docs/contributing/adr/20241203-use-prism-for-schema-rb-parsing)
+        - [20241206 - Node.js-Based Unified DB Schema Parsing](https://liam-docs-sigma.vercel.app/docs/contributing/adr/20241206-node-js-based-unified-db-schema-parsing)
+        - [20250116 - Use DMMF for Prisma Schema Parsing](https://liam-docs-sigma.vercel.app/docs/contributing/adr/20250116-use-dmmf-for-prisma-schema-parsing)
+        - [20250205 - Use fuse.js](https://liam-docs-sigma.vercel.app/docs/contributing/adr/20250205-use-fuse-js)
+        - [20250421 - Apply RLS to All Tables with Organization-based Policies](https://liam-docs-sigma.vercel.app/docs/contributing/adr/20250421-apply-rls-to-all-tables-with-organization-based-policies)
+        - [ADR Template](https://liam-docs-sigma.vercel.app/docs/contributing/adr/template)
+    - [Repository Architecture](https://liam-docs-sigma.vercel.app/docs/contributing/repository-architecture): This document provides a detailed overview of our repository structure, architecture, and development workflow.
+- [Parser](https://liam-docs-sigma.vercel.app/docs/parser)
+    - [Supported Formats](https://liam-docs-sigma.vercel.app/docs/parser/supported-formats)
+        - [BigQuery](https://liam-docs-sigma.vercel.app/docs/parser/supported-formats/bigquery)
+        - [Django ORM](https://liam-docs-sigma.vercel.app/docs/parser/supported-formats/django)
+        - [Drizzle](https://liam-docs-sigma.vercel.app/docs/parser/supported-formats/drizzle)
+        - [Microsoft SQL Server](https://liam-docs-sigma.vercel.app/docs/parser/supported-formats/mssql)
+        - [MySQL](https://liam-docs-sigma.vercel.app/docs/parser/supported-formats/mysql)
+        - [PostgreSQL](https://liam-docs-sigma.vercel.app/docs/parser/supported-formats/postgresql)
+        - [Prisma](https://liam-docs-sigma.vercel.app/docs/parser/supported-formats/prisma)
+        - [schema.rb (Ruby on Rails)](https://liam-docs-sigma.vercel.app/docs/parser/supported-formats/rails)
+        - [SQLite](https://liam-docs-sigma.vercel.app/docs/parser/supported-formats/sqlite)
+        - [tbls](https://liam-docs-sigma.vercel.app/docs/parser/supported-formats/tbls)
+    - [Troubleshooting Parser](https://liam-docs-sigma.vercel.app/docs/parser/troubleshooting)
+- [UI Features](https://liam-docs-sigma.vercel.app/docs/ui-features)
+    - [Browsing Your Schema](https://liam-docs-sigma.vercel.app/docs/ui-features/browsing-your-schema): Explains the interactive diagram features that help users drill down into their schema, including panning, zooming, filtering, and highlighting.
+    - [Sharing & Query Parameters](https://liam-docs-sigma.vercel.app/docs/ui-features/sharing-and-query-params)
+- [Liam ERD Web](https://liam-docs-sigma.vercel.app/docs/web)
+    - [Troubleshooting Web Version](https://liam-docs-sigma.vercel.app/docs/web/troubleshooting)
+
+## Optional
+
+- [Website](https://liambx.com/)
+- [Open Source](https://github.com/liam-hq/liam)

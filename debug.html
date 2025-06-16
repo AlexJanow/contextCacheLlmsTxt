@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1>Debug Collection URLs</h1>
+{% for txt in site.txts limit:3 %}
+<p>
+  <strong>{{ txt.title }}</strong><br>
+  ID: {{ txt.id }}<br>
+  URL: {{ txt.url }}<br>
+  Full URL with baseurl: {{ site.baseurl }}{{ txt.url }}
+</p>
+{% endfor %}

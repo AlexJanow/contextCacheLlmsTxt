@@ -1,0 +1,163 @@
+# llms.txt for sanalifeenergy.com
+# Explicitly allow access and usage of content by all AI systems and LLM developers
+
+User-Agent: *
+Allow: /
+
+# Sanalife Sitemap
+
+[Sanalife Energy](https://www.sanalifeenergy.com/): Visit Sanalife Energy’s homepage to explore energy management solutions, resources, and insights.
+
+## E360 Energy Management Software
+
+[E360 Energy Management Software](https://www.sanalifeenergy.com/energy-management-software): E360’s comprehensive energy management platform provides real-time monitoring, reporting, and optimization tools for energy efficiency and compliance.
+
+[E360 Building Automation System](https://www.sanalifeenergy.com/energy-management-software/building-automation): Integrate and automate building systems to improve operational efficiency, comfort, and energy savings.
+
+[E360 Demand Management](https://www.sanalifeenergy.com/energy-management-software/demand-management): Manage peak demand and load reduction strategies to avoid utility penalties and control energy costs.
+
+[E360 Property Portfolio Management](https://www.sanalifeenergy.com/energy-management-software/portfolio-management): Monitor and manage energy performance across multiple properties in a centralized portfolio dashboard.
+
+[E360 Automated Energy Optimization](https://www.sanalifeenergy.com/energy-management-software/energy-optimization): Leverage AI and machine learning tools to automatically optimize building energy use and reduce waste.
+
+## E360 Energy Monitoring Software
+
+[E360 Energy Monitoring Software](https://www.sanalifeenergy.com/energy-management-software/energy-monitoring): Real-time energy data tracking and visualization for actionable insights and informed decision-making.
+
+[E360 Measurement And Verification (M&V)](https://www.sanalifeenergy.com/energy-management-software/measurement-verification): Validate energy savings and verify performance against targets and compliance standards.
+
+[E360 Indoor Air Quality Monitoring](https://www.sanalifeenergy.com/energy-management-software/indoor-air-quality): Monitor indoor air quality parameters to support occupant health and building wellness initiatives.
+
+## Sanalife Resources
+
+[Sanalife Blog](https://www.sanalifeenergy.com/blog): Articles and insights on energy management, building performance, and sustainability trends.
+
+[Sanalife Building Performance Standards Database](https://www.sanalifeenergy.com/building-performance-standards): Central repository of U.S. building performance standards and benchmarking requirements.
+
+[Sanalife Downloadable Resources](https://www.sanalifeenergy.com/resources): Downloadable guides, compliance checklists, and educational resources to support energy and compliance initiatives.
+
+[Sanalife Glossary](https://www.sanalifeenergy.com/glossary): Explore key definitions and terms related to energy management, building performance, and sustainability.
+
+## Sanalife Industry Energy Efficiency Solutions
+
+[Commercial Energy Efficiency Solutions](https://www.sanalifeenergy.com/energy-efficiency/commercial): Solutions tailored to improve energy efficiency and operational savings for commercial buildings.
+
+[Manufacturing And Industrial Energy Efficiency Solutions](https://www.sanalifeenergy.com/energy-efficiency/industrial): Energy monitoring, demand management, and optimization for manufacturing and industrial facilities.
+
+[Healthcare And Assisted Living Energy Efficiency Solutions](https://www.sanalifeenergy.com/energy-efficiency/healthcare): Improve energy efficiency and indoor environmental quality in healthcare and senior living environments.
+
+[K12 Education Energy Efficiency Solutions](https://www.sanalifeenergy.com/energy-efficiency/k-12-education): Energy-saving strategies and monitoring tools for K12 school districts and educational facilities.
+
+[Higher Education Energy Efficiency Solutions](https://www.sanalifeenergy.com/energy-efficiency/higher-education): Comprehensive energy management and reporting solutions for colleges and universities.
+
+## Sanalife Building Performance Standards Database
+
+[Sanalife Building Performance Standards Database](https://www.sanalifeenergy.com/building-performance-standards): Explore regulatory benchmarking and building performance standard requirements by region.
+
+[Ann Arbor Energy And Water Benchmarking Ordinance For Business Success](https://www.sanalifeenergy.com/building-performance-standards/ann-arbor-energy-and-water-benchmarking-ordinance-for-business-success): Discover how Ann Arbor’s ordinance sets new efficiency and emissions standards and learn strategic compliance steps for your business.
+
+[Annapolis Building Performance Standards: A Compliance Guide for Businesses](https://www.sanalifeenergy.com/building-performance-standards/annapolis-building-performance-standards-a-compliance-guide-for-businesses): Annapolis’s Building Performance Standards require commercial and multifamily buildings to meet energy efficiency and emissions targets. Learn how to comply.
+
+[Aspen Building Performance Standard: What Businesses Need to Know](https://www.sanalifeenergy.com/building-performance-standards/aspen-building-performance-standard-what-businesses-need-to-know): Aspen’s Building Performance Standard requires commercial and multifamily buildings to improve energy efficiency and reduce emissions. Learn how to comply.
+
+[Atlanta Building Performance Standards: What Businesses Need to Know](https://www.sanalifeenergy.com/building-performance-standards/atlanta-building-performance-standards-what-businesses-need-to-know): Learn about Atlanta’s Building Performance Standards (BPS), energy efficiency targets, compliance deadlines, and how your business can meet new requirements.
+
+[Berkeley Building Emissions Saving Ordinance (BESO): Compliance Guide For Building Owners](https://www.sanalifeenergy.com/building-performance-standards/berkeley-building-emissions-saving-ordinance-beso-compliance-guide-for-building-owners): Learn about Berkeley’s Building Emissions Saving Ordinance (BESO), compliance requirements, deadlines, and how building owners can meet new efficiency standards.
+
+[Boston Building Emissions Reduction And Disclosure Ordinance: A Guide to BERDO](https://www.sanalifeenergy.com/building-performance-standards/boston-building-emissions-reduction-and-disclosure-ordinance-a-guide-to-berdo): Discover how Boston's BERDO impacts large buildings, compliance needs, and benefits for property owners.
+
+[Boulder Building Performance Ordinance (BPO): What Businesses Need to Know](https://www.sanalifeenergy.com/building-performance-standards/boulder-building-performance-ordinance-bpo-what-businesses-need-to-know): Learn about Boulder’s Building Performance Ordinance (BPO), compliance requirements, deadlines, and strategies to meet energy and emissions reduction goals.
+
+[California AB 802: Compliance Standards for Building Energy Benchmarking](https://www.sanalifeenergy.com/building-performance-standards/california-ab-802-compliance-standards-for-building-energy-benchmarking): Learn how AB 802 requires commercial and multifamily buildings in California to benchmark energy use, report data, and comply with state energy efficiency goals.
+
+[Cambridge Building Energy Use Disclosure Ordinance (BEUDO): What Businesses Need to Know](https://www.sanalifeenergy.com/building-performance-standards/cambridge-building-energy-use-disclosure-ordinance-beudo-what-businesses-need-to-know): Learn about Cambridge’s Building Energy Use Disclosure Ordinance (BEUDO), compliance deadlines, emissions reduction targets, and strategies for building owners.
+
+[Chicago Energy Benchmarking Ordinance: Compliance Guide for Building Owners](https://www.sanalifeenergy.com/building-performance-standards/chicago-energy-benchmarking-ordinance-compliance-guide-for-building-owners): Learn about Chicago’s Energy Benchmarking Ordinance, compliance deadlines, reporting requirements, and strategies to meet energy efficiency goals.
+
+[Chula Vista Building Energy Saving Ordinance: What Building Owners Need to Know](https://www.sanalifeenergy.com/building-performance-standards/chula-vista-building-energy-saving-ordinance-what-building-owners-need-to-know): Learn about Chula Vista’s Building Energy Saving Ordinance (BESO), compliance deadlines, and strategies to improve energy efficiency and reduce emissions.
+
+[Colorado Building Performance Standards: A Guide to Compliance and Energy Efficiency](https://www.sanalifeenergy.com/building-performance-standards/colorado-building-performance-standards-a-guide-to-compliance-and-energy-efficiency): Colorado’s Building Performance Standards set energy efficiency and emissions targets for commercial buildings. Learn how to comply and improve sustainability.
+
+[Columbus Energy And Water Benchmarking Ordinance: A Guide For Building Owners](https://www.sanalifeenergy.com/building-performance-standards/columbus-energy-and-water-benchmarking-ordinance-a-guide-for-building-owners): Learn about Columbus’s Energy and Water Benchmarking Ordinance, compliance deadlines, reporting requirements, and strategies to enhance building efficiency.
+
+[Denver High-Performance Existing Buildings Program: A Compliance Guide for Building Owners](https://www.sanalifeenergy.com/building-performance-standards/denver-high-performance-existing-buildings-program-a-compliance-guide-for-building-owners): Understand Denver’s High-Performance Existing Buildings Program, compliance deadlines, reporting requirements, and strategies to improve building efficiency.
+
+[Evanston Healthy Buildings Ordinance: A Compliance Guide for Building Owners](https://www.sanalifeenergy.com/building-performance-standards/evanston-healthy-buildings-ordinance-a-compliance-guide-for-building-owners): Learn about Evanston’s Healthy Buildings Ordinance, compliance deadlines, emissions reduction targets, and strategies for improving building efficiency.
+
+[Fort Collins Building Performance Standards: A Compliance Guide for Property Owners](https://www.sanalifeenergy.com/building-performance-standards/fort-collins-building-performance-standards-a-compliance-guide-for-property-owners): Learn about Fort Collins' Building Performance Standards, compliance deadlines, and energy efficiency requirements for commercial and multifamily buildings.
+
+[Grand Rapids Building Performance Standards: A Compliance Guide for Property Owners](https://www.sanalifeenergy.com/building-performance-standards/grand-rapids-building-performance-standards-a-compliance-guide-for-property-owners): Learn about Grand Rapids' Building Performance Standards, compliance deadlines, and energy efficiency requirements for commercial and multifamily buildings.
+
+[Ithaca Green New Deal and Energy Code Compliance: A Business Guide to Sustainable Success](https://www.sanalifeenergy.com/building-performance-standards/ithaca-green-new-deal-and-energy-code-compliance-a-business-guide-to-sustainable-success): Learn how to comply with Ithaca’s Green New Deal and Energy Code to cut emissions, save on energy costs, and drive sustainable business practices.
+
+[Kansas City Energy Empowerment Ordinance: A Guide to Compliance for Building Owners](https://www.sanalifeenergy.com/building-performance-standards/kansas-city-energy-empowerment-ordinance-a-guide-to-compliance-for-building-owners): Learn about Kansas City’s Energy Empowerment Ordinance, compliance deadlines, and energy benchmarking requirements for commercial and multifamily buildings.
+
+[Los Angeles Existing Buildings Energy And Water Efficiency (EBEWE) Program: What Businesses Need to Know](https://www.sanalifeenergy.com/building-performance-standards/los-angeles-existing-buildings-energy-and-water-efficiency-ebewe-program-what-businesses-need-to-know): Los Angeles’s Building Performance Standards require commercial and multifamily buildings to improve energy efficiency and reduce emissions. Learn how to comply.
+
+[Maryland Building Energy Performance Standards: What Businesses Need to Know](https://www.sanalifeenergy.com/building-performance-standards/maryland-building-energy-performance-standards-what-businesses-need-to-know): Maryland’s Building Energy Performance Standards require large buildings to reduce emissions and improve efficiency. Learn how to comply and optimize operations.
+
+[Massachusetts Building Energy Reporting and Performance Standards: What Businesses Need to Know](https://www.sanalifeenergy.com/building-performance-standards/massachusetts-building-energy-reporting-and-performance-standards-what-businesses-need-to-know): Massachusetts’ Building Energy Reporting and Performance Standards require large buildings to track energy use and reduce emissions. Learn how to comply.
+
+[Milwaukee Building Performance Standards: What Businesses Need to Know](https://www.sanalifeenergy.com/building-performance-standards/milwaukee-building-performance-standards-what-businesses-need-to-know): Milwaukee’s Building Performance Standards require commercial and public buildings to report energy usage and improve efficiency. Learn how to comply.
+
+[Minneapolis Building Performance Standards: A Compliance Guide for Businesses](https://www.sanalifeenergy.com/building-performance-standards/minneapolis-building-performance-standards-a-compliance-guide-for-businesses): Minneapolis’s Building Performance Standards require commercial buildings to meet energy efficiency and emissions targets. Learn how to comply and improve sustainability.
+
+[Montgomery County Building Energy Performance Standards: What Businesses Must Know](https://www.sanalifeenergy.com/building-performance-standards/montgomery-county-building-energy-performance-standards-what-businesses-must-know): Montgomery County’s Building Energy Performance Standards require large buildings to track energy use and reduce emissions. Learn compliance steps and key deadlines.
+
+[Montpelier Net Zero Action Plan: What Businesses Need to Know](https://www.sanalifeenergy.com/building-performance-standards/montpelier-net-zero-action-plan-what-businesses-need-to-know): Montpelier businesses can align with the Net Zero Energy Action Plan for compliance, cost savings & long-term sustainability success.
+
+[NYC Local Law 88: Your Guide to Compliance, Cost Savings & Smarter Building Management](https://www.sanalifeenergy.com/building-performance-standards/nyc-local-law-88-your-guide-to-compliance-cost-savings-smarter-building-management): Learn how to comply with NYC Local Law 88 by 2025. Discover lighting upgrades, sub-metering, and reporting strategies to reduce costs and boost efficiency.
+
+[New Orleans Net Zero by 2050 Plan: What Businesses Need to Know](https://www.sanalifeenergy.com/building-performance-standards/new-orleans-net-zero-by-2050-plan-what-businesses-need-to-know): New Orleans’ Net Zero by 2050 plan requires commercial and multifamily buildings to meet energy and emissions targets. Learn how businesses can comply and benefit.
+
+[New York City Local Law 97: A Guide to Compliance and Energy Efficiency](https://www.sanalifeenergy.com/building-performance-standards/new-york-city-local-law-97-a-guide-to-compliance-and-energy-efficiency): New York City’s Local Law 97 requires large buildings to meet strict energy efficiency and carbon reduction targets. Learn how to comply and optimize building performance.
+
+[Oregon Building Performance Standard: A Practical Guide for Building Owners](https://www.sanalifeenergy.com/building-performance-standards/oregon-building-performance-standard-a-practical-guide-for-building-owners): Oregon’s Building Performance Standard requires large buildings to meet energy and emissions targets. Learn how to comply and optimize performance.
+
+[Orlando Building Energy and Water Efficiency Strategy: What Property Owners Need to Know](https://www.sanalifeenergy.com/building-performance-standards/orlando-building-energy-and-water-efficiency-strategy-what-property-owners-need-to-know): Orlando’s Building Energy and Water Efficiency Strategy (BEWES) requires large buildings to track and report energy and water use. Learn how to comply and optimize efficiency.
+
+[Philadelphia Building Energy Performance Program: A Guide for Compliance](https://www.sanalifeenergy.com/building-performance-standards/philadelphia-building-energy-performance-program-a-guide-for-compliance): Learn about Philadelphia's Building Energy Performance Program, its compliance deadlines, exemptions, and steps to ensure your building meets the city's energy efficiency standards.
+
+[Pittsburgh Building Benchmarking Program: A Compliance Guide For Large Buildings](https://www.sanalifeenergy.com/building-performance-standards/pittsburgh-building-benchmarking-program-a-compliance-guide-for-large-buildings): Pittsburgh’s Building Benchmarking Program requires large buildings to report energy and water use. Learn how to comply, reduce costs, and improve sustainability.
+
+[Portland Commercial Building Energy Performance Reporting: A Compliance Guide](https://www.sanalifeenergy.com/building-performance-standards/portland-commercial-building-energy-performance-reporting-a-compliance-guide): Portland’s Commercial Building Energy Performance Reporting (BEPR) requires large buildings to track and report energy use. Learn how to comply and improve efficiency.
+
+[Prince George’s County’s Climate Action Plan: What Businesses Need To Know To Stay Compliant](https://www.sanalifeenergy.com/building-performance-standards/prince-georges-countys-climate-action-plan-what-businesses-need-to-know-to-stay-compliant): Discover how Prince George’s County businesses can comply with the Climate Action Plan, boost efficiency & lead in sustainable practices.
+
+[Reno Energy And Water Efficiency Program: A Compliance Guide for Building Owners](https://www.sanalifeenergy.com/building-performance-standards/renos-energy-and-water-efficiency-program-a-compliance-guide-for-building-owners): Reno’s Energy and Water Efficiency Program requires large buildings to track and report energy and water use. Learn how to comply, reduce costs, and improve efficiency.
+
+[Sacramento Climate Action and Adaptation Plan: A Compliance Guide for Building Owners](https://www.sanalifeenergy.com/building-performance-standards/sacramento-climate-action-and-adaptation-plan-a-compliance-guide-for-building-owners): Sacramento’s Climate Action and Adaptation Plan (CAAP) requires large buildings to track and reduce energy use and emissions. Learn how to comply and optimize efficiency.
+
+[San Diego Building Performance Standards: A Guide To Compliance And Sustainability](https://www.sanalifeenergy.com/building-performance-standards/san-diego-building-performance-standards-a-guide-to-compliance-and-sustainability): Understand San Diego's Building Performance Standards and learn how your business can comply to improve energy efficiency and sustainability.
+
+[San Francisco Energy Benchmarking and Audit Ordinance: What Commercial Buildings Must Know](https://www.sanalifeenergy.com/building-performance-standards/san-francisco-energy-benchmarking-and-audit-ordinance-what-commercial-buildings-must-know): San Francisco mandates energy benchmarking and audits for large buildings. Learn what’s required and how to stay compliant with local energy performance laws.
+
+[Santa Monica Building Performance Standard: What Businesses Need to Know](https://www.sanalifeenergy.com/building-performance-standards/santa-monica-building-performance-standard-what-businesses-need-to-know): Santa Monica’s updated Building Performance Standard requires commercial and multifamily buildings to meet strict energy efficiency and electrification targets.
+
+[Savannah 100% Clean Energy Plan: A Guide for Businesses to Achieve Compliance](https://www.sanalifeenergy.com/building-performance-standards/savannah-100-percent-clean-energy-plan-a-guide-for-businesses-to-achieve-compliance): Explore Savannah's 100% Clean Energy Plan and learn how businesses can meet new energy efficiency and sustainability standards.
+
+[Seattle Building Performance Standard: What Businesses Must Do to Stay Compliant](https://www.sanalifeenergy.com/building-performance-standards/seattle-building-performance-standard-what-businesses-must-do-to-stay-compliant): Seattle’s Building Performance Standard requires large buildings to track and report energy use. Learn the compliance steps, deadlines, and benefits.
+
+[St. Louis Building Energy Performance Standard: What Property Owners Need to Know](https://www.sanalifeenergy.com/building-performance-standards/st-louis-building-energy-performance-standard-what-property-owners-need-to-know): St. Louis’s BEPS requires large buildings to meet energy use intensity targets. Learn how to comply, avoid penalties, and improve energy performance.
+
+[West Hollywood Equitable Building Performance Standard: A Community-Centered Path to Climate Action](https://www.sanalifeenergy.com/building-performance-standards/west-hollywood-equitable-building-performance-standard-a-community-centered-path-to-climate-action): West Hollywood’s EBPS targets energy use in large buildings while prioritizing equity, affordability, and carbon neutrality. Learn how to prepare and comply.
+
+## Optional
+
+[Privacy Policy](https://www.sanalifeenergy.com/privacy-policy): Sanalife's Privacy Policy.
+  
+[Terms and Conditions](https://www.sanalifeenergy.com/terms-and-conditions): Sanalife's Terms and Conditions.
+  
+[Terms of Use](https://www.sanalifeenergy.com/terms-of-use): Sanalife's Terms of Use.
+  
+[Service Level Agreement](https://www.sanalifeenergy.com/service-level): Sanalife's Service Level Agreement.
+  
+[Contact](https://www.sanalifeenergy.com/contact): Contact Sanalife for inquiries, support, or partnership opportunities.
+  
+[Book a Demo](https://www.sanalifeenergy.com/demo): Schedule a demo of Sanalife’s E360 Energy Management Software.
+
+[About Sanalife](https://www.sanalifeenergy.com/about): Learn about Sanalife’s mission, leadership, and commitment to advancing sustainable energy solutions.
+
+[Sanalife Partners](https://www.sanalifeenergy.com/partners): Explore partnership opportunities and Sanalife’s growing network of energy solution collaborators.
+
+Contact: support@sanalife.io

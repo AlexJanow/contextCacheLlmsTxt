@@ -1,0 +1,64 @@
+# Bucket docs
+
+## Bucket docs
+
+- [Getting started](/welcome/readme.md)
+- [Overview](/supported-languages/overview.md): Bucket SDKs for React, Node.js, Next.js, and more. Supports OpenFeature.
+- [React SDK](/supported-languages/react-sdk.md)
+- [Reference](/supported-languages/react-sdk/globals.md)
+- [Browser SDK](/supported-languages/browser-sdk.md)
+- [Feedback](/supported-languages/browser-sdk/feedback.md)
+- [Reference](/supported-languages/browser-sdk/globals.md)
+- [Node.js SDK](/supported-languages/node-sdk.md)
+- [Reference](/supported-languages/node-sdk/globals.md)
+- [Next.js](/supported-languages/next.js.md): Next.js client for Bucket
+- [OpenFeature](/supported-languages/openfeature.md): Bucket provides OpenFeature integration for use in browser (Web) and Node.js
+- [API Introduction](/api/http-api.md): Introduction to Bucket API
+- [API Reference](/api/api-reference.md)
+- [CLI](/api/cli.md)
+- [MCP](/api/mcp.md): Model Context Protocol lets you connect your Large Language Model (LLM) in, for example, your code editor to external data. Follow this guide to connect your editor to your Bucket data.
+- [Overview](/integrations/overview.md): Integrate Bucket with your stack
+- [Slack](/integrations/slack.md): Integrate Slack to get notified about new feature changes and feedback
+- [Linear](/integrations/linear.md): Create features and manage access in Linear
+- [Datadog](/integrations/datadog.md): How Bucket integrates with Datadog to catch regressions on new feature releases
+- [AWS S3](/integrations/aws-s3.md): Export feature data for CS, Marketing, and Sales tools, via Amazon AWS S3
+- [PostHog](/integrations/posthog.md): How Bucket integrates with PostHog to query analytics based on feature access filters
+- [Segment](/integrations/segment.md): Use Segment events for tracking feature adoption metrics on Bucket
+- [Amplitude](/integrations/amplitude.md): How Bucket integrates with Amplitude to query analytics based on feature access filters
+- [Mixpanel](/integrations/mixpanel.md): How Bucket integrates with Mixpanel to query analytics based on feature access filters
+- [Product overview](/product-handbook/product-overview.md)
+- [Data model](/product-handbook/concepts.md)
+- [App](/product-handbook/concepts/app.md)
+- [Environment](/product-handbook/concepts/environment.md)
+- [Feature](/product-handbook/concepts/feature.md)
+- [Feature view](/product-handbook/concepts/feature-view.md)
+- [Company](/product-handbook/concepts/company.md)
+- [Segment](/product-handbook/concepts/segment.md)
+- [User](/product-handbook/concepts/user.md)
+- [Track event](/product-handbook/concepts/event.md)
+- [Feature events](/product-handbook/concepts/feature-events.md)
+- [Feedback](/product-handbook/concepts/feedback.md)
+- [Release stage](/product-handbook/concepts/release-stage.md)
+- [Targeting rules](/product-handbook/concepts/targeting-rules.md)
+- [Filter](/product-handbook/concepts/filter.md)
+- [Feature rollouts](/product-handbook/feature-rollouts.md): Learn more about feature rollouts in Bucket
+- [Access rules](/product-handbook/feature-rollouts/feature-targeting-rules.md): Learn more about access rules in Bucket
+- [Remote config](/product-handbook/remote-config.md): Learn more about remote config in Bucket
+- [Feature adoption](/product-handbook/feature-usage-configuration.md): Learn more about feature adoption in Bucket
+- [STARS Framework](/product-handbook/feature-usage-configuration/stars-framework.md): Learn more about the STARS Framework
+- [Feature feedback](/product-handbook/feature-analysis.md): Learn more about feature feedback in Bucket
+- [Automated feedback surveys](/product-handbook/feature-analysis/automated-feedback-surveys.md): Learn more about automated feedback surveys in Bucket
+- [Give feedback button](/product-handbook/feature-analysis/give-feedback-button.md): Adding a feedback button using Bucket SDKs in a few lines of code.
+- [Feature entitlements](/product-handbook/feature-entitlements.md): Learn more about feature entitlements in Bucket
+- [Simple role-based entitlements](/product-handbook/feature-entitlements/simple-role-based-entitlements.md): Learn more about simple role-based entitlements in Bucket
+- [Creating segments](/product-handbook/creating-segments.md): Learn more about segments in Bucket
+- [Feature views](/product-handbook/feature-views.md): Learn more about feature views in Bucket
+- [Managing apps](/product-handbook/creating-and-managing-apps.md): Learn more about apps in Bucket
+- [Environments](/product-handbook/creating-and-managing-apps/environments.md): Learn more about environments in Bucket
+- [Warehouse](/product-handbook/data-export.md): Learn more about data warehouse in Bucket
+- [Data residency](/product-handbook/data-residency.md): Bucket on data residency
+- [Exclude internal usage](/product-handbook/exclude-internal-usage.md): How to exclude internal usage from your feature adoption reports
+- [Add your first feature flag](/guides/create-your-first-feature.md): Getting started with Bucket by adding your first feature flag
+- [Release beta features](/guides/release-beta-features.md): How to release beta features to your React app with Bucket
+- [Create a beta feature opt-in page](/guides/self-opt-in.md): How to create a beta feature self opt-in page in React with Bucket
+- [Get support](/support/get-support.md): Need support? We're here to help
