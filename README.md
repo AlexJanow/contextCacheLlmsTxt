@@ -2,7 +2,7 @@
 
 A public directory of `llms.txt` and `llms-full.txt` files for LLM context sharing and AI assistant integration, hosted on GitHub Pages.
 
-🔗 **Live Site**: [https://[your-username].github.io/Context-Cache---llms.txt-library](https://[your-username].github.io/Context-Cache---llms.txt-library)
+🔗 **Live Site**: [https://llms.jaxai.agency](https://llms.jaxai.agency)
 
 ## Overview
 
@@ -43,8 +43,8 @@ This will crawl [llmstxt.site](https://llmstxt.site) and [directory.llmstxt.clou
 
 ```bash
 # Clone the repository
-git clone https://github.com/[your-username]/llms-txt-library
-cd llms-txt-library
+git clone https://github.com/AlexJanow/contextCacheLlmsTxt
+cd contextCacheLlmsTxt
 
 # Install dependencies
 npm install
